@@ -1,0 +1,44 @@
+{
+  "scope_role_id": "http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1",
+  "classification_version": "0.1.0",
+  "classification_note": "The grouping of optional software-developer skills is a descriptive taxonomy, not a ranking by vacancy frequency, specialization level, or future outlook.",
+  "dimensions": [
+    {
+      "id": "vacancy_frequency",
+      "label": "Mention frequency in vacancies",
+      "status": "not_assessed_per_skill",
+      "unit": "share of relevant vacancy texts mentioning the skill",
+      "required_context": [
+        "geography",
+        "occupation scope",
+        "period",
+        "sample size",
+        "skill mapping method"
+      ],
+      "source_title": "CBS, Skills vraag en aanbod in online vacatures, eerste en tweede kwartaal 2026",
+      "source_url": "https://www.cbs.nl/nl-nl/maatwerk/2026/40/skills-vraag-en-aanbod-in-online-vacatures-eerste-en-tweede-kwartaal-2026",
+      "limitation": "CBS publishes experimental vacancy-skill statistics by occupation, education level, and province using CompetentNL V2. The named ESCO language and product concepts in this pilot have not yet been mapped and counted against that series."
+    },
+    {
+      "id": "specialization",
+      "label": "Skill type / specialization context",
+      "status": "descriptive_grouping_only",
+      "unit": "taxonomy group",
+      "groups": [
+        "Named language, framework, or tool",
+        "Programming paradigm or engineering practice",
+        "Domain or specialist area"
+      ],
+      "limitation": "These groups describe the kind of capability, not how niche it is or how often employers request it."
+    },
+    {
+      "id": "future_outlook",
+      "label": "Future outlook",
+      "status": "not_assessed_per_skill",
+      "unit": "no numeric score",
+      "source_title": "UWV, ICT-beroepen",
+      "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/sector/ict",
+      "limitation": "UWV reports occupation-level labour-market trends; no future-demand score is inferred for any named programming language or tool."
+    }
+  ]
+}

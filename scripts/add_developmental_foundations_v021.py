@@ -1,9 +1,9 @@
 """Add early communication and numeracy routes to the Capability Atlas."""
+from dataset_io import load_dataset, save_dataset
 import json
 from pathlib import Path
 
-path = Path('src/data.json')
-data = json.loads(path.read_text())
+data = load_dataset()
 if any(x.get('id', '').startswith('atlas:alu:development:') for x in data['learning_units']):
     raise SystemExit('Developmental foundations already exist; refusing duplicates.')
 
@@ -142,5 +142,5 @@ data['decompositions'].extend(edges)
 data['metadata']['title'] = 'ESCO occupations and Atlas life-role learning pilot'
 data['metadata']['decomposition'] += ' Capability Atlas developmental foundations v0.21.0 adds suggested early communication and numeracy routes: responsive exchanges through first meaningful words/signs/AAC messages, and small quantities through one-to-one counting, cardinality, numeral links, and first addition. These routes connect to caregiver practice and personal-finance learning; they are proposed pathways, not universal developmental schedules or diagnostic criteria.'
 data['metadata']['source_note'] += ' Early-development content draws on ASHA communication milestones and AAC guidance, Harvard serve-and-return resources, and IES early mathematics practice guidance. All links and activities remain Atlas proposals.'
-path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n')
+save_dataset(data)
 print(f'Added {len(units)} developmental ALUs and {len(edges)} proposed relations.')

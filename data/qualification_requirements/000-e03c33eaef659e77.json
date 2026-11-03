@@ -1,0 +1,110 @@
+[
+  {
+    "from": "sbb:software-developer:2024:b1:k1:w1",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "beroepsspecifiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:b1:k1:w2",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "beroepsspecifiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:b1:k1:w3",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "beroepsspecifiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:b1:k1:w4",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "beroepsspecifiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:b1:k1:w5",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "beroepsspecifiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:b1:k2:w1",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "beroepsspecifiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:b1:k2:w2",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "beroepsspecifiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:b1:k2:w3",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "beroepsspecifiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:gen:nl",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "generiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:gen:math",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "generiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:gen:career:citizenship",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "generiek"
+  },
+  {
+    "from": "sbb:software-developer:2024:gen:english",
+    "to": "sbb:qualification:software-developer:25998",
+    "type": "qualification_requirement",
+    "validation": "source_backed",
+    "source": "SBB qualification dossier 23399, profile 25998, version effective 2024-08-01",
+    "source_url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420",
+    "requirement_part": "generiek"
+  }
+]

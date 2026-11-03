@@ -1,0 +1,1019 @@
+[
+  {
+    "from": "http://data.europa.eu/esco/skill/fea269a3-85e5-4953-a5b8-e9b7b275b7df",
+    "to": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fea269a3-85e5-4953-a5b8-e9b7b275b7df",
+    "to": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:1",
+    "to": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feaefe50-fcbe-4c5f-acbd-580724bf6ba2",
+    "to": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas guided-skill-application activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feaefe50-fcbe-4c5f-acbd-580724bf6ba2",
+    "to": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas guided-skill-application activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:1",
+    "to": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feb717ff-fba6-4a91-aa10-ee11cf2da6b4",
+    "to": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas design-and-documentation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feb717ff-fba6-4a91-aa10-ee11cf2da6b4",
+    "to": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas design-and-documentation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:1",
+    "to": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fecc4fba-8f4b-4fde-846e-045d9889aa76",
+    "to": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas planning-and-coordination activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fecc4fba-8f4b-4fde-846e-045d9889aa76",
+    "to": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas planning-and-coordination activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:1",
+    "to": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feceacee-d425-4e73-821a-02dfb85084db",
+    "to": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas design-and-documentation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feceacee-d425-4e73-821a-02dfb85084db",
+    "to": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas design-and-documentation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:1",
+    "to": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+    "to": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas digital-and-information activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+    "to": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas digital-and-information activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:1",
+    "to": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef5a450-6230-4a34-b3e3-764252dbdcec",
+    "to": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef5a450-6230-4a34-b3e3-764252dbdcec",
+    "to": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:1",
+    "to": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef6422f-0186-4513-8dd8-a277aa6f556d",
+    "to": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas transport-and-logistics activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef6422f-0186-4513-8dd8-a277aa6f556d",
+    "to": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas transport-and-logistics activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:1",
+    "to": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef8bb26-de6e-4784-b6a8-1cdfeaa667c9",
+    "to": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas rules-and-quality activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef8bb26-de6e-4784-b6a8-1cdfeaa667c9",
+    "to": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas rules-and-quality activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:1",
+    "to": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff207c62-ccd0-4788-b99a-996a14320fad",
+    "to": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas food-and-hospitality activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff207c62-ccd0-4788-b99a-996a14320fad",
+    "to": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas food-and-hospitality activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:1",
+    "to": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff24c97f-dbb9-4b02-bf03-4cbe8aecb371",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas quantitative activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff24c97f-dbb9-4b02-bf03-4cbe8aecb371",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas quantitative activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:1",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:numeracy:solve-routine-number-problems",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078",
+    "to": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078",
+    "to": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:1",
+    "to": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff584c6e-520c-4187-ba90-1c9634bcc0ba",
+    "to": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas manufacturing-and-technical-work activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff584c6e-520c-4187-ba90-1c9634bcc0ba",
+    "to": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas manufacturing-and-technical-work activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:1",
+    "to": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff599c4c-f7bc-44fc-b75f-eea4b7178692",
+    "to": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff599c4c-f7bc-44fc-b75f-eea4b7178692",
+    "to": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:1",
+    "to": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff5e9b54-d141-4f5a-ad04-ddefd7d8843f",
+    "to": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas guided-skill-application activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff5e9b54-d141-4f5a-ad04-ddefd7d8843f",
+    "to": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas guided-skill-application activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:1",
+    "to": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff64e9fc-36dd-4035-872a-83aa41dc1ad9",
+    "to": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff64e9fc-36dd-4035-872a-83aa41dc1ad9",
+    "to": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:1",
+    "to": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a",
+    "to": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a",
+    "to": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:1",
+    "to": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34",
+    "to": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas public-safety-and-rights activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34",
+    "to": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas public-safety-and-rights activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:1",
+    "to": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffa1d58b-ba09-49bd-a982-e743b2237006",
+    "to": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffa1d58b-ba09-49bd-a982-e743b2237006",
+    "to": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:1",
+    "to": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffaf5635-45b2-4192-8bd8-6987cfde04de",
+    "to": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffaf5635-45b2-4192-8bd8-6987cfde04de",
+    "to": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:1",
+    "to": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc1e455-ced2-4e67-bdb3-1c50f9683859",
+    "to": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc1e455-ced2-4e67-bdb3-1c50f9683859",
+    "to": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:1",
+    "to": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1",
+    "to": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1",
+    "to": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:1",
+    "to": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc8481d-1855-4c49-a711-f8dd3b0332c7",
+    "to": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas manufacturing-and-technical-work activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc8481d-1855-4c49-a711-f8dd3b0332c7",
+    "to": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas manufacturing-and-technical-work activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:1",
+    "to": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffddfc7c-a9dd-449f-9e96-882dc447c8b6",
+    "to": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas digital-and-information activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffddfc7c-a9dd-449f-9e96-882dc447c8b6",
+    "to": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas digital-and-information activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:1",
+    "to": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffe198e3-3f51-40c1-8d43-6e559bb98c8d",
+    "to": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas animal-land-and-environment activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffe198e3-3f51-40c1-8d43-6e559bb98c8d",
+    "to": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas animal-land-and-environment activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:1",
+    "to": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffe9b8ef-f32a-42a9-a256-38e7967fbe23",
+    "to": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffe9b8ef-f32a-42a9-a256-38e7967fbe23",
+    "to": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:1",
+    "to": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a",
+    "to": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a",
+    "to": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:1",
+    "to": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fff5bc45-b506-4466-8977-4869079c1cb2",
+    "to": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas planning-and-coordination activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fff5bc45-b506-4466-8977-4869079c1cb2",
+    "to": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas planning-and-coordination activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:1",
+    "to": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  }
+]

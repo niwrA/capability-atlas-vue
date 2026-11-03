@@ -1,0 +1,1727 @@
+{
+  "source": {
+    "version": "1.2.1",
+    "archive": "ESCO dataset - v1.2.1 - classification -  - json-ld.zip",
+    "sha256": "57f3dcb36b2bec6208aa7b9e72115b0a9424d4be825c986333a98ea47a3b5443",
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "active_status": "released",
+    "member": "/esco-v1.2.1.json-ld",
+    "uncompressed_bytes": 656688672
+  },
+  "inventory": {
+    "occupations": 3039,
+    "skill_knowledge_concepts": 13939,
+    "occupation_skill_links": 126051,
+    "essential_links": 67600,
+    "optional_links": 58451,
+    "occupation_linked_skills": 13475,
+    "skills_without_occupation_links": 464,
+    "excluded_obsolete_occupations": 7,
+    "excluded_obsolete_skills": 318,
+    "classification_and_support_records": 2827
+  },
+  "fingerprints_sha256": {
+    "occupation_ids": "6e6da5e93ea435980f3615a571ce1590ac514c9d626679cb542f11b63997c387",
+    "skill_ids": "cff2dbfdd8b5e094f3cc58122b79be9043c10cd85a06f1766bccf0dcee686789",
+    "occupation_skill_links": "8b2345649ca4911160dead6f512f4e23fbcc3036dcaa8a7350e99ac64843f5d4"
+  },
+  "reconciliation": {
+    "missing_occupations": [],
+    "missing_skills": [],
+    "missing_links": [],
+    "unexpected_active_concepts": [],
+    "dangling_graph_references": []
+  },
+  "source_relationship_policy": {
+    "primary": "relatedEssentialSkill/relatedOptionalSkill on released occupations",
+    "cross_check": "Exact equality with isEssentialSkillFor/isOptionalSkillFor on released skills",
+    "embedded_association_object_links": 112401,
+    "primary_only_links": 18059,
+    "embedded_only_links": 4409,
+    "note": "Embedded AssociationObject lists differ from the mutually consistent forward/inverse properties; they are not used to override those properties."
+  },
+  "missing_source_fields": {
+    "label_nl": 1
+  },
+  "concepts_with_missing_source_fields": [
+    {
+      "id": "http://data.europa.eu/esco/skill/404b3fcd-306a-4d18-b5db-d90c517ff72f",
+      "fields": [
+        "label_nl"
+      ]
+    }
+  ],
+  "retained_obsolete_concepts": [
+    "http://data.europa.eu/esco/skill/04dfd9fb-e0cf-40f6-96c6-9d2280c4347e",
+    "http://data.europa.eu/esco/skill/1448431a-4fe5-4ca3-83db-665e0df3f130",
+    "http://data.europa.eu/esco/skill/a49fdda1-abd1-40e0-a824-3c545d98f32e"
+  ],
+  "obsolete_source_inventory": [
+    {
+      "id": "http://data.europa.eu/esco/occupation/12330cce-d129-4d87-9d8b-7dc7bfabac83",
+      "kind": "occupation",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/occupation/1b99cad3-27c6-4e19-83b6-7b5f8338ed2b",
+      "kind": "occupation",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/occupation/46d0568d-7415-4643-94aa-89d2470fbe3c",
+      "kind": "occupation",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/occupation/6fe645b0-463a-445d-ab8f-c0a5132beb68",
+      "kind": "occupation",
+      "replaced_by": "http://data.europa.eu/esco/occupation/e3dc66de-99c7-4607-a82b-7244036d316d"
+    },
+    {
+      "id": "http://data.europa.eu/esco/occupation/81309031-dad2-4a7a-bde6-7f6e518f89ff",
+      "kind": "occupation",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/occupation/98562ce3-9632-4226-b129-c67eb9c54f0f",
+      "kind": "occupation",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/occupation/a9e54177-a185-404d-b6e6-15663d31137e",
+      "kind": "occupation",
+      "replaced_by": "http://data.europa.eu/esco/occupation/e139b0a3-3bc5-4c33-bfbf-51ac20ac12fa"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/00abcddb-cbd4-477f-9aa0-9f27b32e312b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/01267c89-b27f-4de0-b555-3683c5a5d66e",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/01468114-b99c-4f48-9374-a520a7faa9c9",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/01cea4d4-41fa-42a2-9bf7-7ba0a8f439c1",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/038256f5-7b18-4e6f-8314-2401be1b601b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/03ae1add-eecd-46b1-8117-742b4d7666d4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/04383349-705d-4da7-ae05-12b8c84d6bf1",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/045df803-cbab-40a9-9ac0-3c4a81ab4b2c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/049bc175-3f03-4311-8e5d-bbac9e4c2e6c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/04dfd9fb-e0cf-40f6-96c6-9d2280c4347e",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/2636b3d3-843e-46a9-8b4c-a9d6ca3f5a2d"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/05cddb12-85c8-4efc-a149-fb642e90a00e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/06792b9d-b287-46ad-aa0e-1ae7efe13293",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/06f3473a-0057-4992-b6f2-3bf606462ed0",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/06fa9997-1720-45e8-a0cf-ee3060049f8b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/083b677b-e52e-48a4-9c97-5c177af23e84",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/094479ed-3581-4953-813a-17e6a324981f",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/09e28145-e205-4b7a-8b3b-5c4876396069",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/0ab5084c-cbd0-46d5-b61f-f1b8e9cc0ca0",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/0c50c0cb-00d7-42a6-83e5-242fbbd8b813",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/0d49200d-d3f1-4412-9168-999d97ffc12c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/0d715b0e-3026-40b9-aa9e-09f1d59054cf",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/0fc0cb61-f44d-4fd0-afd1-18506380b55e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1007aa13-9f18-4bcf-96f3-e108c40baf69",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1008da30-7690-42c8-94c7-3f3bd8885c00",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/82d83fd3-bd6b-4e09-8291-2e0f83e323f9"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/10a62970-b01b-4a13-9fc4-883e9f6e32fa",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/aab001d9-6d45-4f06-9976-9c1e0c253e3f"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/11069c8b-fc8e-4e2f-b00b-32785b095946",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/117df904-d348-4f14-bc92-feaaccba4ece",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/11f49a71-1df4-45eb-a613-d66d12660052",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1206e8cd-529a-494e-afb3-3c73988f7897",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1225b032-7ead-464c-9072-64097d9a4b62",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/12544cfe-f099-4890-b2c6-ab3139f6cd36",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/13b1cb64-7887-454e-95f2-eed8680c172b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/13e93abd-618c-46df-abbe-1af38ecd1aa2",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/14273d5a-66fc-4272-b0a1-55448a2c308a",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/142f3f7f-f15f-412e-a5fe-f75755b5dbe0",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/614fdb7f-637f-4501-a80a-53c14a9804e5"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1448431a-4fe5-4ca3-83db-665e0df3f130",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/14d46944-61f1-451e-843c-318c2d7f8928",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/14f4a9a6-8572-431e-9847-4da2975d85b4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/169239b5-3644-4e23-8a85-4f5896dbdb8e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/16936223-285b-47e6-8c76-f60f26294c14",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/175523c0-722a-4de6-adc0-6d47684c408a",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/17b84663-a565-4fbc-8285-79b730350fb2",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/18c91584-b27a-4ffb-83ca-9b6f0092af07",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1972c7f5-b157-42ad-bd7e-0e05cdfd5327",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1c36a4d4-e2d5-46b8-a43b-b749fc3dc7e6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1da808a1-419f-4e7c-b714-8287f1842546",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1dfdcd2a-0df8-40f2-991f-f033798b7ea7",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/1f555ca1-5df6-4638-8e1b-81b314f21976",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/202c0a90-e45f-4b9a-8bd2-694adc0f90e4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/20ba084f-129c-4c5e-b39f-539913e0acc4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/216f5c68-d45c-404a-9e1e-4374687d7471",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/220b7796-c5d8-4b8e-a0d8-fd1934f0f0dd",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/222bcd83-1ac6-4c2f-93c9-39ac835067f1",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/236526e2-d5a8-436b-91d1-47e5d431e7ea",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2427878e-33c9-4a70-9016-4630484a41ff",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/25670ff0-7822-48f3-8bc8-5b1327c8eb36",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2671a9b0-b277-4e76-b2c9-39899669f850",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/267399ec-f364-4892-9265-906b413583ce",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/26a29613-b018-4fc5-b0b5-6f73483afe62",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/26d705e5-a7b1-4e0c-9e50-08bb87384218",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/271e467f-0b74-48d1-9959-994a16000cd5",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/eadf0f36-cba0-4e68-8458-c91bc60b494d"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/278395f4-20d9-491b-8329-8f9b362700ab",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/279101c1-e325-4349-bf58-401b6c8ff208",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/280cb8a0-171f-4d92-965f-aeba64170bfe",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2848e0ca-51c5-4a85-8b97-be680bd64eca",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2913deed-2560-4c1b-872c-f83ae6c93021",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2aa071f3-fd16-4015-8936-c673d1b400d8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2aff0233-f1f7-4367-be79-d5901ba6f488",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2d78d7e4-767a-436d-90cb-e0775ed613ee",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2e227d5d-649b-48dc-99ca-2389bbc1140f",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2ee57de4-bffd-4194-b009-0060edec77cc",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/2fe15c51-bd67-4e35-b7df-ed4bccf0186e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/30fc7bb8-3192-4cd4-857e-fc811d0bd8b8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/31582366-6554-4eb9-a76c-a6d093abb46b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/315a9ebf-21d3-45f6-8508-9c22113c2b0e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/32cbb42d-7b38-4cef-8e5f-5ac7aa32e51b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3377f3b2-4ba2-457f-b29d-8df59e8cfba8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/33d2b6e8-bfd5-4b1d-951d-d5d5f399ecb6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3481d400-2eaa-4ab3-bb06-5f45b4380052",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/34f1ea25-563b-43fe-865e-ceaa8a91dd54",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/35286868-b555-4961-b2e8-dc96a0f13168",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/35f1be97-06c4-4367-a067-7e0e94f2fa70",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3740b2a0-c94e-4116-bf18-f9fdd5b59f56",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/38c640be-949e-4a4d-86ae-aba57be9d821",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/38f77aff-980c-438a-804a-b02671fb5f9b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/38febf2d-fcf8-458a-bde9-2378aca6bf9c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/39c00771-5f26-4ced-837f-d5ffeae245aa",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3a3f0909-9acc-459b-91f5-17e4e540b260",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/1a030185-7f46-4a7d-bd8b-0476bab498d2"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3a4eeab2-15d9-4bbc-99e2-c1c8e8f4f225",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3b5c7dc9-bd4f-4360-95c8-f66636dcb8a8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3d20a3b0-5270-4818-b03f-1be8d4dcf36d",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3e222abe-4bc3-4189-b92a-26727e84234d",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3f0ff149-7726-4205-be63-3c48c5c7cac8",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/e4b6f863-fa9f-4fe7-a984-f948f8c90d24"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/3f8d4e8f-17cc-4447-9325-fcfe4306c238",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/408fcc8e-d4e6-43e7-ab27-b617a1dced98",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/41ce355e-1cbe-46e4-a36b-e7eb6e108bee",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/4322b221-7d85-425f-8d56-89ebcc1759cd",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/43961ba6-5a96-4975-bb83-f6da854ade03",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/4499c9aa-7986-4b17-b8f7-1dec6741ad70",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/461ff70c-d675-4cae-aa10-24efbbc3a1ce",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/476b2f93-c92d-4aa4-ae0e-eefd224497c3",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/47f4b291-29c4-4402-8b3b-b23c3116f2b9",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/48f8c67f-33d8-46a2-bd92-8b8ec9a20b7f",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/4a901e05-5bc4-45d1-8f52-dbf48c555bdd",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/4b1395c9-448c-4730-ab65-84ef51cc2856",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/4b88eb19-7152-44ff-a13a-dd355e54e4b9",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/4c5fa473-a45d-403c-a7ee-681779837663",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/4e2ce047-1912-468f-8c04-ab7374c4a761",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/4ed6d13e-a39e-4033-b1ae-d6f2c616d834",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/503e6a9a-1291-41aa-9c09-67f644e8a257",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/51b53bb3-7a67-4ce8-b959-c7f6c4af3456",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/51e3675d-9fb2-46d3-99a7-1e6c137ed093",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/524e1461-7d8b-42e1-a108-9023afb9fce5",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/54173a92-b781-4a3f-880b-70fa3a375417",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/54fe3a6b-d02e-4455-843b-718a6b5723eb",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/56a2fa94-a66d-40c6-a444-35888cdefa60",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/579c9e67-fb63-4636-873e-e49649ca2803",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/582e5e24-f400-4a79-a368-24654b0fe055",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/58378416-3a6d-48ef-8291-a14f0ea04e83",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/58ee1bf5-3409-40d1-a8d6-21c1208a46f6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/59f56593-c5e6-4bfb-974c-c98643453ca1",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5ab5e8f8-f99f-4f4f-874a-3a9e748ae44e",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/754de174-292f-4ddc-ae08-24b8fb8cff2e"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5ad75e18-5d5d-496e-9f97-ffb2adbb8d16",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5b0f2198-7246-4256-a902-4d9ce1260c80",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5bb4e18e-4bee-428c-b8b6-7316e4704b92",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5be1c5fb-3833-4983-949c-b77fbfad26d9",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5bfdc193-f234-44c3-be1a-c1c85deb1bb8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5c59dac1-0547-4068-b43c-ac59f1344448",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5cd46e15-61ce-4f23-b688-2b9a8c08e2a0",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5e433def-210d-4dfa-bf07-dbf6d04e0eaa",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5ef8d1bf-ff1c-4087-9978-15a64244ce06",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/5f1dd9f6-dcb4-4384-88c9-f9f6a75305c9",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/606f8d77-443a-48c0-bd9c-1762e459b8e7",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/60f826be-0c1b-413b-aad5-4f7546622e16",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/632f898a-19d0-4483-a9b2-5294b0e5b234",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6495182b-d548-425d-8596-bdf527c98cd7",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/66b14ea6-2a2b-4318-8eb9-33e71ab313dd",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/67bb7cb3-1baf-475f-9290-0f5781d09415",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/67bd66ec-5935-4cd2-8bf8-f1eff5237d19",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6816e28f-a48d-41c7-8492-309f50c049fc",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/687c2470-c2bb-4891-a643-6bcee71a0ac5",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/68d17d2e-2761-438b-af13-0f8d107720d8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/698be2d3-8768-422d-a2d3-1cb701816089",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6a12273a-d498-4b09-a235-365ce7474496",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6b648b57-debd-4bf7-8524-48921596c855",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/fbc604e2-2574-4f2d-a8aa-0a9f9a89c635"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6b78965b-5d84-4db6-8e1c-466d9cb37965",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6d25ef0c-9f6c-4e46-acf3-b2ae022f85f6",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/339ac029-066a-4985-9f9d-b3d7c8fea0bb"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6df314cf-be4c-4de4-aa4c-3b562e5d84d2",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/872bde22-f1c4-4416-8e3e-f2813312e81b"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6e04cc9f-d409-49f0-9224-d9cb32e83631",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6e16f998-7648-4ed0-8232-1b03722d1a53",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/6fa89c14-bf8e-42d7-ab24-40ecc643311f",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/701965fe-c7d9-4d84-a182-067dda7a9dba",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/702853b4-dda8-4ce1-b721-b7ccc06c19ea",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/70bea666-ce48-4586-9a0d-392b3c944ceb",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/739013e4-79ee-4026-b341-f0733ff210a1",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/07dcecd9-b629-40cf-aea9-dbd62e77f841"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/75a7de68-e7f7-4963-a4ed-d839ac7e74af",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/75ef4eed-fe57-47fd-92e9-e63f3121d5b8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/77fcea51-018b-45f1-8425-65e403d79b75",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/798d60b0-b089-4035-94b2-a26386aa7d5a",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/7a6b4664-3c3f-45b2-8d45-8daa2d547e58",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/7dc7f1fc-509e-4654-9840-f79c67f3634b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/7e3d549f-e6f9-447d-a6c0-99b28ffa851f",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/7ef54ad8-083c-4f08-9191-1fe5fe113d8e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/7faee267-fd31-44a0-87ce-7e0382cf516f",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/7fc435d9-88d1-4f4e-b4ca-b2b091aab322",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/80717e6c-03ee-47bc-a2de-cca28873d495",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/80967a8e-0477-4c5e-8550-4af6e5157626",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/80c2dbaa-806e-412c-95ec-074b3294ac61",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8135ab3d-23ac-4cc3-bc0d-240e7b19a0f8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8193f6c6-80d5-4542-a316-2b783e3d8ad9",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/82cde242-eb70-4699-8589-7aa210e003e2",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8353579b-20e3-440a-874d-178ccc574cdc",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8500852d-796a-44bd-9c1c-54c462e846fb",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8538c0e3-902f-4e6f-a60c-0e1fd7e3a956",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/87f88266-ad36-4cb7-98aa-5ac663993fd2",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8a55f0d9-e0d3-4303-872c-0547bd25109e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8b13aad1-79e0-4808-8434-7e94f18c698d",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8b7eb60a-e76c-4308-9809-e1413a80b360",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8c339895-feac-45b0-a860-4c92424b9b84",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8d0e4229-ab4d-4fec-a2e1-0bdfed44ecd7",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8e35a47d-49b3-4937-aeb1-3629be14c3d5",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8f3cb711-2fdf-4a50-813a-77198d2f00e3",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/8fb33848-3745-43e8-83c8-1028f56aaed6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/91569912-10f1-4690-8e82-0b96c93e29ee",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/91fc256e-00ec-4367-b3b4-dcd564ed3fd2",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/92f983d4-f7fc-412a-be4f-4b76ceb18505",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/6d25ef0c-9f6c-4e46-acf3-b2ae022f85f6"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/943d07ec-fb75-4bb5-bc07-20451a2b66e4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/94ba3a91-414a-4ded-8386-8d704859441c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/95a41cf5-4037-4c96-91a8-c34b41637224",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/968ea96d-42d0-44fe-94b0-f11d84a8234d",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/96aa1a61-7c1e-4dba-a468-4bffa78f939d",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/97c1895a-a890-47da-abfc-79dc272add2e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/98677499-4706-49cb-bb6c-0abe56542e33",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/999286f1-22d9-4950-9422-89bd45265a5f",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/9ccb5848-9f76-4fa8-9c56-c9e13457f3d3",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/9ce736fd-2a11-44fa-b905-a46acfba4191",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/9d75743b-317a-4bc4-b93f-c72e3ceba377",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/9dfa1275-c99a-44ba-944e-1db543936253",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/9f2de489-cc8d-48ec-b7d9-c3e007c727cd",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/9f506a34-88b8-4d63-bff9-57ab125e1b0c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/9f728a62-90c6-435e-80c9-4c8d67905eec",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/9fa2392e-45dc-43b0-81d1-7e7014f704b1",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/9fcccbbf-2ad8-471a-b1d1-61e15fa0b066",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a04c2655-5996-4744-bca2-4f4c8b3e4667",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a0c09073-8422-4acb-b2a8-6e946e06a8e5",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a11eec60-a39e-4c14-b926-60a356e4a1b6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a271e9fe-7acb-419d-90f7-73e9f1d345eb",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a2e4fe18-b65d-46c2-8bee-d81fad8cd53b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a2eb9bb5-e539-4c71-98a7-595709f2d699",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a311ab20-75df-4aff-8016-3142c5659d30",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a49fdda1-abd1-40e0-a824-3c545d98f32e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a4b2a278-2123-4450-8b43-be01c4f341da",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a4eb31ce-5253-4553-a4c5-63dec81a9a50",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a602a97f-dd21-4c24-894c-cee1d37f5407",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a672418c-0188-409e-80fb-51041f40f201",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a72f6969-d1b9-457e-91ab-c01945dc7920",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a79f8c60-2cf6-4819-81cd-34119953d4ba",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a8d470b7-2f7e-4e40-aaf2-fc1c3cb2ebe3",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a95f88b8-11b1-406a-aa30-c5a891cb41a8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a992f345-7c06-4982-8fc9-5fab55e316af",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a9dc530e-0e1f-4eef-a739-47bdfe11930e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a9e4a63b-6b88-44f6-b37f-94309856f5ba",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a9e6718b-b9d8-44c2-b06e-85ceed9d144c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/aaf24090-fa29-45c2-80ea-d3a073f6b783",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ab0d774b-7a45-4c76-817f-cb1e35a28758",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ab9f550c-fa8f-4fe8-9f9f-e02d45bff570",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/abf982c1-6b59-4572-a38c-97d3a6869af4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ac2d4fd4-3704-42e5-b2a8-c8498c7a25a6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ac349e07-a3dd-463e-9575-e87567669db0",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ac61d007-c5b6-4331-ab45-0b8294678b45",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/aca52133-5f71-4423-abec-950284b5eaf8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ad83b87c-115d-4d5d-94b3-e442c923da59",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/add193d6-b7bf-40ab-98ff-4a4c6c807387",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/adf6bcb1-6fbb-4b77-8be4-65ce20ee04e2",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/af243be5-28e2-4358-a4d0-e91f3d5fa5e7",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/af6db8f7-aeb8-40e7-97e1-22110ce6c7c6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/af8e3dfa-fed8-4ff2-9202-e8e792d2af3e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/b0145726-4a26-4cc6-b87b-882b9afb7bd4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/b09df20a-51b9-438d-9745-696b02156470",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/b184750e-9f9e-4ef2-a882-845e6058b605",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/b2d46eda-66ef-4b6b-87eb-b428e04391be",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/b49b136b-0dc3-41c4-9a39-ac1200a9fded",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/b4c65789-c02d-4980-829f-4925ec4042bb",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/b6c21b6f-b4c3-4783-ac8a-59b0b41874f5",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/b7ebc4de-3fbe-4eec-ac02-eb4e7445b0df",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/bcd94e4d-1ab5-4e02-b474-590ae0a627e2",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/be3d585f-f511-40ee-8d74-4ed2066e3180",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/bfa1e1a3-b0f9-4e46-b247-fe1c64bfeedf",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c152e2a2-db0d-4d8f-b25c-ef474c83a9c0",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c291acb4-6992-46ff-bf72-681eb378daa5",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c298e9ff-da12-4e1a-81c9-34062b3d0f38",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c3b618df-1969-42da-a021-9f71ab6ece01",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c3f8aaaa-7010-4e51-8b19-2e2623309718",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c44a3636-cd3e-41fc-ab05-75622dbd47ec",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c4f0b0ab-0c01-48c3-b7a6-451b86df3a7a",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c5a79467-ff77-4b90-baec-8e864cba1ab4",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/556a0f07-b5f2-4dc5-ba00-5b3f60c90643"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c69436b3-00ad-44e2-b240-a40cf166d0f4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c6aeb1ba-d89e-4551-bb25-ae0b548efb79",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c8be7061-e129-4ce2-b449-0be6f7d9eba6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c8c626b9-b333-46da-8532-8ca54bef5c7e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/cab07957-4f35-4bdd-9d6d-dc5a0cf42e13",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/47d491a9-f7c0-4b13-a10f-983d3aa0113e"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/cb3e9479-07b9-4a35-9732-28cff43c7f81",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/cbbcdb44-d929-4eee-aa1f-dfd81417c9f7",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ccf76dcf-9fcb-4a60-b774-f6d5a592eab2",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/cf22091e-45d4-459e-88b2-cd34c5a46ccd",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/cf634aba-bcb7-417a-b38b-d5fad7d9d6ff",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/cf9c66e0-cb2f-43fd-b5c2-dda1893364a8",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/cffda1a9-3f86-4766-ae1c-18d616d2651e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/d139c98e-1fc6-4d5f-838b-5c93cd51ac1a",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/d3db0350-dcfd-4a36-b5a8-f9e6cd1ef6f5",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/d4fd1061-eb6a-46d6-9aed-374cb0a80a9a",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/d5e78e67-0a38-4336-aef5-154af620bb74",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/d5eabf8d-0ce5-48cb-ae89-84d2ba6d8674",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/d619bafe-d9a0-4ae3-abf3-9b17d61b54c4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/d6f0a4bb-cba6-4041-a668-c239b79f1daa",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/d908a818-70ef-419e-9d60-8f459114cb2f",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/16a00c69-9c74-4c37-96d7-6301d285e5ce"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/d9f7e0ca-25ae-4c0e-8c81-8e24eea89104",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/db1484fb-3b59-439d-ae82-0905af2790aa",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/41daf4d3-33b8-4199-b814-e54964d277b6"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/df0aa404-3f87-4f35-b6e9-969b05068704",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/df4bbd2e-2403-4e45-aaaa-239b72386af4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/dfe95f86-64d7-4e90-8505-349311940683",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/dffead66-27f4-4eb6-83e6-ad150bc8ee54",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e01f1d44-034c-4354-b290-1fb4da5666e3",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e155df53-9ec8-4076-80b9-21056a8b8ef2",
+      "kind": "skill",
+      "replaced_by": "http://data.europa.eu/esco/skill/b9a9459c-befa-4b30-95b8-25b5dc83d8f1"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e2089edc-6a0c-4444-83be-de800ea8ae43",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e623bf4a-6c10-4bf7-9ab5-bc2a29c9289b",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e695c9fb-1c8b-4fe4-a79b-93afd576583e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e7329772-d1bc-4a73-837b-d729290d7af2",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e76f5374-f86d-431c-9704-475a38ce72be",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e7844840-0fc2-4e79-a0f7-384b4dbc88f6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e7abc7da-30ba-46f2-b38c-a61c3d0034c1",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e8a65528-0fe8-499d-8fcc-f2a447c917a6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e8af54f8-6073-4a84-bee9-38fc01bb8aeb",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/e8fe3df5-5608-4a03-88ff-9e45ef857de1",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ec4b8a2b-c20c-4c0f-bef0-fcc1f5f42c40",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ee37ecf2-c67b-4d3d-aaf9-5d0cf4962ce1",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ee44ea03-593b-47b8-b994-f966a44ae08c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/eeca3780-8049-499f-a268-95a7ad26642c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/eefe0ee1-273b-470c-b67a-a80667a3cfd4",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/f040111a-4d15-4dec-b343-fc4259318ee6",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/f0f93b8b-0ee4-4452-945e-4a2272c0d8dd",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/f2046c50-e9aa-4224-8fc0-ad5fc66e4b0e",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/f3186084-1d7d-4065-a63c-2e5d3b81912d",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/f60b0a50-2e7b-46f8-9b9c-2809b10991f9",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/f7614435-13bf-4a4e-bbda-fb8299f2d51c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/f7df4f5d-a2b9-42f3-a41c-203e42a9457a",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/f9bbab67-c475-48ee-9b8b-547d69f90c60",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/fa0b67d1-5bdf-40f2-914b-da8d62e81e27",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/fb664081-cdb3-462b-b2dc-609292398191",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/fb6f5f61-f3b8-40ba-8363-c8d762325ff7",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/fba28975-4544-4d37-8971-9bd72534018c",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/fbc5de4c-ebc1-4c17-b0d1-06cd186aee37",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/fd4dc5dd-729e-4f6b-a348-77c591f8cb01",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/fe953e78-6541-4715-b5e4-8f7582fcb201",
+      "kind": "skill",
+      "replaced_by": null
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/ff85b268-d74c-44ae-be8f-949e1614eb5d",
+      "kind": "skill",
+      "replaced_by": null
+    }
+  ],
+  "changes": {
+    "occupations_added": 2651,
+    "skills_added": 7963,
+    "links_added": 110905,
+    "prior_links_not_in_active_source": [
+      [
+        "http://data.europa.eu/esco/occupation/8d3e8aaa-791b-4c75-a465-f3f827028f50",
+        "http://data.europa.eu/esco/skill/a49fdda1-abd1-40e0-a824-3c545d98f32e",
+        "esco_essential"
+      ],
+      [
+        "http://data.europa.eu/esco/occupation/8d3e8aaa-791b-4c75-a465-f3f827028f50",
+        "http://data.europa.eu/esco/skill/b00e948c-19be-4951-8cff-60f88f1046e9",
+        "esco_essential"
+      ],
+      [
+        "http://data.europa.eu/esco/occupation/8d3e8aaa-791b-4c75-a465-f3f827028f50",
+        "http://data.europa.eu/esco/skill/bdcf429c-5ccf-4c3d-bb61-4c987573a35e",
+        "esco_optional"
+      ],
+      [
+        "http://data.europa.eu/esco/occupation/d38c2107-98f2-47b7-8bb4-f69750d51082",
+        "http://data.europa.eu/esco/skill/1448431a-4fe5-4ca3-83db-665e0df3f130",
+        "esco_optional"
+      ],
+      [
+        "http://data.europa.eu/esco/occupation/d38c2107-98f2-47b7-8bb4-f69750d51082",
+        "http://data.europa.eu/esco/skill/a49fdda1-abd1-40e0-a824-3c545d98f32e",
+        "esco_essential"
+      ],
+      [
+        "http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1",
+        "http://data.europa.eu/esco/skill/04dfd9fb-e0cf-40f6-96c6-9d2280c4347e",
+        "esco_essential"
+      ]
+    ]
+  },
+  "completed_at_utc": "2026-11-02T17:24:23.417413+00:00"
+}

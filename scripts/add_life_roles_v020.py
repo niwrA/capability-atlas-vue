@@ -1,10 +1,10 @@
 """Add Atlas-draft life roles, separate from ESCO occupational roles."""
+from dataset_io import load_dataset, save_dataset
 import json
 import re
 from pathlib import Path
 
-p=Path('src/data.json')
-data=json.loads(p.read_text())
+data=load_dataset()
 if any(r.get('role_family')=='life' for r in data['roles']):
     raise SystemExit('Life roles already exist; refusing to add duplicates.')
 
@@ -123,5 +123,5 @@ data['learning_units'].extend(units)
 data['decompositions'].extend(edges)
 data['metadata']['title']='ESCO occupations and Atlas life-role learning pilot'
 data['metadata']['decomposition'] += ' Capability Atlas life-role framework v0.20.0 adds three draft roles outside ESCO (Good friend, Parent, Independent adult), with reusable, explicitly Atlas-authored capabilities and two proposed learning activities per capability. Role links distinguish Atlas core and context-dependent capabilities. Social content is informed by LifeComp; parenting content by WHO/UNICEF nurturing-care and parenting guidance; independent-adult content by LifeComp, DigComp, EU/OECD-INFE financial competence, and WHO health literacy. This is a flexible reflective framework, not a validated assessment or a universal prescription.'
-p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+save_dataset(data)
 print(f'Added {len(roles)} life roles, {len(skills)} Atlas capabilities, {len(assertions)} role links, {len(units)} learning units and {len(edges)} decompositions.')

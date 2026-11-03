@@ -1,0 +1,2762 @@
+[
+  {
+    "id": "http://data.europa.eu/esco/occupation/fad4abdf-fe1b-4751-8253-aef40b49afe0",
+    "kind": "role",
+    "label": "desalination technician",
+    "label_nl": "technicus ontziltingsinstallaties",
+    "definition": "Desalination technicians operate, monitor and maintain desalination plant equipment. They ensure compliance with legal regulations and safety and health requirements.",
+    "definition_nl": "Technici ontziltingsinstallaties bedienen, monitoren en onderhouden apparatuur van ontziltingsinstallaties. Zij zorgen ervoor dat de wettelijke, veiligheids- en gezondheidsvoorschriften worden nageleefd.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:Occupation",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fad4abdf-fe1b-4751-8253-aef40b49afe0",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C3117"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "desalination plant technician",
+        "water treatment plant technician",
+        "water treatment plants technician",
+        "desalination equipment operator",
+        "operator of desalination plant",
+        "desalination technicians"
+      ],
+      "nl": [
+        "bediener ontziltingsinstallaties",
+        "operator waterzuivering",
+        "technicus desalinatie",
+        "zuiveringstechnicus"
+      ]
+    },
+    "notation": "3117.1",
+    "source_modified": "2024-01-24T15:22:13.711Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/59d8e338-652e-4545-971b-50f6c15b9d8a",
+      "type": "adms:Identifier",
+      "notation": "3117.1",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/360",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fadb09c5-db84-4240-9fd6-68b4c0abeed5",
+    "kind": "role",
+    "label": "foreign exchange broker",
+    "label_nl": "valutamakelaar",
+    "definition": "Foreign exchange brokers buy and sell foreign currencies on behalf of their clients in order to secure a profit on fluctuations in foreign exchange rates. They undertake technical analysis of economic information such as market liquidity and volatility, to predict the future rates of currencies on the foreign exchange market.",
+    "definition_nl": "Valutamakelaars kopen en verkopen vreemde valuta's namens hun klanten om winst te maken op wisselkoersschommelingen. Zij voeren technische analyses uit op economische informatie zoals marktliquiditeit en -volatiliteit om de toekomstige koersen van valuta's op de valutamarkt te voorspellen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "skos:Concept",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fadb09c5-db84-4240-9fd6-68b4c0abeed5",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/c01cdf85-3ce0-4d12-ae86-e4e63493fafa"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "forex trader",
+        "broker in foreign exchange",
+        "forex broker",
+        "fx broker"
+      ],
+      "nl": [
+        "specialist valutahandel",
+        "makelaar in vreemde valuta"
+      ]
+    },
+    "notation": "3311.2.1",
+    "source_modified": "2024-01-24T15:43:21.521Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/1b5f0681-520a-445f-90d2-1ce7cb230753",
+      "type": "adms:Identifier",
+      "notation": "3311.2.1",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/6612",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fae51298-03a8-4df4-829a-685dddc1580e",
+    "kind": "role",
+    "label": "housekeeping supervisor",
+    "label_nl": "hoofd huishoudelijke dienst",
+    "definition": "Housekeeping supervisors are in charge of supervising and coordinating the daily running of cleaning and housekeeping activities hospitality establishments.",
+    "definition_nl": "Hoofden huishoudelijke dienst zijn belast met het toezicht op en de coördinatie van de dagelijkse bedrijfsvoering van de horecabedrijven omtrent reiniging en huishoudelijke taken.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "skos:Concept",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fae51298-03a8-4df4-829a-685dddc1580e",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C5151"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "housekeeping coordinator",
+        "housekeeping manager",
+        "deputy head housekeeper",
+        "head housekeeper",
+        "head of housekeeping",
+        "head housekeeping manager",
+        "executive housekeeper",
+        "deputy head housekeeping manager"
+      ],
+      "nl": [
+        "hoofd housekeeping",
+        "hoofd huishouding",
+        "manager huishoudelijke dienst",
+        "manager housekeeping"
+      ]
+    },
+    "notation": "5151.2",
+    "source_modified": "2024-01-25T09:16:06.811Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/caf860a5-7b12-4d9c-a968-ec83cccb3d00",
+      "type": "adms:Identifier",
+      "notation": "5151.2",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/551",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "5",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/faed05c0-c1d1-4e34-b575-0dea96459e56",
+    "kind": "role",
+    "label": "construction manager",
+    "label_nl": "projectleider bouw",
+    "definition": "Construction managers are responsible for the planning and coordination of the construction projects. They provide expertise in the design phase of construction projects by facilitating a better estimate of the costs and the functional implications. They participate on bid processes for construction projects and handle subcontractors to deliver the different stages of the construction process from beginning to completion. They strive to enhance the value of the projects both improving efficiency and creating value for customers.",
+    "definition_nl": "Projectleiders in de bouw zijn verantwoordelijk voor de planning en de coördinatie van de bouwprojecten. Zij bieden deskundigheid in de ontwerpfase van bouwprojecten door een betere raming van de kosten en de functionele implicaties te vergemakkelijken. Zij nemen deel aan aanbestedingsprocedures voor bouwprojecten en huren onderaannemers in om de verschillende fasen van het bouwproces van begin tot eind op te leveren. Zij streven ernaar de waarde van de projecten te verhogen, door zowel het verbeteren van de efficiëntie als het creëren van waarde voor de klanten.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "esco:Occupation",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/faed05c0-c1d1-4e34-b575-0dea96459e56",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C1323"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "development project cost consultant",
+        "construction project manager",
+        "development project cost manager",
+        "construction project cost consultant",
+        "construction cost consultant"
+      ],
+      "nl": [
+        "projectleidster nieuwbouw",
+        "bouwkundig projectleider",
+        "bouwkundig projectmanager",
+        "bouwprojectmanager",
+        "projectleidster bouw",
+        "bouwkundig projectleidster",
+        "projectleider woningbouw",
+        "projectleider nieuwbouw",
+        "projectleidster woningbouw"
+      ]
+    },
+    "notation": "1323.1",
+    "source_modified": "2024-01-25T12:18:36.048Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/6d50ec67-e194-4d12-a6af-81afb1b7e846",
+      "type": "adms:Identifier",
+      "notation": "1323.1",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/F",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "1",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fb022de4-920a-4eb0-80f9-fbb8ecfc36b1",
+    "kind": "role",
+    "label": "cultural archive manager",
+    "label_nl": "beheerder cultureel archief",
+    "definition": "Cultural archive managers ensure the care and preservation of a cultural institution and the archives within. They ensure the management and development of the institution’s assets and collections, including the digitisation of the archive collections.",
+    "definition_nl": "Beheerders cultureel archief zijn belast met de zorg en het behoud van een culturele instelling en de archieven daarin. Zij zorgen voor het beheer en de ontwikkeling van de activa en de collecties van de instelling, waaronder de digitalisering van de archiefcollecties.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:MemberConcept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fb022de4-920a-4eb0-80f9-fbb8ecfc36b1",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C2621"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "archivist and records manager",
+        "archivist",
+        "cultural records manager",
+        "cultural archive services manager",
+        "cultural archive and records manager",
+        "archive manager",
+        "cultural archive administrator"
+      ],
+      "nl": [
+        "archiefmanager",
+        "bedrijfsarchivaris",
+        "recordsmanager",
+        "archiefbeheerder",
+        "archivaris",
+        "informatie- en archiefmanager",
+        "manager archiefbeheer en digitalisering",
+        "archiefbeheerster",
+        "beheerder filmarchief",
+        "verantwoordelijke archief"
+      ]
+    },
+    "notation": "2621.4",
+    "source_modified": "2022-12-05T12:41:08.599Z",
+    "source_identifiers": [
+      {
+        "uri": "http://data.europa.eu/esco/identifier/5b37c387-4dd2-4e40-8d24-fcfaca522dce",
+        "type": "adms:Identifier",
+        "notation": "1349.3",
+        "schemeVersion": "1.0.9"
+      },
+      {
+        "uri": "http://data.europa.eu/esco/identifier/72a22074-e103-41fb-b92b-c00d9f676f2b",
+        "type": "adms:Identifier",
+        "notation": "2621.4",
+        "schemeVersion": "1.1.0"
+      }
+    ],
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/9121",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fb0c7da2-6d0e-4a3f-be3e-344f58f0e82d",
+    "kind": "role",
+    "label": "modern languages teacher secondary school",
+    "label_nl": "leerkracht moderne talen voortgezet onderwijs",
+    "definition": "Modern languages teachers at secondary schools provide education to students, commonly children and young adults, in a secondary school setting. They are usually subject teachers, specialised and instructing in their own field of study, modern languages. They prepare lesson plans and materials, monitor the students progress, assist individually when necessary, and evaluate the students knowledge and performance on the subject of modern languages through assignments, tests and examinations.",
+    "definition_nl": "ICT-docenten in het middelbaar onderwijs bieden studenten, gewoonlijk kinderen en jonge volwassenen, onderwijs aan in een middelbare school. Ze zijn meestal onderworpen aan leraren, gespecialiseerd en instrueren in hun eigen vakgebied, moderne talen. Zij bereiden lesplannen en -materialen voor, houden toezicht op de vooruitgang van de studenten, staan zo nodig bij, en evalueren de kennis en prestaties van studenten op het gebied van moderne talen, door middel van opdrachten, tests en onderzoeken.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "skos:Concept",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fb0c7da2-6d0e-4a3f-be3e-344f58f0e82d",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/5efb2c08-ba3a-4659-a2e4-1883f54e77b6"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "secondary school teacher of modern languages",
+        "modern languages tutor secondary school",
+        "modern languages teacher",
+        "secondary school modern languages tutor",
+        "modern languages teacher in secondary school",
+        "high school modern languages teacher",
+        "teacher of modern languages in high school",
+        "modern languages high school teacher",
+        "teacher of modern languages in secondary schools",
+        "modern languages teacher high school"
+      ],
+      "nl": [
+        "onderwijsgevende moderne talen voortgezet onderwijs",
+        "docente moderne talen secundair onderwijs",
+        "docent moderne talen secundair onderwijs",
+        "docent moderne talen voortgezet onderwijs",
+        "docente moderne talen voortgezet onderwijs",
+        "onderwijsgevende moderne talen secundair onderwijs",
+        "leerkracht moderne talen secundair onderwijs"
+      ]
+    },
+    "notation": "2330.1.12",
+    "source_modified": "2023-07-04T10:23:05.6Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/1a398fbd-4211-4aec-8921-02eefeb27653",
+      "type": "adms:Identifier",
+      "notation": "2330.1.12",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/8531",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fb4819db-03fa-4dc1-a471-2cdc24dcbe6f",
+    "kind": "role",
+    "label": "surface treatment operator",
+    "label_nl": "oppervlaktebehandelaar",
+    "definition": "Surface treatment operators apply chemicals and paint to the material surface in order to protect against corrosion. They calculate the materials needed for surface protection.",
+    "definition_nl": "Oppervlaktebehandelaars brengen chemische stoffen en verf aan op het materiaaloppervlak ter bescherming tegen corrosie. Zij berekenen de voor de oppervlaktebescherming benodigde materialen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:MemberConcept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fb4819db-03fa-4dc1-a471-2cdc24dcbe6f",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C7132"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "ship painter",
+        "surface coatings technician",
+        "surface treatment worker",
+        "vessel painter",
+        "anti- corrosion surface treatment operative",
+        "anti- corrosion surface treatment operator",
+        "anti- corrosion surface treatment worker",
+        "marine vessel painter",
+        "surface treatment technician",
+        "anti-corrosion paint technician",
+        "surface treatment operative"
+      ],
+      "nl": [
+        "schilder op een scheepswerf",
+        "metaalspuiter oppervlaktebehandeling",
+        "anticorrosieschilder",
+        "scheepslakker",
+        "medewerker oppervlaktebehandeling",
+        "oppervlaktebehandelaar diverse materialen",
+        "oppervlaktebehandelaar schepen",
+        "medewerkster oppervlaktebehandeling",
+        "scheepsschilder",
+        "oppervlaktebehandelaar (metaal)"
+      ]
+    },
+    "notation": "7132.2",
+    "source_modified": "2024-01-23T11:41:58.063Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/7d6820c0-4eab-475f-9063-2850f2693781",
+      "type": "adms:Identifier",
+      "notation": "7132.2",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/4334",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "7",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fb6df00f-4810-442b-8f93-89b9580c7c9f",
+    "kind": "role",
+    "label": "furniture finisher",
+    "label_nl": "meubelafwerker",
+    "definition": "Furniture finishers treat the surface of wood furniture using hand and power tools to sand, clean and polish. They apply wood coatings onto wooden surfaces by using different techniques such as brushing or using a spray gun. They choose and apply the right coatings with protective and/or decorative purposes.",
+    "definition_nl": "Meubelafwerkers behandelen het oppervlak van houten meubelen met hand- en krachtwerktuigen om te schuren, reinigen en polijsten. Zij passen houtcoatings toe op houten oppervlakken door gebruik te maken van verschillende technieken zoals het borstelen of het gebruik van een spuitpistool. Zij kiezen de juiste coatings voor beschermende en/of decoratieve doeleinden.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:Occupation",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fb6df00f-4810-442b-8f93-89b9580c7c9f",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C7522"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "French polisher",
+        "furniture stainer",
+        "wood furniture stainer",
+        "furniture finishing worker",
+        "wooden furniture varnisher",
+        "furniture machine finisher",
+        "wood furniture varnisher",
+        "wooden furniture production operative",
+        "wooden furniture painter",
+        "furniture sprayer",
+        "wood furniture finisher",
+        "wooden furniture polisher",
+        "furniture varnisher",
+        "wood furniture sprayer",
+        "furniture painter",
+        "furniture finishing operative",
+        "furniture hand finisher",
+        "wooden furniture finisher",
+        "furniture finishing technician",
+        "wooden furniture production worker",
+        "furniture sander",
+        "wooden furniture stainer",
+        "wooden furniture sander",
+        "furniture polisher",
+        "wood furniture painter"
+      ],
+      "nl": [
+        "ambachtelijk meubelafwerker",
+        "artisanaal meubelafwerker",
+        "meubelschilder"
+      ]
+    },
+    "notation": "7522.5",
+    "source_modified": "2024-01-25T14:33:58.376Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/a55313a4-3139-4aea-972e-7dba7529f5ef",
+      "type": "adms:Identifier",
+      "notation": "7522.5",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/310",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "7",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fbc9ab3e-18f1-4b7b-8cd5-d6374ed5e9a9",
+    "kind": "role",
+    "label": "classical languages lecturer",
+    "label_nl": "docent klassieke talen hoger onderwijs",
+    "definition": "Classical languages lecturers are subject professors, teachers, or lecturers who instruct students who have obtained an upper secondary education diploma in their own specialised field of study, classical languages, which is predominantly academic in nature. They work with their university research assistants and university teaching assistants in the preparation of lectures and of exams, for grading papers and exams and for leading review and feedback sessions for the students. They also conduct academic research in their respective field of classical languages, publish their findings and liaise with other university colleagues.",
+    "definition_nl": "Docenten van klassieke talen zijn docenten, docenten of docenten die les geven aan studenten die een diploma hoger middelbaar onderwijs hebben behaald in hun eigen gespecialiseerde studiegebied, klassieke talen, die overwegend academisch van aard zijn. Zij werken samen met hun universitaire onderzoeksassistenten en universitaire onderwijsassistenten bij het voorbereiden van colleges en examens, voor het sorteren van papiersoorten en examens en voor het leiden van de controle en het geven van feedback over de studenten. Zij voeren ook academisch onderzoek uit op hun respectieve gebied van de klassieke talen, publiceren hun bevindingen en onderhouden contacten met andere universiteitsmedewerkers.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "esco:Occupation",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fbc9ab3e-18f1-4b7b-8cd5-d6374ed5e9a9",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/684fd8d5-9b40-4b02-a680-438f0082d923"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/8ae4b9f3-507e-4057-a145-2f96f0132613",
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "classics lecturer",
+        "higher education classical languages teacher",
+        "lecturer in latin language",
+        "lecturer of classical languages",
+        "university classical languages teacher",
+        "classical languages docent",
+        "university classical languages lecturer",
+        "instructor in classical languages",
+        "Greek and Latin docent",
+        "lecturer in greek language",
+        "classical studies lector",
+        "lecturer in classical languages",
+        "Greek and Latin teacher",
+        "Greek and Latin instructor",
+        "classical languages lector",
+        "professor of classical languages",
+        "classical languages instructor",
+        "Greek and Latin professor",
+        "classical studies lecturer",
+        "lecturer in greek and latin language",
+        "classics lector",
+        "Greek and Latin lecturer",
+        "classical languages professor",
+        "university lecturer in classical languages"
+      ],
+      "nl": [
+        "docent Latijn hoger onderwijs",
+        "docente klassieke talen hoger onderwijs",
+        "lector Latijn en Grieks",
+        "lector Latijn",
+        "docent Oudgrieks hoger onderwijs",
+        "docent Latijn en Grieks hoger onderwijs",
+        "lector Oudgrieks",
+        "docente Latijn hoger onderwijs",
+        "lector klassieke talen",
+        "docente Latijn en Grieks hoger onderwijs",
+        "docente Oudgrieks hoger onderwijs"
+      ]
+    },
+    "notation": "2310.1.9",
+    "source_modified": "2024-01-25T10:45:32.542Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/c19b30ed-619a-45c2-92fb-5fb82eafa9f8",
+      "type": "adms:Identifier",
+      "notation": "2310.1.9",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/854",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fbceeac6-798b-4307-a825-626707a753ad",
+    "kind": "role",
+    "label": "calculation engineer",
+    "label_nl": "calculator",
+    "definition": "Calculation engineers draw conclusions about real systems, such as on strength, stability and durability, by performing experiments on virtual models. They test production processes as well.",
+    "definition_nl": "Calculatoren trekken conclusies over echte systemen, met betrekking tot bijvoorbeeld kracht, stabiliteit en duurzaamheid, door experimenten op virtuele modellen uit te voeren. Zij testen ook productieprocessen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fbceeac6-798b-4307-a825-626707a753ad",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/fde4372d-8293-42de-afbb-8b5a9b274fe7"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "structural calculation engineer",
+        "pipe stress calculation engineer",
+        "technical engineer",
+        "stress calculation engineer",
+        "computational engineer",
+        "process engineer",
+        "supports and structural calculation engineer",
+        "simulation calculation engineer",
+        "piping calculation engineer",
+        "process modelling engineer",
+        "structural engineer"
+      ],
+      "nl": [
+        "calculatie-ingenieur"
+      ]
+    },
+    "notation": "2149.2.1",
+    "source_modified": "2024-01-23T11:02:12.313Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/6a178bb9-f35b-4c78-b75e-89d0b46dd403",
+      "type": "adms:Identifier",
+      "notation": "2149.2.1",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": [
+      "http://data.europa.eu/ux2/nace2.1/721",
+      "http://data.europa.eu/ux2/nace2.1/712",
+      "http://data.europa.eu/ux2/nace2.1/7112"
+    ],
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fbf23c18-d9a3-4349-83dc-2bc39948bdf7",
+    "kind": "role",
+    "label": "aquaculture harvesting worker",
+    "label_nl": "oogstarbeider in de aquacultuur",
+    "definition": "Aquaculture harvesting workers work in the harvesting of those aquatic organisms cultured in land-based on-growing processes.",
+    "definition_nl": "Oogstarbeiders in de aquacultuur oogsten de aquatische organismen die worden gekweekt in kweekprocessen op het vasteland.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fbf23c18-d9a3-4349-83dc-2bc39948bdf7",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C9216"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "fish farming harvesting worker",
+        "harvesting worker",
+        "aquatic animals harvesting worker"
+      ],
+      "nl": [
+        "oogster in de aquacultuur"
+      ]
+    },
+    "notation": "9216.2",
+    "source_modified": "2024-01-23T10:52:18.025Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/bb5ec31f-0ea2-4d72-81df-dd97acc0fe6c",
+      "type": "adms:Identifier",
+      "notation": "9216.2",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/032",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "9",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fbf3aefb-70ff-440b-8724-bac3ed5e2c93",
+    "kind": "role",
+    "label": "forestry technician",
+    "label_nl": "uitvoerend medewerker bosbouw",
+    "definition": "Forestry technicians assist and support the forest manager and implement their decisions. They supervise a team of forestry equipment operators and support and supervise forestry and environmental protection through research and data collection. They also manage resource conservation and harvesting plans.",
+    "definition_nl": "Uitvoerend medewerkers bosbouw assisteren en ondersteunen de bosbeheerder en voeren zijn beslissingen uit. Zij houden toezicht op een team operatoren van bosbouwmachines en ondersteunen en houden toezicht op de bescherming van bossen en het milieu door het verrichten van onderzoek en het verzamelen van gegevens. Zij beheren ook plannen voor het behoud en het oogsten van hulpbronnen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "skos:Concept",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fbf3aefb-70ff-440b-8724-bac3ed5e2c93",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C3143"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "foresty supervisor",
+        "forestry operations technician",
+        "forestry operations technologist",
+        "forestry technologist",
+        "forestry operations forewoman",
+        "forestry technician for digitalisation and bioeconomy",
+        "forestry foreman",
+        "forestry forewoman",
+        "forestry operations supervisor",
+        "forestry operations foreman"
+      ],
+      "nl": [
+        "bosbouwvoorman",
+        "voorman houtproductie",
+        "supervisor bosbouwactiviteiten"
+      ]
+    },
+    "notation": "3143.1",
+    "source_modified": "2025-02-27T12:25:01.531Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/8860d5d7-f73d-4138-a982-085b8abe13c9",
+      "type": "adms:Identifier",
+      "notation": "3143.1",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/024",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fc35b7ca-ecec-40d7-91b5-5065f662d955",
+    "kind": "role",
+    "label": "airport director",
+    "label_nl": "directeur luchthaven",
+    "definition": "Airport directors oversee a group of managers who lead or supervise a particular area of the airport, programme or a project.",
+    "definition_nl": "Luchthavendirecteuren houden toezicht op een groep managers die leiding geven aan of toezicht houden op een bepaald gebied van de luchthaven, een programma of een project.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:MemberConcept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fc35b7ca-ecec-40d7-91b5-5065f662d955",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C1324"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "director of tax",
+        "airside and expansions operations director",
+        "aerodrome section manager",
+        "finance director",
+        "aerodrome section director",
+        "terminal operations manager",
+        "baggage programme director",
+        "airport security manager",
+        "airport security compliance manager",
+        "station manager",
+        "airport manager",
+        "airport duty manager",
+        "airport environmental operations manager",
+        "airport section director",
+        "customer relations and service director"
+      ],
+      "nl": [
+        "directeur vliegveld",
+        "hoofd inlichtingenbalie",
+        "havenmeester luchthaven",
+        "luchthavenmeester",
+        "luchthavensupervisor transit",
+        "hoofd verkeersleiding",
+        "ladingmeester luchthaven",
+        "luchthavensupervisor",
+        "verantwoordelijke inlichtingenbalie",
+        "luchthavendirectrice",
+        "vliegvelddirecteur",
+        "technisch directeur vliegveld",
+        "directrice vliegtuigafhandeling",
+        "duty manager flow",
+        "directrice van de uitbating van de luchthaven",
+        "verantwoordelijke vliegtuigafhandeling",
+        "verantwoordelijke vluchtvoorbereiding",
+        "facilitair manager luchthaven",
+        "luchthavendirecteur",
+        "technisch directrice luchthaven",
+        "airside operations manager",
+        "directrice vliegveld",
+        "hoofd luchtverkeersleiding",
+        "directeur van de uitbating van de luchthaven",
+        "verantwoordelijke voor het beheer van de luchthavenactiviteit",
+        "verantwoordelijke uitbating luchthaven",
+        "hoofd vliegtuigafhandeling",
+        "directrice luchthaven",
+        "technisch directrice vliegveld",
+        "directeur vliegtuigafhandeling",
+        "technisch directeur luchthaven",
+        "vliegvelddirectrice"
+      ]
+    },
+    "notation": "1324.1",
+    "source_modified": "2024-01-16T13:12:44.31Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/e80c229b-ff3f-44f8-8ae3-aee5f1291a24",
+      "type": "adms:Identifier",
+      "notation": "1324.1",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/5223",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "1",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fc81b573-e0ea-4466-8560-c2bb278c314a",
+    "kind": "role",
+    "label": "futures trader",
+    "label_nl": "futures trader",
+    "definition": "Futures traders undertake daily trading activities in the futures trading market by buying and selling futures contracts. They speculate on the futures contracts' direction, trying to make a profit by buying futures contracts they foresee to rise in price and sell contracts they foresee to fall in price.",
+    "definition_nl": "Futures traders ondernemen dagelijks handelsactiviteiten op de futuresmarkt door futurescontracten te kopen en verkopen. Zij speculeren op veranderingen in de prijs van futures en proberen winst te maken door futures waarvan zij verwachten dat ze in prijs zullen stijgen te kopen en futures waarvan zij verwachten dat ze in prijs zullen dalen te verkopen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:Occupation",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fc81b573-e0ea-4466-8560-c2bb278c314a",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/60bc7374-9fa1-4bbd-b936-2676fca0bfb6"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "spreader",
+        "futures contracts manager",
+        "arbitrageur"
+      ],
+      "nl": [
+        "trader in futures",
+        "handelaar in futures"
+      ]
+    },
+    "notation": "3311.3.3",
+    "source_modified": "2024-01-24T15:44:55.843Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/4c114b35-9617-42df-a641-d8c97a552e9f",
+      "type": "adms:Identifier",
+      "notation": "3311.3.3",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/6611",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fc85156e-4f0b-46c4-ba66-a3b17318d932",
+    "kind": "role",
+    "label": "life coach",
+    "label_nl": "life coach",
+    "definition": "Life coaches help clients set clear objectives for their personal development and help them achieve their goals and personal vision. They provide counselling and guidance and establish progress reports in order to keep track of their clients' achievements.",
+    "definition_nl": "Life coaches helpen cliënten duidelijke doelstellingen voor hun persoonlijke ontwikkeling vast te stellen en hun doelstellingen en persoonlijke visie te verwezenlijken. Zij bieden advies en begeleiding en stellen voortgangsverslagen op om de prestaties van hun cliënten te kunnen volgen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "esco:Occupation",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fc85156e-4f0b-46c4-ba66-a3b17318d932",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C3412"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "personal development counsellor",
+        "life mentor",
+        "life coaches"
+      ],
+      "nl": [
+        "levenscoach"
+      ]
+    },
+    "notation": "3412.3",
+    "source_modified": "2023-12-21T09:22:24.665Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/434d9331-4eec-4ab7-a1be-2b799e2486aa",
+      "type": "adms:Identifier",
+      "notation": "3412.3",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/9699",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fcaab37b-ada2-4832-a2fd-9d64362e0280",
+    "kind": "role",
+    "label": "international student exchange coordinator",
+    "label_nl": "coördinator internationale studentenuitwisseling",
+    "definition": "International student exchange coordinators lead the entire process of an international exchange study for the exchange students. They manage the students' applications and admissions, arrange accommodation, be it on a college or university campus or with guest families, and handle all the administration regarding these activities, including the student's grades and official departing. They function as guides for the (young) international students through their cultural adjustment.",
+    "definition_nl": "Coördinators internationale studentenuitwisseling leiden het hele proces van een internationale uitwisseling voor uitwisselingsstudenten. Zij beheren de aanvragen en toelatingen van de studenten, regelen de huisvesting op een campus van een hogeschool of universiteit of bij een gastgezin en zorgen voor alle administratie met betrekking tot deze activiteiten, inclusief de cijfers van de student en het officiële vertrek. Zij begeleiden de (jonge) buitenlandse studenten bij hun culturele aanpassing.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "skos:Concept",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fcaab37b-ada2-4832-a2fd-9d64362e0280",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/044d78cc-f62f-4532-83a5-8e04f2889652"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "coordinator of international student exchange",
+        "international exchange director",
+        "student exchange coordinator",
+        "international exchange officer",
+        "international exchange coordinator",
+        "student exchange officer",
+        "student exchange director"
+      ],
+      "nl": [
+        "coördinatrice internationale studentenuitwisseling"
+      ]
+    },
+    "notation": "3343.1.4",
+    "source_modified": "2024-01-16T15:12:35.492Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/ad750aff-f3a1-4410-84fa-b39367441e69",
+      "type": "adms:Identifier",
+      "notation": "3343.1.4",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/8569",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fcab4bb1-c05b-43e3-98d8-f60b13c152f2",
+    "kind": "role",
+    "label": "coagulation operator",
+    "label_nl": "operator rubberproductie",
+    "definition": "Coagulation operators control machines to coagulate synthetic rubber latex into rubber crumb slurry. They prepare these rubber crumbs for finishing processes. Coagulation operators examine the appearance of the crumbs and adjust the operation of filters, shaker screens and hammer mills to remove moisture from the rubber crumbs.",
+    "definition_nl": "Operators rubberproductie bedienen machines voor het coaguleren van synthetisch rubber-latex tot rubbergranulaat. Ze bereiden dit rubbergranulaat voor voor afwerkingsprocessen. Operators rubberproductie bekijken het granulaat nauwkeurig en passen de werking van de filters, schudschermen en hamermolens aan om vocht uit het rubbergranulaat te verwijderen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "esco:Occupation",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fcab4bb1-c05b-43e3-98d8-f60b13c152f2",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/b0c6f284-f3ed-4820-a62e-4e87869f5a3e"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "rubber production process machine operator",
+        "rubber coagulation operative",
+        "latex coagulation worker",
+        "coagulation worker",
+        "latex coagulation operator",
+        "rubber coagulation operator",
+        "rubber coagulation worker",
+        "rubber production process machine operative",
+        "rubber production process machine worker",
+        "rubber production process operator",
+        "latex coagulation operative",
+        "coagulation operative"
+      ],
+      "nl": [
+        "operator gemalen rubber",
+        "allround operator chemische industrie"
+      ]
+    },
+    "notation": "8141.1.2",
+    "source_modified": "2024-01-16T11:24:19.835Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/25f9b4d8-3c49-4fc2-a7a7-22ecf067ce3f",
+      "type": "adms:Identifier",
+      "notation": "8141.1.2",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/2017",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "8",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fcbb66f5-843b-4152-9ce4-e7b19c2a88d9",
+    "kind": "role",
+    "label": "mine mechanical engineer",
+    "label_nl": "werktuigbouwkundig mijningenieur",
+    "definition": "Mine mechanical engineers supervise the procurement, installation, removal and maintenance of mining mechanical equipment, using their knowledge of mechanical specifications. They organise the replacement and repair of mechanical equipment and components.",
+    "definition_nl": "Met gebruikmaking van hun kennis van mechanische specificaties zien werktuigbouwkundige mijningenieurs toe op aanschaf, installatie, verwijdering en onderhoud van mechanische mijnbouwapparatuur. Zij organiseren de vervanging en reparatie van mechanische apparatuur en onderdelen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fcbb66f5-843b-4152-9ce4-e7b19c2a88d9",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/579254cf-6d69-4889-9000-9c79dc568644"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "mechanical engineer (mining)",
+        "mine operations manager"
+      ],
+      "nl": [
+        "mechanicus mijnbouw",
+        "werktuigbouwkundig ingenieur",
+        "werktuigbouwkundig ingenieur mijnbouw",
+        "machineconstructeur",
+        "mijningenieur",
+        "mechanical engineer mijnbouw",
+        "werktuigbouwkundige",
+        "werktuigkundig ingenieur",
+        "werktuigkundige",
+        "machinebouwer"
+      ]
+    },
+    "notation": "2144.1.12",
+    "source_modified": "2024-01-23T10:59:57.95Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/24ca5a60-0e4e-4f25-adce-342252df00e2",
+      "type": "adms:Identifier",
+      "notation": "2144.1.12",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": [
+      "http://data.europa.eu/ux2/nace2.1/3312",
+      "http://data.europa.eu/ux2/nace2.1/7112",
+      "http://data.europa.eu/ux2/nace2.1/B"
+    ],
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fccecd5d-ad90-41a8-bb89-96d7595abca3",
+    "kind": "role",
+    "label": "blacksmith",
+    "label_nl": "smid",
+    "definition": "Blacksmiths heat metal, usually steel, in a forge and shape it with a hammer, chisel, and an anvil. Contemporarily, they predominantly create artisanal metal products, including ornamental work, as well as horse shoes, one of the sole metal fabricating processes that has not been industrialised.",
+    "definition_nl": "Smeden verwarmen metaal, gewoonlijk staal, in een smeedstuk, en geven het de gewenste vorm met een hamer, beitel en een aambeeld. Tegenwoordig creëren zij overwegend ambachtelijke producten van metaal, waaronder sierwerk, alsmede hoefijzers, een van de enige metaalverwerkende processen die niet geïndustrialiseerd zijn.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:MemberConcept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fccecd5d-ad90-41a8-bb89-96d7595abca3",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C7221"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "patternmaking technician",
+        "foundry patternmaker technician",
+        "artisan blacksmith",
+        "forge worker",
+        "foundry moulding operator",
+        "smith",
+        "horseshoe maker",
+        "craft blacksmith",
+        "heritage blacksmith",
+        "forgeworker",
+        "sheet metal apprentice",
+        "sheet metal technician",
+        "sheet metal operative",
+        "patternmaking operator",
+        "ornamental blacksmith"
+      ],
+      "nl": [
+        "grofsmid",
+        "siersmid",
+        "kunstsmid"
+      ]
+    },
+    "notation": "7221.1",
+    "source_modified": "2024-01-23T14:29:35.018Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/770eb0e9-c793-48ac-9cac-8b6704e03b8d",
+      "type": "adms:Identifier",
+      "notation": "7221.1",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/254",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "7",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fcf9024e-277c-43c7-8ec8-8903e5c9c576",
+    "kind": "role",
+    "label": "water engineer",
+    "label_nl": "ingenieur watervoorziening",
+    "definition": "Water engineers research and develop methods for the provision of clean water, water treatment and flood damage prevention and reaction. They research water needs in a location and develop methods for meeting those needs, such as designing and developing projects for managing water resources such as treatment plants, pipelines, pump systems, irrigation or draining systems and other water supply systems. Water engineers also ensure proper installation of these systems on construction sites. Water engineers also maintain, repair and build structures that control water resources, such as bridges, canals and dams.",
+    "definition_nl": "Ingenieurs op het gebied van watervoorziening onderzoeken en ontwikkelen methoden voor de verstrekking van schoon water, waterzuivering en de preventie van en reactie op overstromingen. Zij onderzoeken de waterbehoeften op een locatie en ontwikkelen methoden om aan die behoeften te voldoen, zoals het ontwerpen en ontwikkelen van projecten voor het beheer van watervoorraden, zoals zuiveringsinstallaties, pijpleidingen, pompsystemen, irrigatie- of drainagesystemen en andere watertoevoersystemen. Ingenieurs op het gebied van watervoorziening zorgen ook voor een goede installatie van deze systemen op bouwplaatsen. Ingenieurs op het gebied van watervoorziening houden zich ook bezig met het onderhoud, de reparatie en de bouw van structuren die waterhulpbronnen inkaderen, zoals bruggen, kanalen en dammen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fcf9024e-277c-43c7-8ec8-8903e5c9c576",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/d7d986e1-7333-431b-9719-0c5c6939e360"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "water management specialist",
+        "water resource engineer",
+        "water systems engineer",
+        "hydraulic engineer"
+      ],
+      "nl": [
+        "consultant waterbeheer",
+        "ingenieur sanitaire waterbehandeling"
+      ]
+    },
+    "notation": "2142.1.11",
+    "source_modified": "2024-01-26T11:35:03.243Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/4258fcb7-81c7-41a8-be27-66efd79ec4f4",
+      "type": "adms:Identifier",
+      "notation": "2142.1.11",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": [
+      "http://data.europa.eu/ux2/nace2.1/390",
+      "http://data.europa.eu/ux2/nace2.1/5222",
+      "http://data.europa.eu/ux2/nace2.1/360",
+      "http://data.europa.eu/ux2/nace2.1/370",
+      "http://data.europa.eu/ux2/nace2.1/4291",
+      "http://data.europa.eu/ux2/nace2.1/7112",
+      "http://data.europa.eu/ux2/nace2.1/4221",
+      "http://data.europa.eu/ux2/nace2.1/813"
+    ],
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fd0801c9-809a-4cfd-98ed-6c5860c163f2",
+    "kind": "role",
+    "label": "investment clerk",
+    "label_nl": "administratief medewerker investeringen",
+    "definition": "Investment clerks assist with the administration of investments such as stocks, bonds or other securities and perform general clerical duties in the investment sector of a financial company.",
+    "definition_nl": "Administratief medewerkers investeringen of beleggingsmedewerkers verlenen bijstand bij het beheer van beleggingen zoals aandelen, obligaties of andere effecten en verrichten algemene administratieve taken in de beleggingssector van een financiële onderneming.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fd0801c9-809a-4cfd-98ed-6c5860c163f2",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C4312"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "investment assistant",
+        "investment secretary",
+        "investment administrator"
+      ],
+      "nl": [
+        "administratief medewerkster investeringen"
+      ]
+    },
+    "notation": "4312.5",
+    "source_modified": "2024-01-16T14:31:05.779Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/f3894b4f-255b-4d1c-8984-04f7131ff57b",
+      "type": "adms:Identifier",
+      "notation": "4312.5",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/6619",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "4",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fd1c0f5a-f465-4067-af54-621e68c90f74",
+    "kind": "role",
+    "label": "milliner",
+    "label_nl": "hoedenmaker",
+    "definition": "Milliners design and manufacture hats and other headwear.",
+    "definition_nl": "Hoedenmakers ontwerpen en vervaardigen hoeden en andere hoofddeksels.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "skos:Concept",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fd1c0f5a-f465-4067-af54-621e68c90f74",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C7531"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "custom headwear manufacturer",
+        "hatter",
+        "hat maker",
+        "headgear manufacturer",
+        "headwear manufacturer"
+      ],
+      "nl": [
+        "hoedenmodiste",
+        "hoedenontwerpster",
+        "hoedenontwerper",
+        "hoedenmodist",
+        "hoedenmaakster",
+        "modist",
+        "modiste"
+      ]
+    },
+    "notation": "7531.4",
+    "source_modified": "2024-01-25T14:36:00.96Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/3604d194-047a-4ad2-a324-efa3f73fc5d4",
+      "type": "adms:Identifier",
+      "notation": "7531.4",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/1429",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "7",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fd1c83b3-60d5-4a5f-86c5-94dc2842c246",
+    "kind": "role",
+    "label": "integrated circuit design engineer",
+    "label_nl": "ontwerpingenieur geïntegreerde schakelingen",
+    "definition": "Integrated circuit design engineers design the layout for integrated circuits according to electronics engineering principles. They use software to create design schematics and diagrams.",
+    "definition_nl": "Ontwerpingenieurs van geïntegreerde schakelingen ontwerpen de lay-out voor geïntegreerde schakelingen volgens de beginselen van de elektronica. Zij gebruiken software om ontwerpschema’s en -diagrammen te maken.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fd1c83b3-60d5-4a5f-86c5-94dc2842c246",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/8c0f59c9-9a47-42e7-8287-aab19df4e6ab"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "engineer of integrated circuits",
+        "IC designer",
+        "analog design engineer",
+        "integrated circuit designer",
+        "analog and mixed signal design engineer",
+        "analog IC design engineer",
+        "mixed signal IC design engineer",
+        "integrated circuit engineer",
+        "designer of integrated circuits"
+      ],
+      "nl": [
+        "chip-ontwerpster",
+        "ontwerpster geïntegreerde circuits",
+        "IC-ontwerper",
+        "ontwerper geïntegreerde schakelingen",
+        "ontwerpster geïntegreerde schakelingen",
+        "ontwerpster analoge chips",
+        "ontwerper geïntegreerde circuits",
+        "ontwerper analoge chips",
+        "chip-ontwerper"
+      ]
+    },
+    "notation": "2152.1.7.1",
+    "source_modified": "2024-01-26T15:07:47.892Z",
+    "source_identifiers": [
+      {
+        "uri": "http://data.europa.eu/esco/identifier/4a6db9c4-c962-4fb3-8e9d-6cec4e7fa6d9",
+        "type": "adms:Identifier",
+        "notation": "2152.1.6.1",
+        "schemeVersion": "1.0.9"
+      },
+      {
+        "uri": "http://data.europa.eu/esco/identifier/3aed9e47-2eec-490a-acb8-21bc89a4ca06",
+        "type": "adms:Identifier",
+        "notation": "2152.1.7.1",
+        "schemeVersion": "1.1.0"
+      }
+    ],
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/2611",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "scope_notes": {
+      "en": [
+        "Excludes people performing the assembly of integrated circuits."
+      ],
+      "nl": []
+    },
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fd2dd3e9-498f-490f-8589-8c1eea05aa3f",
+    "kind": "role",
+    "label": "punch press operator",
+    "label_nl": "operator ponsmachine",
+    "definition": "Punch press operators set up and tend punch presses designed to cut workpieces into their desired shape by propelling a hydraulic ram to punch holes into them with a single die set that pushes through the top dead centre, through the surface, and to the bottom dead centre of the workpiece.",
+    "definition_nl": "Operatoren ponsmachines doen de opstelling en de bediening van ponsmachines om werkstukken in de gewenste vorm te snijden door een hydraulische stempel aan te drijven die gaten erin drukt met een enkelvoudige matrijsset die door het bovenste dode centrum, door het oppervlak en naar het onderste dode centrum van het werkstuk drukt.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:MemberConcept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fd2dd3e9-498f-490f-8589-8c1eea05aa3f",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/5c082067-ea18-4ccb-8c43-e70b18ad8120"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "punch machine operator",
+        "press punch operative",
+        "CNC press brake operator",
+        "punchpress operator",
+        "brake press setter",
+        "CNC punch operator",
+        "punchpress worker",
+        "CNC laser punchpress operative",
+        "press brake setter",
+        "centre punch operator",
+        "plastic press operator",
+        "plastic punch press operator",
+        "press inspector",
+        "injection moulding machine operative",
+        "CNC laser punch press operator",
+        "press brake setter/operator",
+        "CNC turret machine operator",
+        "press punch setter",
+        "turret punch press operative",
+        "Turret punch press operator",
+        "CNC punchpress operative",
+        "CNC punch press brake operator",
+        "press brake operator",
+        "CNC punch press operator",
+        "press setter",
+        "punch press operative",
+        "punch press worker",
+        "punch machine setter",
+        "punch press brake operator",
+        "press brake operative",
+        "press punch inspector",
+        "press operative",
+        "punchpress operative"
+      ],
+      "nl": [
+        "bediener stansmachine",
+        "operator stansmachine",
+        "bediener CNC-ponsmachine",
+        "operator CNC-ponsmachine",
+        "bediener ponsmachine"
+      ]
+    },
+    "notation": "7223.4.7",
+    "source_modified": "2024-01-23T14:46:45.594Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/db5a8e38-cd81-4a2a-9646-d864f062f2ac",
+      "type": "adms:Identifier",
+      "notation": "7223.4.7",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/2841",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "7",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fd4b90ed-6bb4-447e-b13a-afb8015700b3",
+    "kind": "role",
+    "label": "solar energy sales consultant",
+    "label_nl": "consulent zonne-energie",
+    "definition": "Solar energy sales consultants provide advice on solar energy for domestic or industrial purposes, and aim to promote the use of solar energy as an alternative and more sustainable source of energy. They communicate with prospective clients, and attend networking events, to ensure increased sales of solar energy products.",
+    "definition_nl": "Consulenten zonne-energie geven advies over zonne-energie voor huishoudelijke of industriële doeleinden en streven ernaar het gebruik van zonne-energie als alternatieve en duurzamere energiebron te bevorderen. Zij communiceren met potentiële klanten en nemen deel aan netwerkevenementen om de verkoop van zonne-energieproducten te verhogen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:Occupation",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fd4b90ed-6bb4-447e-b13a-afb8015700b3",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C2433"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "solar power sales assistant",
+        "solar energy sales representative",
+        "solar sales advisor",
+        "industrial solar energy sales consultant",
+        "solar power sales representative",
+        "solar sales representative",
+        "solar power sales advisor",
+        "industrial solar power sales consultant",
+        "solar energy sales assistant",
+        "solar energy sales advisor",
+        "solar sales consultant",
+        "domestic solar power sales consultant",
+        "solar sales assistant",
+        "domestic solar energy sales consultant"
+      ],
+      "nl": [
+        "consultant zonne-energie",
+        "zonne-energieconsulente",
+        "zonne-energieconsulent",
+        "consulente zonne-energie"
+      ]
+    },
+    "notation": "2433.5",
+    "source_modified": "2024-01-26T12:39:49.049Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/849a9307-c4db-4f73-a331-74558a0fdb7b",
+      "type": "adms:Identifier",
+      "notation": "2433.5",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/4684",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fd6a1c18-b0ff-419f-a36a-e05957452d55",
+    "kind": "role",
+    "label": "solid waste operator",
+    "label_nl": "exploitatietechnicus installaties voor verwerking vast afval",
+    "definition": "Solid waste operators operate and maintain solid waste treatment and distribution equipment, and test samples to monitor pollution. They assist in the collection and disposal of solid waste, such as construction and demolition debris, and ensure treatment is compliant to safety regulations. They ensure community waste containers are emptied, ensure proper differentiation between waste which needs to be recycled or disposed of, and monitor equipment.",
+    "definition_nl": "Exploitatietechnici installaties voor verwerking vast afval bedienen en onderhouden installaties voor de verwerking en distributie van vast afval en testen monsters om de vervuiling te monitoren. Zij helpen bij de inzameling en verwijdering van vast afval, zoals bouw- en sloopafval en zorgen ervoor dat de verwerking verloopt in overeenstemming met de veiligheidsvoorschriften. Zij zorgen ervoor dat containers voor gemeentelijk/stedelijk afval worden geleegd en dat een juist onderscheid wordt gemaakt tussen te recyclen en te verwijderen afval. Ook monitoren zij apparatuur.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "esco:Occupation",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fd6a1c18-b0ff-419f-a36a-e05957452d55",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C3132"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "waste treatment equipment worker",
+        "waste disposal site compliance technician",
+        "waste disposal compliance technician",
+        "waste sorter",
+        "waste treatment equipment operative",
+        "solid waste processing technician",
+        "solid waste treatment technician",
+        "solid waste disposal technician",
+        "solid waste collection technician",
+        "landfill technician",
+        "landfill site worker",
+        "solid waste remediation technician",
+        "waste treatment equipment operator",
+        "landfill site operative"
+      ],
+      "nl": [
+        "operator installaties voor verwerking vast afval"
+      ]
+    },
+    "notation": "3132.3",
+    "source_modified": "2024-01-26T09:50:28.54Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/30ad2fcb-1218-4711-bc87-b94e050fb96c",
+      "type": "adms:Identifier",
+      "notation": "3132.3",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": [
+      "http://data.europa.eu/ux2/nace2.1/3831",
+      "http://data.europa.eu/ux2/nace2.1/3823",
+      "http://data.europa.eu/ux2/nace2.1/3811",
+      "http://data.europa.eu/ux2/nace2.1/3832"
+    ],
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fd86ebe1-bad4-4486-9b76-01a48030e49a",
+    "kind": "role",
+    "label": "rolling stock electrician",
+    "label_nl": "elektromonteur rollend materieel",
+    "definition": "Rolling stock electricians install, maintain and repair electrical and electronic systems in rail vehicles such as air conditioning systems, lamps, heating systems, electrical wiring etc. They use diagnostic testing equipment to inspect vehicles and find faults. To do repair work, they use hand tools and specialised electrical instruments and machines.",
+    "definition_nl": "Elektromonteurs rollend materieel installeren, onderhouden en herstellen elektrische en elektronische systemen in spoorvoertuigen zoals airconditioningsystemen, lampen, verwarmingssystemen, elektrische leidingen, enz. Zij gebruiken testapparatuur om voertuigen te inspecteren en fouten te ontdekken. Om reparaties te verrichten gebruiken zij handgereedschap en gespecialiseerde elektrische instrumenten en machines.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fd86ebe1-bad4-4486-9b76-01a48030e49a",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C7412"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "carriage electrician",
+        "railway electrician",
+        "wagon builder",
+        "rail workshop engineering technician",
+        "multiple unit electrician",
+        "railcar builder",
+        "railway workshop engineering technician",
+        "wagon electrician",
+        "rolling stock builder",
+        "workshop engineering technician",
+        "railway vehicle builder",
+        "carriage builder",
+        "rail depot electrician",
+        "railway vehicle electrician",
+        "rail vehicle electrician",
+        "locomotive electrician",
+        "locomotive builder",
+        "rail electrician",
+        "electrical train electrician",
+        "depot electrician",
+        "rail vehicle builder",
+        "railcar electrician",
+        "railway depot electrician",
+        "multiple unit builder"
+      ],
+      "nl": [
+        "monteur elektrische railvoertuigen",
+        "elektricien rollend materieel",
+        "monteur elektro (spoorwegen)"
+      ]
+    },
+    "notation": "7412.11",
+    "source_modified": "2024-01-25T14:24:14.149Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/21656a08-4371-40f4-81c8-171b098f602a",
+      "type": "adms:Identifier",
+      "notation": "7412.11",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/3314",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "7",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fd882949-aad7-42ff-825e-00d49a5ec469",
+    "kind": "role",
+    "label": "wholesale merchant in fruit and vegetables",
+    "label_nl": "groothandelaar in groente en fruit",
+    "definition": "Wholesale merchants in fruit and vegetables investigate potential wholesale buyers and suppliers and match their needs. They conclude trades involving large quantities of goods.",
+    "definition_nl": "Groothandelaren in groenten en fruit onderzoeken potentiële grootafnemers en -leveranciers en matchen hun behoeften. Zij sluiten transacties voor grote hoeveelheden goederen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "skos:Concept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fd882949-aad7-42ff-825e-00d49a5ec469",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/3ac7fbb4-91b2-4d4d-abc8-7a6c55ed648f"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "senior wholesale merchant in fruit and vegetables",
+        "trainee wholesale merchant in fruit and vegetables",
+        "business to business seller in fruit and vegetables",
+        "B2B sales consultant in fruit and vegetables",
+        "wholesaler in fruit and vegetables",
+        "wholesale merchandiser in fruit and vegetables",
+        "business to business sales consultant in fruit and vegetables",
+        "graduate wholesale merchant in fruit and vegetables",
+        "wholesale buyer in fruit and vegetables",
+        "wholesale trader in fruit and vegetables",
+        "assistant wholesale merchant in fruit and vegetables"
+      ],
+      "nl": []
+    },
+    "notation": "3324.4.14",
+    "source_modified": "2024-01-24T15:51:01.294Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/6b3c6985-69d5-4c87-828d-0feb3995d328",
+      "type": "adms:Identifier",
+      "notation": "3324.4.14",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/4631",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fd8b68c0-7341-44bb-855d-9b1254eade33",
+    "kind": "role",
+    "label": "psychic",
+    "label_nl": "helderziende",
+    "definition": "Psychics claim to have extra-sensory talents to gather information and insight into people's lives, events or situations. They offer advice to clients about topics of importance to their clients such as health, money and love. Psychics often work with traditional practices such as tarot card reading, palm reading or using astrological charts.",
+    "definition_nl": "Helderzienden zijn van mening dat ze extra zintuiglijke talenten hebben om informatie te vergaren en inzicht te krijgen in het leven, de gebeurtenissen of de situaties van mensen. Zij bieden cliënten advies over onderwerpen die van belang zijn voor hun cliënten, zoals gezondheid, geld en liefde. Helderzienden werken vaak met traditionele gebruiken zoals het lezen van kaarten of handpalmen of het gebruik van astrologische tekens.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:Occupation",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fd8b68c0-7341-44bb-855d-9b1254eade33",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C5161"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "palm-reader",
+        "sensitive",
+        "telepath",
+        "channeller",
+        "clairvoyant",
+        "mind-reader",
+        "palmist",
+        "mental telepathist",
+        "psychic reader"
+      ],
+      "nl": [
+        "gedachteleesster",
+        "telepate",
+        "telepaat",
+        "gedachtelezer"
+      ]
+    },
+    "notation": "5161.4",
+    "source_modified": "2024-01-25T09:19:15.022Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/2ac31448-88ec-4b09-ae21-66274a427d16",
+      "type": "adms:Identifier",
+      "notation": "5161.4",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/9699",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "5",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fdd8eef7-d89c-419f-9166-0747f466a769",
+    "kind": "role",
+    "label": "critic",
+    "label_nl": "recensent",
+    "definition": "Critics write reviews of literary, musical and artistic works, restaurants, movies, television programs and other themes for newspapers, journals, magazines, radio, television and other media. They evaluate theme, expression and technique. Critics make judgements based on their personal experience and knowledge.",
+    "definition_nl": "Recensenten schrijven recensies over literaire, muzikale en artistieke werken, restaurants, films, televisieprogramma's en andere thema's voor kranten, tijdschriften, magazines, radio, televisie en andere media. Zij evalueren thema's, uitdrukkingen en technieken. Recensenten oordelen op basis van hun persoonlijke ervaring en kennis.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "skos:Concept",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fdd8eef7-d89c-419f-9166-0747f466a769",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/a47f82d3-4cf7-4abf-bb36-2c8cbad28234"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "architecture critic",
+        "reviewer",
+        "blogger",
+        "theater critic",
+        "television critic",
+        "food critic",
+        "cinema critic",
+        "game critic",
+        "art critic",
+        "architecture & design critic",
+        "literary critic",
+        "TV critic",
+        "theatre critic",
+        "music critic",
+        "film critic"
+      ],
+      "nl": [
+        "filmcriticus",
+        "kunstrecensent",
+        "filmcritica",
+        "kunstcritica",
+        "boekrecensent",
+        "filmrecensent",
+        "criticus",
+        "muziekcriticus",
+        "muziekrecensent",
+        "critica",
+        "kunstcriticus",
+        "muziekcritica",
+        "recensente"
+      ]
+    },
+    "notation": "2642.1.7",
+    "source_modified": "2024-01-26T11:16:46.217Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/e13767cd-4742-49b4-a86d-c0f53c60bdd9",
+      "type": "adms:Identifier",
+      "notation": "2642.1.7",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": [
+      "http://data.europa.eu/ux2/nace2.1/5812",
+      "http://data.europa.eu/ux2/nace2.1/5813",
+      "http://data.europa.eu/ux2/nace2.1/9011"
+    ],
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fde4372d-8293-42de-afbb-8b5a9b274fe7",
+    "kind": "role",
+    "label": "application engineer",
+    "label_nl": "applicatie-ingenieur",
+    "definition": "Application engineers deal with the technical requirements, management, and design for the development of various engineering applications, such as systems, new product designs, or the improvements of processes. They are responsible for the implementation of a design or process improvement, they offer technical support for products, answer questions about the technical functionality and assist the sales team.",
+    "definition_nl": "Applicatie-ingenieurs houden zich bezig met de technische eisen, het beheer en het ontwerp voor de ontwikkeling van diverse technische toepassingen, zoals systemen, nieuwe productontwerpen of verbeteringen van processen. Zij zijn verantwoordelijk voor de uitvoering van een ontwerp- of procesverbetering, bieden technische ondersteuning voor producten, beantwoorden vragen over de technische functionaliteit en staan het verkoopteam bij.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "skos:Concept",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fde4372d-8293-42de-afbb-8b5a9b274fe7",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C2149"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "application engineering expert",
+        "application technology engineering adviser",
+        "application engineering adviser",
+        "application technology engineer",
+        "application technology engineering specialist",
+        "BESS application engineer",
+        "application technology engineering consultant",
+        "application engineering specialist",
+        "applied research engineer",
+        "applied engineer",
+        "application technology engineering expert",
+        "electric vehicles application engineer",
+        "application engineering consultant"
+      ],
+      "nl": [
+        "software-ingenieur",
+        "ingenieur systeemontwikkeling",
+        "ingenieur informaticaontwikkeling",
+        "ingenieur informaticatoepassingen",
+        "ingenieur applicatieontwikkeling",
+        "ingenieur IT-applicaties"
+      ]
+    },
+    "notation": "2149.2",
+    "source_modified": "2025-04-11T11:17:05.221Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/003cb3af-7814-428d-8784-dba9e35bc29c",
+      "type": "adms:Identifier",
+      "notation": "2149.2",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": [
+      "http://data.europa.eu/ux2/nace2.1/C",
+      "http://data.europa.eu/ux2/nace2.1/71"
+    ],
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fde97584-d8e3-413e-a662-511c9055357e",
+    "kind": "role",
+    "label": "live chat operator",
+    "label_nl": "chatmedewerker",
+    "definition": "Live chat operators respond to answers and requests posed by customers of all nature through online platforms in websites and online assistance services in real time. They are available to provide service through chat platforms and have the ability to solve inquiries of clients via written communication merely.",
+    "definition_nl": "Chatmedewerkers antwoorden in real time op reacties en verzoeken van klanten van alle aard via onlineplatforms op websites en online ondersteunende diensten. Zij zijn beschikbaar voor het aanbieden van diensten via chatplatforms en kunnen vragen van klanten via schriftelijke communicatie oplossen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:MemberConcept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fde97584-d8e3-413e-a662-511c9055357e",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/b7b75eb6-34bc-462d-b412-eed393cc1397"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "live chat agent",
+        "real time chat operator",
+        "virtual chat operator",
+        "online chat operator",
+        "online chat agent",
+        "virtual chat agent"
+      ],
+      "nl": [
+        "online chatmedewerkster",
+        "chatmedewerkster",
+        "online chatmedewerker"
+      ]
+    },
+    "notation": "4222.1.1",
+    "source_modified": "2024-01-25T09:29:21.709Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/a2be0980-ee42-4465-9e17-18f8cc219d17",
+      "type": "adms:Identifier",
+      "notation": "4222.1.1",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/822",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "4",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fdf7b000-d923-4086-9660-eb8ee5e77ef0",
+    "kind": "role",
+    "label": "recreation policy officer",
+    "label_nl": "beleidsmedewerker sport en recreatie",
+    "definition": "Recreation policy officers research, analyse and develop policies in the sports and recreation sector and implement these policies in order to improve the sport and recreation system and improve the health of the population. They strive to increase the participation in sports, support athletes, enhance the performance of athletes in national and international competitions, improve social inclusion and community development. They work closely with partners, external organisations or other stakeholders and provide them with regular updates.",
+    "definition_nl": "Beleidsmedewerkers sport en recreatie onderzoeken, analyseren en ontwikkelen beleid in de sport- en recreatiesector en voeren dit beleid uit om het sport- en recreatiesysteem te verbeteren en de gezondheid van de bevolking te verbeteren. Zij streven ernaar om de deelname aan sport te vergroten, sporters te ondersteunen, de prestaties van sporters in nationale en internationale wedstrijden te verbeteren en sociale inclusie en gemeenschapsontwikkeling te bevorderen. Zij werken nauw samen met partners, externe organisaties of andere belanghebbenden en geven hun regelmatig updates.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "skos:Concept",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fdf7b000-d923-4086-9660-eb8ee5e77ef0",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/caf7b8fb-b2d6-46b7-bffa-bea7f8e4aed8"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "sports and recreation policy analyst",
+        "sports and recreation policy specialist",
+        "sports and recreation policy researcher",
+        "recreation policy advisor",
+        "sports and recreation policy advisor",
+        "sports policy officer",
+        "sports and recreation policy officer",
+        "sports policy advisor",
+        "sport and recreation policy officer",
+        "recreation policy specialist"
+      ],
+      "nl": [
+        "beleidsambtenaar vrijetijdsvraagstukken",
+        "beleidsmedewerker vrijetijdsvraagstukken",
+        "beleidsambtenaar sport en recreatie"
+      ]
+    },
+    "notation": "2422.12.13",
+    "source_modified": "2024-01-25T10:52:51.147Z",
+    "source_identifiers": [
+      {
+        "uri": "http://data.europa.eu/esco/identifier/4886d8d4-3019-4488-961c-483f3927c532",
+        "type": "adms:Identifier",
+        "notation": "2422.12.13",
+        "schemeVersion": "1.1.0"
+      },
+      {
+        "uri": "http://data.europa.eu/esco/identifier/eef6d39c-29d7-4a1c-8fa8-011f851dcada",
+        "type": "adms:Identifier",
+        "notation": "2422.10.13",
+        "schemeVersion": "1.0.9"
+      }
+    ],
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/8424",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fe0fa514-b48d-4a53-9757-a283c0baacf0",
+    "kind": "role",
+    "label": "ICT business analyst",
+    "label_nl": "ict business analyst",
+    "definition": "ICT business analysts are in charge of analysing and designing an organisation's processes and systems, assessing the business model and its integration with technology. They also identify change needs, assess the impact of the change, capture and document requirements and then ensure that these requirements are delivered whilst supporting the business through the implementation process.",
+    "definition_nl": "ICT business analysts zijn verantwoordelijk voor het analyseren en ontwerpen van de processen en systemen van een organisatie, het beoordelen van het businessmodel en de integratie ervan met technologie. Zij identificeren ook nodige veranderingen, schatten het effect van die verandering in, bepalen en documenteren eisen, zorgen er vervolgens voor dat aan deze eisen wordt voldaan en ondersteunen het bedrijf tijdens het implementatieproces.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:Occupation",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fe0fa514-b48d-4a53-9757-a283c0baacf0",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C2511"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "ICT business analysts",
+        "business process specialist",
+        "IT business analyst",
+        "requirement engineer"
+      ],
+      "nl": [
+        "analist zakelijke ict-processen",
+        "business process analyst",
+        "ict bedrijfsanalist",
+        "IT business analist",
+        "business process manager",
+        "ICT-bedrijfsanalist",
+        "business analyst in de ict",
+        "ICT business analyst",
+        "ICT business analist"
+      ]
+    },
+    "notation": "2511.9",
+    "source_modified": "2025-02-27T12:25:01.531Z",
+    "source_identifiers": [
+      {
+        "uri": "http://data.europa.eu/esco/identifier/51282176-b5a4-414f-a7b6-c92db8731780",
+        "type": "adms:Identifier",
+        "notation": "2511.9",
+        "schemeVersion": "1.1.0"
+      },
+      {
+        "uri": "http://data.europa.eu/esco/identifier/3eb6dd80-c7a6-4204-8f25-a244b1942cf9",
+        "type": "adms:Identifier",
+        "notation": "2511.8",
+        "schemeVersion": "1.0.9"
+      }
+    ],
+    "nace_codes": [
+      "http://data.europa.eu/ux2/nace2.1/702",
+      "http://data.europa.eu/ux2/nace2.1/6392"
+    ],
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "scope_notes": {
+      "en": [
+        "Excludes people performing development activities."
+      ],
+      "nl": []
+    },
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/fe4a72af-6206-4d86-90c1-b5fb4b5ba2b2",
+    "kind": "role",
+    "label": "broadcast technician",
+    "label_nl": "zendtechnicus",
+    "definition": "Broadcast technicians install, start up, maintain, monitor and repair equipment used for the transmission and reception of television and radio broadcast signals. They ensure that all materials are available in a suitable format of transmittable quality according to the transmission deadline. Broadcast technicians also maintain and repair this equipment.",
+    "definition_nl": "Zendtechnici installeren, doen de opstart, bewaken en herstellen apparatuur die wordt gebruikt voor de transmissie en ontvangst van televisie- en radiosignalen. Zij zorgen ervoor dat alle materialen overeenkomstig de transmissietermijn beschikbaar zijn in een geschikt formaat van uitzendbare kwaliteit. Zendtechnici onderhouden en herstellen deze apparatuur ook.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "skos:Concept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/fe4a72af-6206-4d86-90c1-b5fb4b5ba2b2",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C3521"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "broadcast engineering technician",
+        "broadcasting technician",
+        "broadcasting equipment operator",
+        "broadcast transmitting technician",
+        "broadcasting engineer",
+        "broadcast transmitter operator",
+        "broadcast technicians",
+        "broadcast transmitting equipment operator",
+        "radio and TV technician"
+      ],
+      "nl": [
+        "radio- en tv-technicus"
+      ]
+    },
+    "notation": "3521.2",
+    "source_modified": "2024-01-25T09:28:02.491Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/2dea35db-4cbe-49d0-b5ae-e4ca6b44a973",
+      "type": "adms:Identifier",
+      "notation": "3521.2",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/611",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/febd4100-9a9b-46a0-b964-8623d79d0f32",
+    "kind": "role",
+    "label": "air pollution analyst",
+    "label_nl": "analist luchtvervuiling",
+    "definition": "Air pollution analysts conduct field and lab tests to examine the pollution of air in different areas. They also identify sources of pollution.",
+    "definition_nl": "Analisten luchtvervuiling voeren veld- en laboratoriumtests uit om de luchtverontreiniging in verschillende gebieden te onderzoeken. Zij identificeren ook bronnen van vervuiling.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "esco:Occupation",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/febd4100-9a9b-46a0-b964-8623d79d0f32",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C2133"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "air quality field technican",
+        "air quality monitoring technician",
+        "air quality consultant",
+        "air quality technologist",
+        "air quality technician",
+        "environmental analyst",
+        "air environment technician"
+      ],
+      "nl": [
+        "specialist luchtkwaliteit",
+        "bewaker van de luchtvervuiling",
+        "monsternemer",
+        "stofbemonsteraar",
+        "monsternemer stof"
+      ]
+    },
+    "notation": "2133.14",
+    "source_modified": "2024-01-23T10:57:27.353Z",
+    "source_identifiers": [
+      {
+        "uri": "http://data.europa.eu/esco/identifier/a27ec750-12e6-48dc-bcbf-b991695dd14a",
+        "type": "adms:Identifier",
+        "notation": "3111.2.1",
+        "schemeVersion": "1.0.9"
+      },
+      {
+        "uri": "http://data.europa.eu/esco/identifier/d3db9e63-86dd-4faf-8d4e-08167b32c774",
+        "type": "adms:Identifier",
+        "notation": "2133.14",
+        "schemeVersion": "1.1.1"
+      }
+    ],
+    "nace_codes": [
+      "http://data.europa.eu/ux2/nace2.1/7499",
+      "http://data.europa.eu/ux2/nace2.1/712"
+    ],
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/ff142063-f89d-446d-92ac-9a3a124210a0",
+    "kind": "role",
+    "label": "chemistry teacher secondary school",
+    "label_nl": "leerkracht scheikunde voortgezet onderwijs",
+    "definition": "Chemistry teachers at secondary schools provide education to students, commonly children and young adults, in a secondary school setting. They are usually subject teachers, specialised and instructing in their own field of study, chemistry. They prepare lesson plans and materials, monitor the students' progress, assist individually when necessary, and evaluate the students' knowledge and performance on the subject of chemistry through assignments, tests and examinations.",
+    "definition_nl": "Leraren op het gebied van chemie in middelbare scholen bieden onderwijs aan studenten, gewoonlijk kinderen en jongvolwassenen, aan een middelbare school. Ze zijn meestal onderworpen aan leraren, gespecialiseerd en instrueren in hun eigen studierichting, scheikunde. Zij bereiden lesplannen en -materialen voor, houden toezicht op de vooruitgang van de studenten, staan zo nodig bij, en evalueren de kennis en prestaties op het gebied van chemie op het gebied van chemie door middel van opdrachten, tests en onderzoeken.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "skos:Concept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/ff142063-f89d-446d-92ac-9a3a124210a0",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/5efb2c08-ba3a-4659-a2e4-1883f54e77b6"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "teacher of chemistry in secondary schools",
+        "secondary school chemistry tutor",
+        "high school chemistry teacher",
+        "chemistry tutor secondary school",
+        "chemistry teacher high school",
+        "chemistry studies high school teacher",
+        "chemistry studies teacher in secondary school",
+        "secondary school teacher of chemistry"
+      ],
+      "nl": [
+        "docent chemie voortgezet onderwijs",
+        "docente scheikunde secundair onderwijs",
+        "docente scheikunde voortgezet onderwijs",
+        "onderwijsgevende scheikunde voortgezet onderwijs",
+        "leerkracht chemie secundair onderwijs",
+        "docente chemie secundair onderwijs",
+        "docent scheikunde secundair onderwijs",
+        "onderwijsgevende chemie voortgezet onderwijs",
+        "docent chemie secundair onderwijs",
+        "docent scheikunde voortgezet onderwijs",
+        "docente chemie voortgezet onderwijs",
+        "onderwijsgevende chemie secundair onderwijs",
+        "onderwijsgevende scheikunde secundair onderwijs"
+      ]
+    },
+    "notation": "2330.1.4",
+    "source_modified": "2023-07-04T06:44:54.191Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/7902adae-1317-4b7c-a087-beebaf7552e1",
+      "type": "adms:Identifier",
+      "notation": "2330.1.4",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/8531",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/ff2c1183-3fd7-40c7-8ddc-b20b100363c3",
+    "kind": "role",
+    "label": "community development social worker",
+    "label_nl": "maatschappelijk werker opbouwwerk",
+    "definition": "Community development social workers support individuals, families, and groups in socially or financially deprived areas. They provide leadership and bring local people together to make changes and tackle social inequality, helping people to develop the skills needed to eventually run their own community groups.",
+    "definition_nl": "Maatschappelijk werkers opbouwwerk ondersteunen individuen, gezinnen en groepen in sociaal of financieel achtergestelde gebieden. Zij geven leiding en brengen lokale mensen samen om veranderingen door te voeren en sociale ongelijkheid aan te pakken. Zij helpen mensen om de vaardigheden te ontwikkelen die nodig zijn om uiteindelijk hun eigen gemeenschapsgroepen te leiden.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/ff2c1183-3fd7-40c7-8ddc-b20b100363c3",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/4b05bef2-ded4-4b09-ab94-f4c6a555a775"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "community advocate",
+        "social worker-community development",
+        "community development team leader",
+        "community animateur",
+        "social development worker",
+        "community development support worker"
+      ],
+      "nl": [
+        "opbouwwerkster",
+        "opbouwwerker"
+      ]
+    },
+    "notation": "2635.3.5",
+    "source_modified": "2024-01-22T17:36:39.323Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/5da5782a-7437-4654-abac-4ecc77e4ac53",
+      "type": "adms:Identifier",
+      "notation": "2635.3.5",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/9499",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/ff3a164d-4045-4511-a472-49093dabf9fc",
+    "kind": "role",
+    "label": "renewable energy sales representative",
+    "label_nl": "commercieel vertegenwoordiger duurzame energie",
+    "definition": "Renewable energy sales representatives assess clients' energy supply needs, and attempt to secure sales of renewable energy methods. They promote renewable energy suppliers and the use of renewable energy products, and liaise with consumers to increase sales.",
+    "definition_nl": "Commercieel vertegenwoordigers duurzame energie beoordelen de energiebehoeften van klanten en proberen duurzame energie te verkopen. Zij promoten leveranciers van duurzame energie en het gebruik van duurzame energieproducten en nemen contact op met consumenten om de verkoop te stimuleren.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "skos:Concept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/ff3a164d-4045-4511-a472-49093dabf9fc",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/14031d4a-6e99-442f-b4fe-18262b6432b2"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "renewable energy salesperson",
+        "alternative energy sales promoter",
+        "alternative energy salesman",
+        "renewable energy saleswoman",
+        "renewable energy sales negotiator",
+        "residential alternative energy sales representative",
+        "renewable energy sales consultant",
+        "renewable energy salesman",
+        "renewable energy seller",
+        "alternative energy sales consultant",
+        "residential renewable energy sales representative",
+        "alternative energy seller",
+        "alternative energy salesperson",
+        "renewable energy sales rep",
+        "alternative energy sales negotiator",
+        "alternative energy saleswoman",
+        "alternative energy sales rep",
+        "renewable energy sales promoter"
+      ],
+      "nl": [
+        "verkoopvertegenwoordigster duurzame energie",
+        "commercieel vertegenwoordigster duurzame energie",
+        "verkoopvertegenwoordiger duurzame energie"
+      ]
+    },
+    "notation": "3322.1.2",
+    "source_modified": "2024-01-24T15:46:35.643Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/507fa01f-6c1a-4977-8a48-be47013c42e7",
+      "type": "adms:Identifier",
+      "notation": "3322.1.2",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/354",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/ff42d44c-34f8-46be-ad3a-2aad9a5e43f0",
+    "kind": "role",
+    "label": "pastry maker",
+    "label_nl": "gebakmaker",
+    "definition": "Pastry makers prepare and bake cakes, cookies, croissants, pies and alike products according to recipes.",
+    "definition_nl": "Gebakmakers bereiden en bakken banketbakkersgebak, cookies, croissants, taarten en gelijkaardige producten volgens de recepten.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "skos:Concept",
+      "esco:Occupation"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/ff42d44c-34f8-46be-ad3a-2aad9a5e43f0",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C7512"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "pastry production operator",
+        "pastry cook",
+        "pastry production worker"
+      ],
+      "nl": [
+        "taartenmaker",
+        "patissier"
+      ]
+    },
+    "notation": "7512.5",
+    "source_modified": "2024-01-25T14:31:55.251Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/15a0c983-c506-4bdc-b18b-18ea78ca4dd8",
+      "type": "adms:Identifier",
+      "notation": "7512.5",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/1072",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "7",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/ff4c28e2-66b1-4ae7-9053-fba8ec3428be",
+    "kind": "role",
+    "label": "zoology technician",
+    "label_nl": "zoölogisch laborant",
+    "definition": "Zoology technicians provide technical assistance in researching and testing animal species using laboratory equipment. They aid in research concerning animals as well as their environments and ecosystems. They collect and analyse data, compile reports and maintain laboratory stock.",
+    "definition_nl": "Zoölogisch laboranten verlenen technische bijstand bij het onderzoeken en testen van diersoorten met behulp van laboratoriumapparatuur. Zij helpen bij onderzoek naar dieren, hun omgevingen en hun ecosystemen. Zij verzamelen en analyseren gegevens, stellen rapporten op en houden laboratoriumvoorraden bij.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/ff4c28e2-66b1-4ae7-9053-fba8ec3428be",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/occupation/4fef1907-cf82-413b-841a-02ef57e299a6"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "wildlife manager",
+        "animal health technician",
+        "zoologist",
+        "zoological technician",
+        "zoology research technician",
+        "zoology lab technician",
+        "wildlife biologist",
+        "animal behaviorist",
+        "wildlife health technician",
+        "zoology laboratory technician",
+        "animal researcher",
+        "zoology researcher",
+        "zookeeper",
+        "zoology field technician"
+      ],
+      "nl": [
+        "zoölogisch analist",
+        "laboratoriumingenieur zoölogie",
+        "researchanalist zoölogie"
+      ]
+    },
+    "notation": "3141.2.5",
+    "source_modified": "2024-01-24T15:34:19.095Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/1150c3f1-bd2e-412f-ba6e-a584ea29002b",
+      "type": "adms:Identifier",
+      "notation": "3141.2.5",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/017",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "3",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/ff5210a5-2ea9-43b4-bebc-8d565f928eaa",
+    "kind": "role",
+    "label": "cosmetics production machine operator",
+    "label_nl": "machineoperator cosmeticaproductie",
+    "definition": "Cosmetics production machine operators tend machinery for the manufacturing of cosmetic products by setting up the machines and tools, cleaning and maintaining the equipment and abiding by the production schedule.",
+    "definition_nl": "Machineoperators cosmeticaproductie bedienen machines voor de vervaardiging van cosmetische producten, waarbij zij met name de machines en instrumenten configureren, reinigen en onderhouden en het productieschema in acht nemen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:Occupation",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/ff5210a5-2ea9-43b4-bebc-8d565f928eaa",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C8131"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "cosmetics production worker",
+        "cosmetics production operator",
+        "cosmetics production machine tender",
+        "cosmetics production machine operative",
+        "cosmetics production operative",
+        "cosmetics factory worker",
+        "cosmetics production machine worker",
+        "cosmetics plant worker"
+      ],
+      "nl": [
+        "machinebediener cosmeticaproductie"
+      ]
+    },
+    "notation": "8131.4",
+    "source_modified": "2024-01-16T09:32:23.247Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/81a8405b-b5b0-4a67-9b95-7f129d0830cc",
+      "type": "adms:Identifier",
+      "notation": "8131.4",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/2042",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "8",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/ff656b3a-65a8-4b4f-b04e-9db12936519b",
+    "kind": "role",
+    "label": "demographer",
+    "label_nl": "demograaf",
+    "definition": "Demographers study a variety of parameters related with population. They develop, based on their observations, statistical analyses on the evolutions and changes of births, elderly, marriage and divorce, employment, mortality, immigration and related matters.",
+    "definition_nl": "Demografen bestuderen diverse parameters met betrekking tot de populatie. Zij ontwikkelen, op basis van hun waarnemingen, statistische analyses van de ontwikkelingen en veranderingen in geboorten, ouderen, huwelijken en scheidingen, werkgelegenheid, sterfte, immigratie en aanverwante zaken.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:MemberConcept",
+      "esco:Occupation",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/ff656b3a-65a8-4b4f-b04e-9db12936519b",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C2120"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/8ae4b9f3-507e-4057-a145-2f96f0132613"
+    ],
+    "alternative_labels": {
+      "en": [
+        "demography studies research scientist",
+        "demographers",
+        "demography researcher",
+        "demography studies scholar",
+        "demography research scientist",
+        "demography scholar",
+        "demography research analyst",
+        "demography studies scientist",
+        "demography scientist",
+        "demography studies research analyst",
+        "demography studies analyst",
+        "demography science researcher",
+        "field demographer",
+        "demography studies researcher",
+        "demography analyst"
+      ],
+      "nl": [
+        "demografe",
+        "onderzoeker demografie",
+        "wetenschappelijk onderzoeker demografie",
+        "wetenschappelijk onderzoekster demografie",
+        "onderzoekster demografie"
+      ]
+    },
+    "notation": "2120.2",
+    "source_modified": "2024-01-23T10:55:28.923Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/af6e3e50-ef9e-477f-9948-ae5a3d32f2a9",
+      "type": "adms:Identifier",
+      "notation": "2120.2",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/722",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/ff8d4065-db44-47c7-a4bd-51b3c306ef70",
+    "kind": "role",
+    "label": "sorter labourer",
+    "label_nl": "afvalsorteerder",
+    "definition": "Sorter labourers sort recyclable materials and waste from a recycling stream, and ensure no unsuitable materials wind up among the recyclable materials. They inspect the materials and perform cleaning duties, and work in compliance with waste regulations.",
+    "definition_nl": "Afvalsorteerders scheiden recycleerbare materialen van afval in een recyclestroom en zorgen ervoor dat er geen ongeschikte materialen tussen de recyclebare materialen belanden. Zij inspecteren de materialen en voeren reinigingswerkzaamheden uit en werken in overeenstemming met de regelgeving voor afvalstoffen.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "esco:Occupation",
+      "esco:MemberConcept",
+      "skos:Concept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/ff8d4065-db44-47c7-a4bd-51b3c306ef70",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C9612"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/member-occupations",
+      "http://data.europa.eu/esco/concept-scheme/occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "sorter",
+        "recycler",
+        "yard operative",
+        "recycling metal sorter",
+        "recycling site labourer",
+        "sorter laborer",
+        "recycling site sorter",
+        "grader",
+        "sort line operative",
+        "yard labourer",
+        "sort belt operative",
+        "recycling site sorter labourer",
+        "textile sorter"
+      ],
+      "nl": [
+        "medewerker afvalsortering",
+        "sorteerder van metalen",
+        "sorteerder van palletten",
+        "sorteerder recyclage",
+        "medewerker materiaalsortering",
+        "medewerker afvalbehandeling",
+        "sorteerder van linnengoed",
+        "sorteerder van tweedehands textiel",
+        "vuilnissorteerder",
+        "medewerker sortering"
+      ]
+    },
+    "notation": "9612.2",
+    "source_modified": "2024-01-16T11:18:17.704Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/072046f4-129f-483f-9f02-483c3ee30804",
+      "type": "adms:Identifier",
+      "notation": "9612.2",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/3821",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "9",
+    "missing_source_fields": []
+  },
+  {
+    "id": "http://data.europa.eu/esco/occupation/ffade2f4-2528-4dfd-b36a-6e4092be08ed",
+    "kind": "role",
+    "label": "civil service administrative officer",
+    "label_nl": "administratief medewerker openbaar bestuur",
+    "definition": "Civil service administrative officers perform administrative duties in civil service organisations and government departments. They ensure record maintenance, handle enquiries and provide information to the public, either in person, through emails or phone calls. They support senior staff, and ensure a fluent internal flow of information.",
+    "definition_nl": "Administratief medewerkers openbaar bestuur voeren administratieve taken uit in overheidsorganisaties en overheidsdiensten. Zij zorgen voor het onderhoud van de administratie, het behandelen van vragen en het verstrekken van informatie aan het publiek, hetzij persoonlijk, hetzij per e-mail of telefonisch. Zij ondersteunen het senior personeel en zorgen voor een vlotte interne informatiestroom.",
+    "source": "ESCO",
+    "source_version": "1.2.1",
+    "official": true,
+    "source_status": "released",
+    "source_types": [
+      "skos:Concept",
+      "esco:Occupation",
+      "esco:MemberConcept"
+    ],
+    "source_url": "http://data.europa.eu/esco/occupation/ffade2f4-2528-4dfd-b36a-6e4092be08ed",
+    "import_batch": "ESCO full catalogue v1.2.1",
+    "broader_ids": [
+      "http://data.europa.eu/esco/isco/C2422"
+    ],
+    "in_scheme_ids": [
+      "http://data.europa.eu/esco/concept-scheme/occupations",
+      "http://data.europa.eu/esco/concept-scheme/member-occupations"
+    ],
+    "alternative_labels": {
+      "en": [
+        "local authority administrator",
+        "public administrative officer",
+        "government administrative officer"
+      ],
+      "nl": [
+        "administratief medewerkster openbaar bestuur",
+        "ambtenaar"
+      ]
+    },
+    "notation": "2422.1",
+    "source_modified": "2024-01-16T14:38:39.909Z",
+    "source_identifiers": {
+      "uri": "http://data.europa.eu/esco/identifier/fbbecb09-c894-449d-8dd9-3eb48baaf119",
+      "type": "adms:Identifier",
+      "notation": "2422.1",
+      "schemeVersion": "1.0.9"
+    },
+    "nace_codes": "http://data.europa.eu/ux2/nace2.1/8411",
+    "regulated_profession": "http://data.europa.eu/esco/regulated-professions/unregulated",
+    "isco_major_group": "2",
+    "missing_source_fields": []
+  }
+]

@@ -6,6 +6,7 @@ The stratification and all learning activities/prerequisite links are Atlas prop
 from __future__ import annotations
 
 import concurrent.futures
+from dataset_io import load_dataset, save_dataset
 import json
 import math
 import re
@@ -16,7 +17,6 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "src" / "data.json"
 VERSION = "v1.2.1"
 PAGE_SIZE = 100
 SAMPLE_PER_ISCO_MAJOR_GROUP = 40
@@ -85,7 +85,7 @@ def main() -> None:
         raise RuntimeError(f"ESCO pagination returned only {len(by_uri)} of {total} occupations; refusing a partial/repeated import")
     sampled, sample_counts = distribute_sample(list(by_uri.values()))
 
-    data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    data = load_dataset()
     role_ids = {row["id"] for row in data["roles"]}
     capability_by_id = {row["id"]: row for row in data["capabilities"]}
     assertion_keys = {(e["from"], e["to"], e.get("type")) for e in data["role_capability_assertions"]}
@@ -235,7 +235,7 @@ def main() -> None:
         "optional_entry_practice_units_added": len(practice_units),
         "recommended_route_edges_added": route_edges,
     }
-    DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    save_dataset(data)
     print(json.dumps({
         "elapsed_seconds": round(time.time() - t0, 1), "catalogue_total": len(by_uri), "sample_by_group": sample_counts,
         "roles_added": len(imported_roles), "skills_in_roles": len(sampled_skill_ids), "new_skill_nodes": new_caps,

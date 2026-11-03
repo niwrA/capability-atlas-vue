@@ -1,12 +1,16 @@
 # Dependencies
 node_modules/
 
+# Local source archives and import checkpoints
+input/
+
 # Build output and caches
 dist/
 dist-ssr/
 .vite/
 coverage/
 *.tsbuildinfo
+public/atlas-data/
 
 # Local environment settings (keep shareable examples)
 .env

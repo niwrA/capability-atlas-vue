@@ -1,0 +1,722 @@
+[
+  {
+    "from": "atlas:alu:development:numeracy:notice-small-quantities",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:experience-number-words",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:match-count-word-to-object",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:understand-counted-total",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:connect-quantity-word-symbol",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:combine-two-small-sets",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:represent-first-addition",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:place-value-to-1000",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:add-subtract-to-1000",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:model-common-fractions",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-3:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:connect-fractions-decimals-ratios",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-3:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:math:percent:interpret-parts-per-hundred",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-3:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:math:percent:convert-to-factor",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-3:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:math:percent:multiply-amount",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-3:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:life-manage-personal-finances-1",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-3:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:place-value-to-1000",
+    "to": "slo:vo-onderbouw:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:add-subtract-to-1000",
+    "to": "slo:vo-onderbouw:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:interpret-decimals-in-context",
+    "to": "slo:vo-onderbouw:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:model-common-fractions",
+    "to": "slo:vo-onderbouw:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:connect-fractions-decimals-ratios",
+    "to": "slo:vo-onderbouw:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:math:percent:interpret-parts-per-hundred",
+    "to": "slo:vo-onderbouw:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:math:percent:convert-to-factor",
+    "to": "slo:vo-onderbouw:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:math:percent:multiply-amount",
+    "to": "slo:vo-onderbouw:rekenen-wiskunde:kerndoel-1:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:read-short-instructions",
+    "to": "slo:po:nederlands:kerndoel-3:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:retell-and-summarize",
+    "to": "slo:po:nederlands:kerndoel-3:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:write-purposeful-message",
+    "to": "slo:po:nederlands:kerndoel-5:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:retell-and-summarize",
+    "to": "slo:po:nederlands:kerndoel-5:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:present-a-technical-result",
+    "to": "slo:po:nederlands:kerndoel-5:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:documentation:document-technical-behavior",
+    "to": "slo:po:nederlands:kerndoel-5:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:contribute-to-purposeful-conversation",
+    "to": "slo:po:nederlands:kerndoel-9:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:present-a-technical-result",
+    "to": "slo:po:nederlands:kerndoel-9:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:interpret-data-display",
+    "to": "slo:po:rekenen-wiskunde:kerndoel-5:2025",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:requirements:extract-user-need",
+    "to": "sbb:software-developer:2024:b1:k1:w1",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:break-down-work",
+    "to": "sbb:software-developer:2024:b1:k1:w1",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:estimate-and-adjust",
+    "to": "sbb:software-developer:2024:b1:k1:w1",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:set-project-boundary",
+    "to": "sbb:software-developer:2024:b1:k1:w1",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:track-risk-and-change",
+    "to": "sbb:software-developer:2024:b1:k1:w1",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:design:map-control-flow",
+    "to": "sbb:software-developer:2024:b1:k1:w2",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:design:separate-responsibilities",
+    "to": "sbb:software-developer:2024:b1:k1:w2",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:read-system-diagram",
+    "to": "sbb:software-developer:2024:b1:k1:w2",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:review-diagram-change",
+    "to": "sbb:software-developer:2024:b1:k1:w2",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:make-quality-criteria-measurable",
+    "to": "sbb:software-developer:2024:b1:k1:w2",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:generate-alternatives",
+    "to": "sbb:software-developer:2024:b1:k1:w2",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:prototype:build-thin-slice",
+    "to": "sbb:software-developer:2024:b1:k1:w3",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:programming:implement-and-explain-function",
+    "to": "sbb:software-developer:2024:b1:k1:w3",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:reuse:use-a-library-through-its-interface",
+    "to": "sbb:software-developer:2024:b1:k1:w3",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:tools:record-change-in-version-control",
+    "to": "sbb:software-developer:2024:b1:k1:w3",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:define-component-contract",
+    "to": "sbb:software-developer:2024:b1:k1:w3",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:integrate-and-observe",
+    "to": "sbb:software-developer:2024:b1:k1:w3",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:reproduce-fault",
+    "to": "sbb:software-developer:2024:b1:k1:w4",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:isolate-fault",
+    "to": "sbb:software-developer:2024:b1:k1:w4",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:verify-fix",
+    "to": "sbb:software-developer:2024:b1:k1:w4",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:test-concurrent-behavior",
+    "to": "sbb:software-developer:2024:b1:k1:w4",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:triage-anomaly",
+    "to": "sbb:software-developer:2024:b1:k1:w4",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:verify-anomaly-correction",
+    "to": "sbb:software-developer:2024:b1:k1:w4",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:evolution:revise-a-feature-from-feedback",
+    "to": "sbb:software-developer:2024:b1:k1:w5",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:generate-alternatives",
+    "to": "sbb:software-developer:2024:b1:k1:w5",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:select-testable-idea",
+    "to": "sbb:software-developer:2024:b1:k1:w5",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:assess-technology-change",
+    "to": "sbb:software-developer:2024:b1:k1:w5",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:plan-adoption-checkpoint",
+    "to": "sbb:software-developer:2024:b1:k1:w5",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:prepare-review",
+    "to": "sbb:software-developer:2024:b1:k2:w1",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:close-change",
+    "to": "sbb:software-developer:2024:b1:k2:w1",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:review-delivery",
+    "to": "sbb:software-developer:2024:b1:k2:w1",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:contribute-to-purposeful-conversation",
+    "to": "sbb:software-developer:2024:b1:k2:w1",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:present-a-technical-result",
+    "to": "sbb:software-developer:2024:b1:k2:w2",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:review-delivery",
+    "to": "sbb:software-developer:2024:b1:k2:w3",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:scale:close-change",
+    "to": "sbb:software-developer:2024:b1:k2:w3",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:present-a-technical-result",
+    "to": "sbb:software-developer:2024:b1:k2:w3",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:read-short-instructions",
+    "to": "sbb:software-developer:2024:gen:nl",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:retell-and-summarize",
+    "to": "sbb:software-developer:2024:gen:nl",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:write-purposeful-message",
+    "to": "sbb:software-developer:2024:gen:nl",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:contribute-to-purposeful-conversation",
+    "to": "sbb:software-developer:2024:gen:nl",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:present-a-technical-result",
+    "to": "sbb:software-developer:2024:gen:nl",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:software:documentation:document-technical-behavior",
+    "to": "sbb:software-developer:2024:gen:nl",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:notice-small-quantities",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:experience-number-words",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:match-count-word-to-object",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:understand-counted-total",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:connect-quantity-word-symbol",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:combine-two-small-sets",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:represent-first-addition",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:place-value-to-1000",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:add-subtract-to-1000",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:interpret-decimals-in-context",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:model-common-fractions",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:connect-fractions-decimals-ratios",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:math:percent:interpret-parts-per-hundred",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:math:percent:convert-to-factor",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:math:percent:multiply-amount",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  },
+  {
+    "from": "atlas:alu:school:interpret-data-display",
+    "to": "sbb:software-developer:2024:gen:math",
+    "type": "supports_outcome",
+    "validation": "proposed",
+    "source": "Capability Atlas school-to-qualification bridge v0.22.0",
+    "mapping_scope": "partial_illustration"
+  }
+]

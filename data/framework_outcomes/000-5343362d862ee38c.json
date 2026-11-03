@@ -1,0 +1,422 @@
+[
+  {
+    "id": "slo:po:nederlands:kerndoel-3:2025",
+    "label": "Primary Dutch 3 · Understand spoken and written texts",
+    "label_nl": "PO Nederlands kerndoel 3 · Luisteren en lezen met begrip",
+    "kind": "framework_outcome",
+    "definition": "The learner demonstrates understanding of informational and literary texts through attentive listening, viewing, reading, vocabulary and knowledge-building, and retelling relevant meaning.",
+    "framework": "SLO kerndoelen",
+    "framework_code": "PO Nederlands kerndoel 3",
+    "education_stage": "primary",
+    "source": "SLO kerndoelen",
+    "source_version": "2025",
+    "official": true,
+    "official_status": "in_force",
+    "supporting_sources": [
+      {
+        "title": "SLO — Definitive concept core goals (revised 2025), Dutch and mathematics",
+        "url": "https://slo-kerndoelen.files.svdcdn.com/production/uploads/assets/updates/Kerndoelenboekje-definitieve-conceptkerndoelen-Nederlands-en-rekenen-en-wiskunde.pdf?dm=1737022778"
+      },
+      {
+        "title": "SLO — Current status of Dutch primary-school core goals",
+        "url": "https://www.slo.nl/sectoren/po/kerndoelen/"
+      }
+    ]
+  },
+  {
+    "id": "slo:po:nederlands:kerndoel-5:2025",
+    "label": "Primary Dutch 5 · Speak and write for a purpose",
+    "label_nl": "PO Nederlands kerndoel 5 · Doelgericht spreken en schrijven",
+    "kind": "framework_outcome",
+    "definition": "The learner speaks and writes in ways suited to purpose, audience and context, using an appropriate approach and revising communication where useful.",
+    "framework": "SLO kerndoelen",
+    "framework_code": "PO Nederlands kerndoel 5",
+    "education_stage": "primary",
+    "source": "SLO kerndoelen",
+    "source_version": "2025",
+    "official": true,
+    "official_status": "in_force",
+    "supporting_sources": [
+      {
+        "title": "SLO — Definitive concept core goals (revised 2025), Dutch and mathematics",
+        "url": "https://slo-kerndoelen.files.svdcdn.com/production/uploads/assets/updates/Kerndoelenboekje-definitieve-conceptkerndoelen-Nederlands-en-rekenen-en-wiskunde.pdf?dm=1737022778"
+      },
+      {
+        "title": "SLO — Current status of Dutch primary-school core goals",
+        "url": "https://www.slo.nl/sectoren/po/kerndoelen/"
+      }
+    ]
+  },
+  {
+    "id": "slo:po:nederlands:kerndoel-9:2025",
+    "label": "Primary Dutch 9 · Take part in purposeful conversations",
+    "label_nl": "PO Nederlands kerndoel 9 · Doelgericht gesprekken voeren",
+    "kind": "framework_outcome",
+    "definition": "The learner takes part in conversations suited to purpose, partners and context, listening, responding, contributing, and adapting communication.",
+    "framework": "SLO kerndoelen",
+    "framework_code": "PO Nederlands kerndoel 9",
+    "education_stage": "primary",
+    "source": "SLO kerndoelen",
+    "source_version": "2025",
+    "official": true,
+    "official_status": "in_force",
+    "supporting_sources": [
+      {
+        "title": "SLO — Definitive concept core goals (revised 2025), Dutch and mathematics",
+        "url": "https://slo-kerndoelen.files.svdcdn.com/production/uploads/assets/updates/Kerndoelenboekje-definitieve-conceptkerndoelen-Nederlands-en-rekenen-en-wiskunde.pdf?dm=1737022778"
+      },
+      {
+        "title": "SLO — Current status of Dutch primary-school core goals",
+        "url": "https://www.slo.nl/sectoren/po/kerndoelen/"
+      }
+    ]
+  },
+  {
+    "id": "slo:po:rekenen-wiskunde:kerndoel-1:2025",
+    "label": "Primary mathematics 1 · Whole and decimal numbers",
+    "label_nl": "PO Rekenen en wiskunde kerndoel 1 · Gehele en decimale getallen",
+    "kind": "framework_outcome",
+    "definition": "The learner reasons and calculates with whole and decimal numbers, including comparison, ordering, operations, choosing methods, estimation and checking.",
+    "framework": "SLO kerndoelen",
+    "framework_code": "PO Rekenen en wiskunde kerndoel 1",
+    "education_stage": "primary",
+    "source": "SLO kerndoelen",
+    "source_version": "2025",
+    "official": true,
+    "official_status": "in_force",
+    "supporting_sources": [
+      {
+        "title": "SLO — Definitive concept core goals (revised 2025), Dutch and mathematics",
+        "url": "https://slo-kerndoelen.files.svdcdn.com/production/uploads/assets/updates/Kerndoelenboekje-definitieve-conceptkerndoelen-Nederlands-en-rekenen-en-wiskunde.pdf?dm=1737022778"
+      },
+      {
+        "title": "SLO — Current status of Dutch primary-school core goals",
+        "url": "https://www.slo.nl/sectoren/po/kerndoelen/"
+      }
+    ]
+  },
+  {
+    "id": "slo:po:rekenen-wiskunde:kerndoel-3:2025",
+    "label": "Primary mathematics 3 · Ratios",
+    "label_nl": "PO Rekenen en wiskunde kerndoel 3 · Verhoudingen",
+    "kind": "framework_outcome",
+    "definition": "The learner reasons and calculates with ratios, percentages and scale, connects ratios with fractions and solves problems in concrete contexts.",
+    "framework": "SLO kerndoelen",
+    "framework_code": "PO Rekenen en wiskunde kerndoel 3",
+    "education_stage": "primary",
+    "source": "SLO kerndoelen",
+    "source_version": "2025",
+    "official": true,
+    "official_status": "in_force",
+    "supporting_sources": [
+      {
+        "title": "SLO — Definitive concept core goals (revised 2025), Dutch and mathematics",
+        "url": "https://slo-kerndoelen.files.svdcdn.com/production/uploads/assets/updates/Kerndoelenboekje-definitieve-conceptkerndoelen-Nederlands-en-rekenen-en-wiskunde.pdf?dm=1737022778"
+      },
+      {
+        "title": "SLO — Current status of Dutch primary-school core goals",
+        "url": "https://www.slo.nl/sectoren/po/kerndoelen/"
+      }
+    ]
+  },
+  {
+    "id": "slo:po:rekenen-wiskunde:kerndoel-5:2025",
+    "label": "Primary mathematics 5 · Interpret and represent data",
+    "label_nl": "PO Rekenen en wiskunde kerndoel 5 · Data",
+    "kind": "framework_outcome",
+    "definition": "The learner interprets and represents data using tables, graphs or diagrams and draws and checks conclusions.",
+    "framework": "SLO kerndoelen",
+    "framework_code": "PO Rekenen en wiskunde kerndoel 5",
+    "education_stage": "primary",
+    "source": "SLO kerndoelen",
+    "source_version": "2025",
+    "official": true,
+    "official_status": "in_force",
+    "supporting_sources": [
+      {
+        "title": "SLO — Definitive concept core goals (revised 2025), Dutch and mathematics",
+        "url": "https://slo-kerndoelen.files.svdcdn.com/production/uploads/assets/updates/Kerndoelenboekje-definitieve-conceptkerndoelen-Nederlands-en-rekenen-en-wiskunde.pdf?dm=1737022778"
+      },
+      {
+        "title": "SLO — Current status of Dutch primary-school core goals",
+        "url": "https://www.slo.nl/sectoren/po/kerndoelen/"
+      }
+    ]
+  },
+  {
+    "id": "slo:vo-onderbouw:rekenen-wiskunde:kerndoel-1:2025",
+    "label": "Lower-secondary mathematics 1 · Numbers and quantities",
+    "label_nl": "VO onderbouw Rekenen en wiskunde kerndoel 1 · Getallen en grootheden",
+    "kind": "framework_outcome",
+    "definition": "The learner reasons and calculates with numbers and quantities, using operations, number properties, ratios, units and measurement relationships.",
+    "framework": "SLO kerndoelen",
+    "framework_code": "VO onderbouw Rekenen en wiskunde kerndoel 1",
+    "education_stage": "lower-secondary",
+    "source": "SLO kerndoelen",
+    "source_version": "2025",
+    "official": true,
+    "official_status": "in_force",
+    "supporting_sources": [
+      {
+        "title": "SLO — Definitive concept core goals (revised 2025), Dutch and mathematics",
+        "url": "https://slo-kerndoelen.files.svdcdn.com/production/uploads/assets/updates/Kerndoelenboekje-definitieve-conceptkerndoelen-Nederlands-en-rekenen-en-wiskunde.pdf?dm=1737022778"
+      },
+      {
+        "title": "SLO — Current status of Dutch primary-school core goals",
+        "url": "https://www.slo.nl/sectoren/po/kerndoelen/"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:b1:k1:w1",
+    "label": "MBO Software developer · B1-K1-W1 · Coordinate a software assignment, plan work and monitor progress",
+    "label_nl": "Stem opdracht af, plan werkzaamheden en bewaak de voortgang",
+    "kind": "framework_outcome",
+    "definition": "Clarify the assignment, plan software work, communicate changes and monitor progress.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "B1-K1-W1",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "beroepsspecifiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:b1:k1:w2",
+    "label": "MBO Software developer · B1-K1-W2 · Create a technical software design",
+    "label_nl": "Maak een technisch ontwerp voor software",
+    "kind": "framework_outcome",
+    "definition": "Develop a technical design that responds to requirements, alternatives, context and constraints.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "B1-K1-W2",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "beroepsspecifiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:b1:k1:w3",
+    "label": "MBO Software developer · B1-K1-W3 · Implement software components",
+    "label_nl": "Realiseer (onderdelen van) software",
+    "kind": "framework_outcome",
+    "definition": "Implement software components to the agreed design and requirements, using tools, code conventions and relevant quality constraints.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "B1-K1-W3",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "beroepsspecifiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:b1:k1:w4",
+    "label": "MBO Software developer · B1-K1-W4 · Test software",
+    "label_nl": "Test software",
+    "kind": "framework_outcome",
+    "definition": "Prepare and execute software tests, interpret results and record plausible conclusions.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "B1-K1-W4",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "beroepsspecifiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:b1:k1:w5",
+    "label": "MBO Software developer · B1-K1-W5 · Propose software improvements",
+    "label_nl": "Doe verbetervoorstellen voor de software",
+    "kind": "framework_outcome",
+    "definition": "Interpret feedback, test results or reports and agree proposals for software improvement.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "B1-K1-W5",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "beroepsspecifiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:b1:k2:w1",
+    "label": "MBO Software developer · B1-K2-W1 · Work in an ICT project team",
+    "label_nl": "Werk samen in een projectteam",
+    "kind": "framework_outcome",
+    "definition": "Coordinate tasks and collaborate with colleagues and relevant stakeholders in an ICT project team.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "B1-K2-W1",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "beroepsspecifiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:b1:k2:w2",
+    "label": "MBO Software developer · B1-K2-W2 · Present completed work",
+    "label_nl": "Presenteer het opgeleverde werk",
+    "kind": "framework_outcome",
+    "definition": "Present a deliverable, explain work and choices, answer questions and check that the message is understood.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "B1-K2-W2",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "beroepsspecifiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:b1:k2:w3",
+    "label": "MBO Software developer · B1-K2-W3 · Evaluate collaboration",
+    "label_nl": "Evalueer de samenwerking",
+    "kind": "framework_outcome",
+    "definition": "Reflect on personal performance and team process, identify improvements and act on learning needs.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "B1-K2-W3",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "beroepsspecifiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:gen:nl",
+    "label": "MBO Software developer · GEN-NL · Generic Dutch language requirement",
+    "label_nl": "Generiek examenonderdeel Nederlandse taal",
+    "kind": "framework_outcome",
+    "definition": "The qualification dossier includes the national generic examination requirements for Dutch language.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "GEN-NL",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "generiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:gen:math",
+    "label": "MBO Software developer · GEN-MATH · Generic mathematics requirement",
+    "label_nl": "Generiek examenonderdeel rekenen",
+    "kind": "framework_outcome",
+    "definition": "The qualification dossier includes the national generic examination requirements for mathematics.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "GEN-MATH",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "generiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:gen:career:citizenship",
+    "label": "MBO Software developer · GEN-CAREER-CITIZENSHIP · Career and citizenship requirement",
+    "label_nl": "Generiek examenonderdeel loopbaan en burgerschap",
+    "kind": "framework_outcome",
+    "definition": "The qualification dossier includes national generic requirements for career and citizenship.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "GEN-CAREER-CITIZENSHIP",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "generiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  },
+  {
+    "id": "sbb:software-developer:2024:gen:english",
+    "label": "MBO Software developer · GEN-ENGLISH · Generic English requirement (MBO level 4)",
+    "label_nl": "Generiek examenonderdeel Engels (alleen niveau 4)",
+    "kind": "framework_outcome",
+    "definition": "The qualification dossier includes the national generic English examination requirement for MBO level 4.",
+    "framework": "SBB MBO qualification dossier",
+    "framework_code": "GEN-ENGLISH",
+    "education_stage": "mbo-level-4",
+    "source": "SBB",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "official_status": "qualification_requirement",
+    "qualification_part": "generiek",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sbb:qualification:software-developer:25998",
+    "label": "MBO diploma · Software developer",
+    "label_nl": "MBO-diploma · Software developer",
+    "kind": "qualification",
+    "definition": "A Dutch MBO qualification for Software developer. This record points to the SBB 2024 qualification dossier, profile 25998 in dossier 23399; the dossier describes the qualification requirements and the required generic examination components.",
+    "source": "SBB Kwalificatiestructuur",
+    "source_code": "qualification 25998; dossier 23399",
+    "source_version": "2024 (effective 2024-08-01)",
+    "official": true,
+    "qualification_type": "formal_mbo_diploma",
+    "mbo_level": 4,
+    "eqf_level": 4,
+    "valid_from": "2024-08-01",
+    "supporting_sources": [
+      {
+        "title": "SBB — Software development qualification dossier, version effective 2024-08-01",
+        "url": "https://kwalificatie-mijn.s-bb.nl/Details/DownloadDocument/1963420"
+      }
+    ],
+    "note": "The qualification is awarded by an authorized education provider after its formal assessment. Atlas route completion does not confer this diploma."
+  }
+]

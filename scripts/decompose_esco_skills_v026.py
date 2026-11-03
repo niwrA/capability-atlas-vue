@@ -5,13 +5,13 @@ learning content is proposed, not an ESCO prerequisite standard or validated rub
 """
 from __future__ import annotations
 
+from dataset_io import load_dataset, save_dataset
 import json
 import re
 from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "src" / "data.json"
 VERSION = "0.26.0"
 SOURCE = "Capability Atlas ESCO skill-breakdown draft v0.26.0"
 READING_ROOT = "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts"
@@ -548,7 +548,7 @@ def activity_pair(skill: dict, family: str) -> tuple[dict, dict]:
 
 
 def main() -> None:
-    data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    data = load_dataset()
     skills_by_id = {skill["id"]: skill for skill in data["capabilities"] if skill.get("source") == "ESCO"}
     placeholder_skills = {
         unit.get("esco_skill_uri")
@@ -664,7 +664,7 @@ def main() -> None:
         "method": "Two stage Atlas draft generated using the ESCO label and knowledge/skill type, with family-specific task framing, assessment criteria, and safe simulation boundaries where indicated.",
         "validation": "proposed; not independently or occupationally validated",
     }
-    DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    save_dataset(data)
     print(json.dumps({
         "skills_considered": len(placeholder_skills), "breakdowns_added": len(to_break),
         "existing_breakdowns_preserved": len(already_broken), "learning_units_added": len(new_units),

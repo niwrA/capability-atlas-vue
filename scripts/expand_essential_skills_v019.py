@@ -1,11 +1,11 @@
 """Add a broad, source-informed learning scaffold for undecomposed ESCO Essential skills."""
+from dataset_io import load_dataset, save_dataset
 import json
 import re
 import unicodedata
 from pathlib import Path
 
-path = Path('src/data.json')
-data = json.loads(path.read_text())
+data = load_dataset()
 cap_by_id = {c['id']: c for c in data['capabilities']}
 covered = {e['from'] for e in data['decompositions'] if e['type'] == 'decomposes_into'}
 roots, seen = [], set()
@@ -171,5 +171,5 @@ for root in roots:
 data['learning_units'].extend(units)
 data['decompositions'].extend(edges)
 data['metadata']['decomposition'] += (' Capability Atlas expansion v0.19.0 adds two proposed learning units for each of the previously undecomposed unique ESCO Essential skill nodes across the eight occupations. The new strand-specific exercises are source-informed, use fictional cases or controlled simulations, and remain unvalidated; local tax rules, electrical standards and authorization, testing context, and clinical scope govern real practice.')
-path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+save_dataset(data)
 print(f'Added {len(units)} learning units and {len(edges)} required decomposition edges across {len(roots)} unique essential skills.')

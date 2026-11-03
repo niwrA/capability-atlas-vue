@@ -1,9 +1,9 @@
 """Add an initial Dutch curriculum-to-MBO qualification crosswalk."""
+from dataset_io import load_dataset, save_dataset
 import json
 from pathlib import Path
 
-path = Path('src/data.json')
-data = json.loads(path.read_text())
+data = load_dataset()
 if any(x.get('id', '').startswith('sbb:') for x in data.get('qualifications', [])):
     raise SystemExit('Qualification bridge already exists; refusing duplicates.')
 
@@ -190,5 +190,5 @@ data['decompositions'].extend(new_decompositions)
 data['metadata']['source'] += ' plus SLO curriculum outcomes and SBB MBO Software developer qualification requirements'
 data['metadata']['decomposition'] += ' Capability Atlas school-to-qualification bridge v0.22.0 adds partial Atlas mappings to current SLO primary and lower-secondary Dutch and mathematics outcomes, plus the versioned SBB Software developer MBO level 4 qualification dossier (profile 25998, dossier 23399). Official outcomes and qualification requirements are represented as separate nodes; Atlas learning-unit alignments are proposed and partial, not equivalences or claims of qualification readiness. Several official requirements remain unmapped.'
 data['metadata']['source_note'] += ' SLO curriculum outcome records retain their sector, kerndoel code, and status; SBB qualification requirements retain dossier version and source. Partial Atlas alignments do not satisfy or certify official outcomes.'
-path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n')
+save_dataset(data)
 print(f'Added {len(outcomes)} curriculum/qualification outcome nodes, {len(qualifications)} qualification, {len(new_units)} school ALUs, {len(qualification_requirements)} qualification requirement links, {len(alignment_links)} proposed outcome alignments, and {len(new_decompositions)} progression relations.')

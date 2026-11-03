@@ -4,17 +4,17 @@ All new role-to-capability, decomposition, and prerequisite relations are
 explicit Atlas proposals. The data makes no claim that these are complete
 curricula, validated prerequisite sequences, or substitutes for credentials.
 """
+from dataset_io import load_dataset, save_dataset
 import json
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "src" / "data.json"
 VERSION = "0.24.0"
 PILOT = f"Capability Atlas contrasting profession pathways v{VERSION}"
 FOUNDATION = f"Capability Atlas shared practical foundations v{VERSION}"
 
-data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+data = load_dataset()
 existing_ids = {x["id"] for key in ("roles", "capabilities", "learning_units") for x in data[key]}
 if any(role_id in existing_ids for role_id in (
     "atlas:role:primary-school-teacher",
@@ -325,5 +325,5 @@ data["metadata"]["title"] = "ESCO occupations, Atlas life roles, and contrasting
 data["metadata"]["note"] += " The v0.24.0 profession pilot adds three Atlas-authored draft profession profiles and shared communication/numeracy bridges. Profession mappings, learning-unit decompositions, and prerequisite links are proposals; the primary-teacher profile does not model the Pabo qualification, and none of the profiles is a validated curriculum or qualification route."
 data["metadata"]["decomposition"] += " Capability Atlas v0.24.0 adds three contrasting profession pilots (primary school teacher, cook, motor vehicle mechanic), 15 proposed occupational capabilities, 34 proposed learning activities, four shared communication/numeracy bridge activities, required and optional role links, and proposed paths from existing early communication and first-addition units. Source materials inform topic selection but do not validate the route. The teacher profile explicitly leaves the Dutch Pabo qualification out of scope."
 
-DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+save_dataset(data)
 print(f"Added {len(roles)} roles, {len(capabilities)} capabilities, {len(learning_units)} learning units, {len(assertions)} role links, and {len(decompositions)} relations")
