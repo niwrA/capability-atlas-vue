@@ -10,25 +10,52 @@ function canonical(value) {
 export function createReviewFingerprinter(dataset) {
   const nodes = new Map(['roles', 'capabilities', 'learning_units', 'framework_outcomes', 'qualifications'].flatMap(section => dataset[section] || []).map(node => [node.id, node]))
   const next = new Map()
-  const add = (from, to, edge) => { if (!next.has(from)) next.set(from, []); next.get(from).push({ to, edge }) }
+  const add = (from, to, edge, routeId) => { if (!next.has(from)) next.set(from, []); next.get(from).push({ to, edge, routeId }) }
   for (const edge of dataset.role_capability_assertions || []) add(edge.from, edge.to, edge)
   for (const edge of dataset.decompositions || []) {
     if (['decomposes_into', 'contains_candidate'].includes(edge.type)) add(edge.from, edge.to, edge)
     else if (['prerequisite_for', 'specializes'].includes(edge.type)) add(edge.to, edge.from, edge)
   }
   for (const edge of [...dataset.outcome_capability_links || [], ...dataset.qualification_requirements || []]) add(edge.to, edge.from, edge)
+  // Pathway and breakdown reviews include contextual pilot demonstrations and
+  // their explicit prerequisites, even though these are outside the general graph.
+  const routes = [dataset.pilot_pathway, ...(dataset.pathway_exploration?.routes || []), ...(dataset.profession_pathways?.routes || [])].filter(Boolean)
+  for (const route of routes) for (const step of route.steps) for (const input of step.requires) {
+    add(step.id, input, { from: step.id, to: input, type: 'pilot_requires_all', validation: 'proposed', pilot_id: route.id, gap: step.gap || null }, route.id)
+  }
   return (id, scope) => {
     const node = nodes.get(id), kind = dataset.roles?.some(record => record.id === id) ? 'role' : dataset.capabilities?.some(record => record.id === id) ? 'skill' : node?.kind
     const permitted = { role: 'occupation_pathway', skill: 'skill_breakdown', learning_unit: 'activity_content', qualification: 'mapped_learning', framework_outcome: 'mapped_learning' }
     if (!node || permitted[kind] !== scope) throw new Error(`Invalid review target/scope: ${id} / ${scope}`)
+    // A shared skill can have different occupational demonstrations. Reviewing
+    // one occupation must not walk into every other occupation's context merely
+    // because both use that skill. A skill-breakdown review still covers all of
+    // its contexts, and every review retains the canonical source requirements.
+    const contextRoutes = scope === 'occupation_pathway' ? routes.filter(route => route.occupation_id === id || route.end_ids?.includes(id)) : routes
+    const contextIds = new Set(contextRoutes.map(route => route.id))
     const seen = new Set(), queue = [id], edges = new Set()
     for (let i = 0; i < queue.length; i++) {
       const current = queue[i]
       if (seen.has(current)) continue
       seen.add(current)
-      if (scope !== 'activity_content') for (const link of next.get(current) || []) { edges.add(link.edge); queue.push(link.to) }
+      if (scope !== 'activity_content') for (const link of next.get(current) || []) {
+        if (link.routeId && !contextIds.has(link.routeId)) continue
+        edges.add(link.edge); queue.push(link.to)
+      }
     }
     const payload = { scope, nodes: [...seen].sort().map(id => nodes.get(id)), edges: [...edges].map(canonical).sort((a, b) => JSON.stringify(a) < JSON.stringify(b) ? -1 : JSON.stringify(a) > JSON.stringify(b) ? 1 : 0) }
+    if (scope !== 'activity_content' && contextRoutes.includes(dataset.pilot_pathway) && dataset.pilot_pathway?.steps.some(step => seen.has(step.id))) {
+      const { id, version, semantics, access, scope: pilotScope } = dataset.pilot_pathway
+      payload.pilot_context = { id, version, semantics, access, scope: pilotScope }
+    }
+    if (scope !== 'activity_content' && dataset.pathway_exploration) {
+      payload.exploration_context = contextRoutes.filter(route => route.steps.some(step => seen.has(step.id))).map(({ id, version, semantics, access, scope }) => ({ id, version, semantics, access, scope }))
+      payload.source_breakdowns = (dataset.pathway_exploration.breakdowns || []).filter(breakdown => seen.has(breakdown.skill_id))
+    }
+    if(scope !== 'activity_content' && dataset.profession_pathways){
+      payload.profession_context=dataset.profession_pathways.routes.filter(route=>contextIds.has(route.id)&&(seen.has(route.occupation_id)||route.skill_coverage.some(mapping=>seen.has(mapping.skill_id)))).map(({id,version,source_definition,scope,semantics,access,occupation_outcomes,occupation_facets,skill_coverage})=>({id,version,source_definition,scope,semantics,access,occupation_outcomes,occupation_facets,skill_coverage}))
+      payload.starting_assumptions=(dataset.starting_foundations?.entries||[]).filter(entry=>seen.has(entry.id))
+    }
     return createHash('sha256').update(JSON.stringify(canonical(payload))).digest('hex')
   }
 }

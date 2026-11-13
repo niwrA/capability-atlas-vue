@@ -6,6 +6,7 @@ export const reviewScopeLabels = {
 }
 
 export function isGeneratedActivity(node) {
+  if(node.authoring_origin==='individual')return false
   return node.kind === 'learning_unit' && !!(node.decomposition_family || node.source_version === '0.19.0' || /^atlas:esco-(breakdown|entry-practice):/.test(node.id))
 }
 

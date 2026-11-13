@@ -1,3 +1,7 @@
+import { decodePathwayAudit } from './pathway-audit.js'
+import { decodeMetadata } from './catalogue-metadata.js'
+import { decodeStringTable, unpoolMetadata } from './catalogue-encoding.js'
+
 export class CatalogueLoadError extends Error {
   constructor(message, { action = 'retry', code = 'download_failed', status } = {}) {
     super(message)
@@ -8,14 +12,24 @@ export class CatalogueLoadError extends Error {
   }
 }
 
-export function decodeIndex(index) {
-  if (index.format !== 1) throw new CatalogueLoadError('This catalogue needs a newer version of the app. Reload to continue. Your saved learning will be kept.', { action: 'reload', code: 'unsupported_version' })
+function decodeCatalogue(index) {
+  if (![1, 2, 3, 4].includes(index.format)) throw new CatalogueLoadError('This catalogue needs a newer version of the app. Reload to continue. Your saved learning will be kept.', { action: 'reload', code: 'unsupported_version' })
+  let metadata = index, strings = index.strings
+  if (index.format >= 2) {
+    try {
+      if (index.format === 4) strings = decodeStringTable(index.strings)
+      metadata = decodeMetadata(index.format === 4 ? unpoolMetadata(index.metadata) : index.metadata, strings)
+      if (!metadata || Array.isArray(metadata) || typeof metadata !== 'object') throw new Error('Invalid metadata root')
+    } catch {
+      throw new CatalogueLoadError('This catalogue metadata is incomplete or does not match the app. Reload to get the current catalogue. Your saved learning will be kept.', { action: 'reload', code: 'invalid_metadata' })
+    }
+  }
   const decode = (row, fields, nodes) => {
     const record = {}
     for (let i = 0; i < fields.length; i++) {
       if (row[i] === undefined || row[i] === -1) continue
       const field = fields[i]
-      record[field] = nodes && (field === 'from' || field === 'to') ? nodes[row[i]].id : index.strings[row[i]]
+      record[field] = nodes && (field === 'from' || field === 'to') ? nodes[row[i]].id : strings[row[i]]
     }
     return record
   }
@@ -27,8 +41,19 @@ export function decodeIndex(index) {
   }
   dataset.catalogue = index.catalogue
   dataset.review_registry = index.reviews || {}
-  return dataset
+  // Earlier format-2 catalogues kept these routes outside the string table.
+  // Prefer an explicitly encoded value, including null, while retaining them.
+  dataset.pilot_pathway = Object.hasOwn(metadata,'pilot_pathway') ? metadata.pilot_pathway : index.pilot_pathway
+  dataset.pathway_exploration = Object.hasOwn(metadata,'pathway_exploration') ? metadata.pathway_exploration : index.pathway_exploration
+  dataset.profession_pathways = metadata.profession_pathways
+  dataset.profession_coverage = metadata.profession_coverage
+  dataset.quantity_practice = index.quantity_practice
+  dataset.learning_design_summary = index.learning_design_summary
+  dataset.pathway_audit = index.pathway_audit
+  return { dataset, nodes }
 }
+
+export function decodeIndex(index) { return decodeCatalogue(index).dataset }
 
 export async function loadAtlasData({ baseUrl = '/atlas-data/', fetcher = fetch, maxCachedChunks = 12, timeoutMs = 30000 } = {}) {
   const getJSON = async (file, cache) => {
@@ -36,10 +61,10 @@ export async function loadAtlasData({ baseUrl = '/atlas-data/', fetcher = fetch,
     try {
       const response = await fetcher(baseUrl + file, { cache, signal: controller.signal })
       if (!response.ok) {
-        if (file.startsWith('details-') && [404, 410].includes(response.status)) throw new CatalogueLoadError('This learning content is no longer available for the open catalogue. Reload the catalogue to get the latest content. Your saved learning will be kept.', { action: 'reload', code: 'catalogue_changed', status: response.status })
+        if (/^(details-|pathway-audit-)/.test(file) && [404, 410].includes(response.status)) throw new CatalogueLoadError('This learning content is no longer available for the open catalogue. Reload the catalogue to get the latest content. Your saved learning will be kept.', { action: 'reload', code: 'catalogue_changed', status: response.status })
         throw new CatalogueLoadError('Learning content is temporarily unavailable. Please try again.', { status: response.status })
       }
-      if (file.startsWith('details-') && response.headers?.get('content-type')?.toLowerCase().includes('text/html')) throw new CatalogueLoadError('This learning content is no longer available for the open catalogue. Reload the catalogue to get the latest content. Your saved learning will be kept.', { action: 'reload', code: 'catalogue_changed' })
+      if (/^(details-|pathway-audit-)/.test(file) && response.headers?.get('content-type')?.toLowerCase().includes('text/html')) throw new CatalogueLoadError('This learning content is no longer available for the open catalogue. Reload the catalogue to get the latest content. Your saved learning will be kept.', { action: 'reload', code: 'catalogue_changed' })
       return await response.json()
     } catch (error) {
       if (error instanceof CatalogueLoadError) throw error
@@ -48,8 +73,8 @@ export async function loadAtlasData({ baseUrl = '/atlas-data/', fetcher = fetch,
     } finally { clearTimeout(timer) }
   }
   const index = await getJSON('index.json', 'no-cache')
-  const dataset = decodeIndex(index)
-  const buckets = new Map(index.nodes.map(row => [index.strings[row[0]], row[index.summaryFields.length]]))
+  const { dataset, nodes } = decodeCatalogue(index)
+  const buckets = new Map(index.nodes.map((row, position) => [nodes[position].id, row[index.summaryFields.length]]))
   const chunks = index.chunks, bucketIds = new Map()
   for (const [id, bucket] of buckets) {
     if (!bucketIds.has(bucket)) bucketIds.set(bucket, [])
@@ -81,5 +106,18 @@ export async function loadAtlasData({ baseUrl = '/atlas-data/', fetcher = fetch,
     }
     return (await pending.get(bucket)).get(id)
   }
-  return { dataset, loadDetail }
+  let auditCache, auditPending, auditRetry = false
+  async function loadPathwayAudit() {
+    if (auditCache) return auditCache
+    if (!index.pathway_audit) return null
+    if (!auditPending) auditPending = getJSON(index.pathway_audit.file,auditRetry?'reload':'force-cache').then(encoded=>{
+      let report
+      try{report=decodePathwayAudit(encoded,['roles','capabilities','learning_units','framework_outcomes','qualifications'].flatMap(section=>dataset[section]||[]))}catch{throw new CatalogueLoadError('This pathway audit does not match the open catalogue. Reload to get the current report. Saved learning will be kept.',{action:'reload',code:'catalogue_changed'})}
+      const expected = new Set(dataset.capabilities.filter(node=>node.source!=='ESCO'||node.source_status==='released').map(node=>node.id))
+      if(report?.format!==1 || report.policy_version!==index.pathway_audit.policy_version || !Array.isArray(report.rows) || report.rows.length!==index.pathway_audit.summary.targets || new Set(report.rows.map(row=>row.id)).size!==expected.size || report.rows.some(row=>!expected.has(row.id)||!Array.isArray(row.blockers)) || !Array.isArray(report.priorities)||!Array.isArray(report.starts)) throw new CatalogueLoadError('This pathway audit does not match the open catalogue. Reload to get the current report. Saved learning will be kept.',{action:'reload',code:'catalogue_changed'})
+      auditCache=report; auditRetry=false; return report
+    }).catch(error=>{auditRetry=true;throw error}).finally(()=>{auditPending=null})
+    return auditPending
+  }
+  return { dataset, loadDetail, loadPathwayAudit }
 }

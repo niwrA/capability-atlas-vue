@@ -1,0 +1,3582 @@
+[
+  {
+    "from": "http://data.europa.eu/esco/skill/6d9f05ed-9ada-4604-9670-2df3bb439050",
+    "to": "atlas:alu:profession-domain:textile-materials:fabric-behaviour",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/6d9f05ed-9ada-4604-9670-2df3bb439050",
+    "to": "atlas:alu:profession-domain:textile-materials:fabric-application",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/a6072748-19d1-4b07-b883-06306c485408",
+    "to": "atlas:alu:profession-domain:textile-materials:stock-availability",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/a6072748-19d1-4b07-b883-06306c485408",
+    "to": "atlas:alu:profession-domain:textile-materials:material-selection",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/a6072748-19d1-4b07-b883-06306c485408",
+    "to": "atlas:alu:profession-domain:textile-materials:purchase-preparation",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/a6072748-19d1-4b07-b883-06306c485408",
+    "to": "atlas:alu:profession-domain:textile-materials:actual-purchase",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/a6072748-19d1-4b07-b883-06306c485408",
+    "to": "atlas:alu:profession-domain:textile-materials:purchase-result",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:1",
+    "to": "atlas:alu:profession-domain:work-standards:standards-evidence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:work-standards:standards-evidence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:supported-feedback",
+    "to": "atlas:alu:profession-domain:work-standards:standards-evidence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-standards:standards-evidence",
+    "to": "atlas:alu:profession-domain:work-standards:learning-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:control-target",
+    "to": "atlas:alu:profession-domain:work-standards:learning-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:retrieve",
+    "to": "atlas:alu:profession-domain:work-standards:learning-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-cells",
+    "to": "atlas:alu:profession-domain:work-standards:learning-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-standards:learning-method",
+    "to": "atlas:alu:profession-domain:work-standards:supported-practice",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:alu:profession-domain:work-standards:supported-practice",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:supported-feedback",
+    "to": "atlas:alu:profession-domain:work-standards:supported-practice",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-standards:supported-practice",
+    "to": "atlas:alu:profession-domain:work-standards:new-work-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:1",
+    "to": "atlas:alu:profession-domain:work-standards:new-work-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-standards:standards-evidence",
+    "to": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-standards:learning-method",
+    "to": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-standards:supported-practice",
+    "to": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-standards:new-work-transfer",
+    "to": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c",
+    "to": "atlas:alu:profession-domain:work-standards:standards-evidence",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c",
+    "to": "atlas:alu:profession-domain:work-standards:learning-method",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c",
+    "to": "atlas:alu:profession-domain:work-standards:supported-practice",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c",
+    "to": "atlas:alu:profession-domain:work-standards:new-work-transfer",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:chain-cycle",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:1",
+    "to": "atlas:alu:profession-domain:textile-process:efficiency-aims",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-domain:textile-process:efficiency-aims",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:mathematics:statistical-evidence",
+    "to": "atlas:alu:profession-domain:textile-process:efficiency-aims",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:1",
+    "to": "atlas:alu:profession-domain:textile-process:water-pressure",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-domain:textile-process:water-pressure",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:1",
+    "to": "atlas:alu:profession-domain:textile-process:chemistry-pollution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:profession-domain:textile-process:chemistry-pollution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:1",
+    "to": "atlas:alu:profession-domain:textile-process:energy-climate",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:efficiency-aims",
+    "to": "atlas:alu:profession-domain:textile-process:energy-climate",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:textile-process:energy-climate",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:1",
+    "to": "atlas:alu:profession-domain:textile-process:materials-nature",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:6d9f05ed-9ada-4604-9670-2df3bb439050:1",
+    "to": "atlas:alu:profession-domain:textile-process:materials-nature",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:1",
+    "to": "atlas:alu:profession-domain:textile-process:waste-circularity",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+    "to": "atlas:alu:profession-domain:textile-process:waste-circularity",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:textile-process:waste-circularity",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:efficiency-aims",
+    "to": "atlas:alu:profession-domain:textile-process:issue-tradeoffs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:water-pressure",
+    "to": "atlas:alu:profession-domain:textile-process:issue-tradeoffs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:chemistry-pollution",
+    "to": "atlas:alu:profession-domain:textile-process:issue-tradeoffs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:energy-climate",
+    "to": "atlas:alu:profession-domain:textile-process:issue-tradeoffs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:materials-nature",
+    "to": "atlas:alu:profession-domain:textile-process:issue-tradeoffs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:waste-circularity",
+    "to": "atlas:alu:profession-domain:textile-process:issue-tradeoffs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:efficiency-aims",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:water-pressure",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:chemistry-pollution",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:energy-climate",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:materials-nature",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:waste-circularity",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:issue-tradeoffs",
+    "to": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:05c00631-b864-4842-b47e-06710c197c7a:1",
+    "to": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:6d9f05ed-9ada-4604-9670-2df3bb439050:2",
+    "to": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:1",
+    "to": "atlas:alu:profession-domain:textile-process:production-control-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-coordination:complete-planning-review",
+    "to": "atlas:alu:profession-domain:textile-process:production-control-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:schedule",
+    "to": "atlas:alu:profession-domain:textile-process:production-control-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:alu:profession-domain:textile-process:production-control-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:production-control-plan",
+    "to": "atlas:alu:profession-domain:textile-process:quality-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:fabric-characteristics",
+    "to": "atlas:alu:profession-domain:textile-process:quality-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:fabric-behaviour",
+    "to": "atlas:alu:profession-domain:textile-process:quality-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:textile-process:quality-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:production-control-plan",
+    "to": "atlas:alu:profession-domain:textile-process:productivity-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:quality-monitor",
+    "to": "atlas:alu:profession-domain:textile-process:productivity-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-domain:textile-process:productivity-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:mathematics:statistical-evidence",
+    "to": "atlas:alu:profession-domain:textile-process:productivity-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:production-control-plan",
+    "to": "atlas:alu:profession-domain:textile-process:delivery-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:quality-monitor",
+    "to": "atlas:alu:profession-domain:textile-process:delivery-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:schedule",
+    "to": "atlas:alu:profession-domain:textile-process:delivery-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:result-evidence",
+    "to": "atlas:alu:profession-domain:textile-process:delivery-monitor",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:quality-monitor",
+    "to": "atlas:alu:profession-domain:textile-process:textile-control-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:productivity-monitor",
+    "to": "atlas:alu:profession-domain:textile-process:textile-control-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:delivery-monitor",
+    "to": "atlas:alu:profession-domain:textile-process:textile-control-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-coordination:actual-coordination",
+    "to": "atlas:alu:profession-domain:textile-process:textile-control-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:supported-feedback",
+    "to": "atlas:alu:profession-domain:textile-process:textile-control-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:production-control-plan",
+    "to": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:quality-monitor",
+    "to": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:productivity-monitor",
+    "to": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:delivery-monitor",
+    "to": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:textile-control-action",
+    "to": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fdfb348c-6aaf-4815-8f50-2f665287c422",
+    "to": "atlas:alu:profession-domain:textile-process:efficiency-aims",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fdfb348c-6aaf-4815-8f50-2f665287c422",
+    "to": "atlas:alu:profession-domain:textile-process:water-pressure",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fdfb348c-6aaf-4815-8f50-2f665287c422",
+    "to": "atlas:alu:profession-domain:textile-process:chemistry-pollution",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fdfb348c-6aaf-4815-8f50-2f665287c422",
+    "to": "atlas:alu:profession-domain:textile-process:energy-climate",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fdfb348c-6aaf-4815-8f50-2f665287c422",
+    "to": "atlas:alu:profession-domain:textile-process:materials-nature",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fdfb348c-6aaf-4815-8f50-2f665287c422",
+    "to": "atlas:alu:profession-domain:textile-process:waste-circularity",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fdfb348c-6aaf-4815-8f50-2f665287c422",
+    "to": "atlas:alu:profession-domain:textile-process:issue-tradeoffs",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/31dadcd2-7816-4330-a422-0fc5fb824229",
+    "to": "atlas:alu:profession-domain:textile-process:production-control-plan",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/31dadcd2-7816-4330-a422-0fc5fb824229",
+    "to": "atlas:alu:profession-domain:textile-process:quality-monitor",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/31dadcd2-7816-4330-a422-0fc5fb824229",
+    "to": "atlas:alu:profession-domain:textile-process:productivity-monitor",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/31dadcd2-7816-4330-a422-0fc5fb824229",
+    "to": "atlas:alu:profession-domain:textile-process:delivery-monitor",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/31dadcd2-7816-4330-a422-0fc5fb824229",
+    "to": "atlas:alu:profession-domain:textile-process:textile-control-action",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:05c00631-b864-4842-b47e-06710c197c7a:1",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:material-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:09853c3b-6784-456f-abe9-c9f44bf872bc:2",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:material-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:6d9f05ed-9ada-4604-9670-2df3bb439050:2",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:material-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:material-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:purchase-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:a6072748-19d1-4b07-b883-06306c485408:2",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:purchase-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:standards-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:2",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:standards-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:purchase-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:manufacturing-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:standards-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:manufacturing-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:05c00631-b864-4842-b47e-06710c197c7a:2",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:manufacturing-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:manufacturing-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:order-schedule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:available-stock",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:order-schedule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:schedule",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:order-schedule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:order-schedule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:order-schedule",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:delivery-schedule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:schedule",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:delivery-schedule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:delivery-schedule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:delivery-schedule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:delivery-schedule",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:textile-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:2",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:textile-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:material-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:environmental-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:2",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:environmental-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:order-schedule",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:production-flow",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:delivery-schedule",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:production-flow",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:textile-control",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:production-flow",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:environmental-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:production-flow",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-coordination:production-result-review",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:production-flow",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:handover",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:production-flow",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:material-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:purchase-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:standards-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:manufacturing-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:order-schedule",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:delivery-schedule",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:textile-control",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:environmental-work",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-operations-manager:production-flow",
+    "to": "atlas:alu:profession-domain:textile-operations-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:434e926b-89bb-4720-a5c6-65ddb8e733b5:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:esco-breakdown:434e926b-89bb-4720-a5c6-65ddb8e733b5:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:esco-breakdown:434e926b-89bb-4720-a5c6-65ddb8e733b5:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:434e926b-89bb-4720-a5c6-65ddb8e733b5:1",
+    "to": "atlas:alu:profession-domain:yarn-measurement:sample-basis",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:yarn-measurement:sample-basis",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:yarn-measurement:sample-basis",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:sample-basis",
+    "to": "atlas:alu:profession-domain:yarn-measurement:length-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:profession-domain:yarn-measurement:length-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:repeat-unit",
+    "to": "atlas:alu:profession-domain:yarn-measurement:length-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:yarn-measurement:length-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:sample-basis",
+    "to": "atlas:alu:profession-domain:yarn-measurement:mass-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:length-method",
+    "to": "atlas:alu:profession-domain:yarn-measurement:mass-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:profession-domain:yarn-measurement:mass-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:yarn-measurement:mass-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:length-method",
+    "to": "atlas:alu:profession-domain:yarn-measurement:direct-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:mass-method",
+    "to": "atlas:alu:profession-domain:yarn-measurement:direct-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-domain:yarn-measurement:direct-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:mathematics:proportion",
+    "to": "atlas:alu:profession-domain:yarn-measurement:direct-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:direct-count",
+    "to": "atlas:alu:profession-domain:yarn-measurement:inverse-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-domain:yarn-measurement:inverse-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:mathematics:fraction",
+    "to": "atlas:alu:profession-domain:yarn-measurement:inverse-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:direct-count",
+    "to": "atlas:alu:profession-domain:yarn-measurement:direct-conversion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:mathematics:proportion",
+    "to": "atlas:alu:profession-domain:yarn-measurement:direct-conversion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:inverse-count",
+    "to": "atlas:alu:profession-domain:yarn-measurement:cotton-conversion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:direct-conversion",
+    "to": "atlas:alu:profession-domain:yarn-measurement:cotton-conversion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:mathematics:proportion",
+    "to": "atlas:alu:profession-domain:yarn-measurement:cotton-conversion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:434e926b-89bb-4720-a5c6-65ddb8e733b5:1",
+    "to": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:sample-basis",
+    "to": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:length-method",
+    "to": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:mass-method",
+    "to": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:direct-count",
+    "to": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:inverse-count",
+    "to": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:direct-conversion",
+    "to": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:cotton-conversion",
+    "to": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "to": "atlas:esco-breakdown:434e926b-89bb-4720-a5c6-65ddb8e733b5:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:handover",
+    "to": "atlas:esco-breakdown:434e926b-89bb-4720-a5c6-65ddb8e733b5:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/434e926b-89bb-4720-a5c6-65ddb8e733b5",
+    "to": "atlas:alu:profession-domain:yarn-measurement:sample-basis",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/434e926b-89bb-4720-a5c6-65ddb8e733b5",
+    "to": "atlas:alu:profession-domain:yarn-measurement:length-method",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/434e926b-89bb-4720-a5c6-65ddb8e733b5",
+    "to": "atlas:alu:profession-domain:yarn-measurement:mass-method",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/434e926b-89bb-4720-a5c6-65ddb8e733b5",
+    "to": "atlas:alu:profession-domain:yarn-measurement:direct-count",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/434e926b-89bb-4720-a5c6-65ddb8e733b5",
+    "to": "atlas:alu:profession-domain:yarn-measurement:inverse-count",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/434e926b-89bb-4720-a5c6-65ddb8e733b5",
+    "to": "atlas:alu:profession-domain:yarn-measurement:direct-conversion",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/434e926b-89bb-4720-a5c6-65ddb8e733b5",
+    "to": "atlas:alu:profession-domain:yarn-measurement:cotton-conversion",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/434e926b-89bb-4720-a5c6-65ddb8e733b5",
+    "to": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:09853c3b-6784-456f-abe9-c9f44bf872bc:1",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:6d9f05ed-9ada-4604-9670-2df3bb439050:1",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:stitching-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:profession-domain:apparel-inspection:stitching-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:stitching-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:construction-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:construction-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:attachment-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:accessory-characteristics",
+    "to": "atlas:alu:profession-domain:apparel-inspection:attachment-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:attachment-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:attachment-check",
+    "to": "atlas:alu:profession-domain:apparel-inspection:fastener-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:fastener-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:attachment-check",
+    "to": "atlas:alu:profession-domain:apparel-inspection:embellishment-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:embellishment-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:shading-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:shading-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:pattern-continuity",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:pattern-continuity",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:pattern-continuity",
+    "to": "atlas:alu:profession-domain:apparel-inspection:pattern-matching",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:profession-domain:apparel-inspection:pattern-matching",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:tapes-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:attachment-check",
+    "to": "atlas:alu:profession-domain:apparel-inspection:tapes-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:accessory-characteristics",
+    "to": "atlas:alu:profession-domain:apparel-inspection:tapes-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:construction-check",
+    "to": "atlas:alu:profession-domain:apparel-inspection:lining-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:lining-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:fabric-characteristics",
+    "to": "atlas:alu:profession-domain:apparel-inspection:lining-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:stitching-check",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:construction-check",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:attachment-check",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:fastener-check",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:embellishment-check",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:shading-check",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:pattern-continuity",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:pattern-matching",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:tapes-check",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:lining-check",
+    "to": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:visual-inspection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:visual-inspection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:decision-rule",
+    "to": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:1",
+    "to": "atlas:alu:profession-domain:apparel-inspection:functional-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:functional-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:apparel-inspection:functional-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:visual-inspection",
+    "to": "atlas:alu:profession-domain:apparel-inspection:conformity-decision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "to": "atlas:alu:profession-domain:apparel-inspection:conformity-decision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:functional-test",
+    "to": "atlas:alu:profession-domain:apparel-inspection:conformity-decision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:decision-rule",
+    "to": "atlas:alu:profession-domain:apparel-inspection:conformity-decision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:conformity-decision",
+    "to": "atlas:alu:profession-domain:apparel-inspection:nonconforming-disposition",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:apparel-inspection:nonconforming-disposition",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:apparel-inspection:nonconforming-disposition",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:visual-inspection",
+    "to": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "to": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:functional-test",
+    "to": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:conformity-decision",
+    "to": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:nonconforming-disposition",
+    "to": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:stitching-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:construction-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:attachment-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:fastener-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:embellishment-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:shading-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:pattern-continuity",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:pattern-matching",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:tapes-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/018164df-2814-4926-bdf7-398d86b9dfe6",
+    "to": "atlas:alu:profession-domain:apparel-inspection:lining-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5174d7e4-bb67-403c-930e-9afc5e2f8f6e",
+    "to": "atlas:alu:profession-domain:apparel-inspection:visual-inspection",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5174d7e4-bb67-403c-930e-9afc5e2f8f6e",
+    "to": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5174d7e4-bb67-403c-930e-9afc5e2f8f6e",
+    "to": "atlas:alu:profession-domain:apparel-inspection:functional-test",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5174d7e4-bb67-403c-930e-9afc5e2f8f6e",
+    "to": "atlas:alu:profession-domain:apparel-inspection:conformity-decision",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5174d7e4-bb67-403c-930e-9afc5e2f8f6e",
+    "to": "atlas:alu:profession-domain:apparel-inspection:nonconforming-disposition",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:6d9f05ed-9ada-4604-9670-2df3bb439050:1",
+    "to": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "to": "atlas:alu:profession-domain:textile-line-quality:yarn-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:yarn-measurement:form-transfer",
+    "to": "atlas:alu:profession-domain:textile-line-quality:yarn-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:visual-inspection",
+    "to": "atlas:alu:profession-domain:textile-line-quality:yarn-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "to": "atlas:alu:profession-domain:textile-line-quality:woven-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:fabric-characteristics",
+    "to": "atlas:alu:profession-domain:textile-line-quality:woven-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "to": "atlas:alu:profession-domain:textile-line-quality:woven-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "to": "atlas:alu:profession-domain:textile-line-quality:knitted-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:fabric-behaviour",
+    "to": "atlas:alu:profession-domain:textile-line-quality:knitted-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "to": "atlas:alu:profession-domain:textile-line-quality:knitted-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "to": "atlas:alu:profession-domain:textile-line-quality:braided-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "to": "atlas:alu:profession-domain:textile-line-quality:braided-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:textile-line-quality:braided-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "to": "atlas:alu:profession-domain:textile-line-quality:tufted-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "to": "atlas:alu:profession-domain:textile-line-quality:tufted-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:textile-line-quality:tufted-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "to": "atlas:alu:profession-domain:textile-line-quality:nonwoven-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:fabric-characteristics",
+    "to": "atlas:alu:profession-domain:textile-line-quality:nonwoven-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:textile-line-quality:nonwoven-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "to": "atlas:alu:profession-domain:textile-line-quality:finished-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:fabric-behaviour",
+    "to": "atlas:alu:profession-domain:textile-line-quality:finished-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:apparel-inspection:dimensional-test",
+    "to": "atlas:alu:profession-domain:textile-line-quality:finished-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:1",
+    "to": "atlas:alu:profession-domain:textile-line-quality:garment-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:garment-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:garment-stage",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:yarn-stage",
+    "to": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:woven-stage",
+    "to": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:knitted-stage",
+    "to": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:braided-stage",
+    "to": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:tufted-stage",
+    "to": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:nonwoven-stage",
+    "to": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:finished-stage",
+    "to": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:garment-stage",
+    "to": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "to": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:result-evidence",
+    "to": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fe309116-eea5-4b23-8748-316c927af6e2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:yarn-stage",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fe309116-eea5-4b23-8748-316c927af6e2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:woven-stage",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fe309116-eea5-4b23-8748-316c927af6e2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:knitted-stage",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fe309116-eea5-4b23-8748-316c927af6e2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:braided-stage",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fe309116-eea5-4b23-8748-316c927af6e2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:tufted-stage",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fe309116-eea5-4b23-8748-316c927af6e2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:nonwoven-stage",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fe309116-eea5-4b23-8748-316c927af6e2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:finished-stage",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fe309116-eea5-4b23-8748-316c927af6e2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:garment-stage",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fe309116-eea5-4b23-8748-316c927af6e2",
+    "to": "atlas:alu:profession-domain:textile-line-quality:stage-comparison",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:yarn-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:434e926b-89bb-4720-a5c6-65ddb8e733b5:2",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:yarn-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:garment-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:018164df-2814-4926-bdf7-398d86b9dfe6:2",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:garment-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:inspection-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5174d7e4-bb67-403c-930e-9afc5e2f8f6e:2",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:inspection-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:line-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fe309116-eea5-4b23-8748-316c927af6e2:2",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:line-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:2",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:line-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:standards-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:50ab7296-bc34-4cb1-9fdb-7cf7b6f80f9c:2",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:standards-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:environmental-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fdfb348c-6aaf-4815-8f50-2f665287c422:2",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:environmental-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:quality-evaluation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:60097ce1-0f58-417b-b9c2-053d96300d49:2",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:quality-evaluation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-contract",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:quality-evaluation",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-contract",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c241f5a5-e23f-47bf-ad24-d83ea0010166:2",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-contract",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:system-contract",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-implementation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-implementation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-cells",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-implementation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-implementation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:system-implementation",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-management",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:line-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-management",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:result-evidence",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-management",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-management",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:system-implementation",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-promotion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:promotion-knowledge:active-listening",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-promotion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-promotion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:system-promotion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:yarn-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:product-adherence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:garment-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:product-adherence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:inspection-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:product-adherence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:line-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:product-adherence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:system-management",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:product-adherence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:system-promotion",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:product-adherence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:brief",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:yarn-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:garment-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:inspection-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:line-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:standards-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:environmental-work",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:quality-evaluation",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:system-contract",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:system-implementation",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:system-management",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:system-promotion",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-quality-manager:product-adherence",
+    "to": "atlas:alu:profession-domain:textile-quality-manager:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:6d9f05ed-9ada-4604-9670-2df3bb439050:1",
+    "to": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:1",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:web-formations",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:web-formations",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:web-formations",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:filament-principles",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:filament-principles",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:web-formations",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:bonding-principles",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:filament-principles",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:bonding-principles",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:1",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:specification-manufacture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:web-formations",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:specification-manufacture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:filament-principles",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:specification-manufacture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:bonding-principles",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:specification-manufacture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:specification-manufacture",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:property-evaluation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:nonwoven-stage",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:property-evaluation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:property-evaluation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:specification-manufacture",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:development-choices",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:property-evaluation",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:development-choices",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:development-choices",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:web-formations",
+    "to": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:filament-principles",
+    "to": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:bonding-principles",
+    "to": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:specification-manufacture",
+    "to": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:property-evaluation",
+    "to": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:development-choices",
+    "to": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:web-formations",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:filament-principles",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:bonding-principles",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:specification-manufacture",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:property-evaluation",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8",
+    "to": "atlas:alu:profession-domain:nonwoven-knowledge:development-choices",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:3162ece1-3630-498d-bb99-da1ae3bccc53:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:3162ece1-3630-498d-bb99-da1ae3bccc53:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:3162ece1-3630-498d-bb99-da1ae3bccc53:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:3162ece1-3630-498d-bb99-da1ae3bccc53:1",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:performance-needs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:performance-needs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:feasible-options",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:performance-needs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:performance-needs",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:measurable-contract",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:measurable-contract",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:decision-rule",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:measurable-contract",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:measurable-contract",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:material-choice",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-materials:fabric-characteristics",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:material-choice",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:feasible-options",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:material-choice",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:measurable-contract",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:verification-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:material-choice",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:verification-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:verification-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:3162ece1-3630-498d-bb99-da1ae3bccc53:1",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:performance-needs",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:measurable-contract",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:material-choice",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:verification-plan",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:document-create",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c241f5a5-e23f-47bf-ad24-d83ea0010166:2",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:review-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:result-evidence",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:review-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "to": "atlas:esco-breakdown:3162ece1-3630-498d-bb99-da1ae3bccc53:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:technical-textile-specifications:review-change",
+    "to": "atlas:esco-breakdown:3162ece1-3630-498d-bb99-da1ae3bccc53:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/3162ece1-3630-498d-bb99-da1ae3bccc53",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:performance-needs",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/3162ece1-3630-498d-bb99-da1ae3bccc53",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:measurable-contract",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/3162ece1-3630-498d-bb99-da1ae3bccc53",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:material-choice",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/3162ece1-3630-498d-bb99-da1ae3bccc53",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:verification-plan",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/3162ece1-3630-498d-bb99-da1ae3bccc53",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:developed-specification",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/3162ece1-3630-498d-bb99-da1ae3bccc53",
+    "to": "atlas:alu:profession-domain:technical-textile-specifications:review-change",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:4821dd3e-d9ec-43e7-8f22-a70ac5a6dcd8:2",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:17b3af3e-0bd5-4388-9fb4-db5d241aa9d8:1",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:1",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:process-readiness",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:workshop:method-setup",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:process-readiness",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:process-readiness",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:process-readiness",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:recipe-configuration",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:specification-manufacture",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:recipe-configuration",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:recipe-configuration",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:recipe-configuration",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:31dadcd2-7816-4330-a422-0fc5fb824229:2",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:nonwoven-stage",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:process-readiness",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:material-feed",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:recipe-configuration",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:material-feed",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:material-feed",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:material-feed",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:material-feed",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:filament-operation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:filament-operation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:filament-operation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:filament-operation",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:web-consolidation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-knowledge:bonding-principles",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:web-consolidation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:web-consolidation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:web-consolidation",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:output-collection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-line-quality:nonwoven-stage",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:output-collection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:output-collection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:deviation-response",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:output-collection",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:deviation-response",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:result-evidence",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:deviation-response",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:1",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-planning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:17b3af3e-0bd5-4388-9fb4-db5d241aa9d8:1",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-planning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-planning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:maintenance-planning",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:17b3af3e-0bd5-4388-9fb4-db5d241aa9d8:1",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:maintenance-state",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:maintenance-action",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:return-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:return-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:result-evidence",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:return-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:output-collection",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:efficiency-results",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:deviation-response",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:efficiency-results",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:return-verification",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:efficiency-results",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:efficiency-results",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:textile-process:productivity-monitor",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:efficiency-results",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:process-readiness",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:recipe-configuration",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:material-feed",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:filament-operation",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:web-consolidation",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:output-collection",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:deviation-response",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:maintenance-planning",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:maintenance-state",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:maintenance-action",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:return-verification",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:nonwoven-filament:efficiency-results",
+    "to": "atlas:esco-breakdown:8f0d955b-8aff-4fcb-9691-dde0ad72baa6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:process-readiness",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:recipe-configuration",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:process-monitoring",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:material-feed",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:filament-operation",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:web-consolidation",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:output-collection",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:deviation-response",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-planning",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-state",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:maintenance-action",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:return-verification",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/8f0d955b-8aff-4fcb-9691-dde0ad72baa6",
+    "to": "atlas:alu:profession-domain:nonwoven-filament:efficiency-results",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:nonwoven-technician:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:nonwoven-technician:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  }
+]

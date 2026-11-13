@@ -1,0 +1,17 @@
+{
+  "format": 1,
+  "policy_version": 1,
+  "summary": {
+    "targets": 13990,
+    "esco_targets": 13939,
+    "atlas_targets": 51,
+    "unlinked_targets": 464,
+    "connected": 5805,
+    "all_inputs_connected": 5798,
+    "authored_complete": 0,
+    "missing_breakdown": 7991,
+    "whole_activity_designs": 0
+  },
+  "target_ids_sha256": "a2b88167bbd9acbcebc1d42ab983494e5ce0e664b02b900b2e57caf81f78ea6d",
+  "note": "Initial all-skill audit before the precision split. Counts describe recorded structure and authoring, not validated learning routes."
+}

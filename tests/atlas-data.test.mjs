@@ -9,12 +9,14 @@ import { execFileSync } from 'node:child_process'
 import { effectScope, nextTick } from 'vue'
 import { parse, compileScript } from '@vue/compiler-sfc'
 import { compileDataset, readDataset, root, nodeSections, edgeSections, summaryFields, edgeFields } from '../scripts/atlas-data.mjs'
+import { decodeStringTable } from '../src/catalogue-encoding.js'
 import { decodeIndex, loadAtlasData } from '../src/atlas-loader.js'
 import { createReviewFingerprinter } from '../scripts/review-model.mjs'
 
 const source = await readDataset()
 const { index, files } = compileDataset(source)
 const compact = decodeIndex(index)
+const strings = decodeStringTable(index.strings)
 const records = nodeSections.flatMap(section => source[section] || [])
 const byId = new Map(records.map(record => [record.id, record]))
 const project = (record, fields) => Object.fromEntries(fields.filter(field => record[field] !== undefined).map(field => [field, record[field]]))
@@ -52,6 +54,17 @@ test('the complete graph survives compilation with all IDs and calculation flags
   for (const text of files.values()) assert.ok(Buffer.byteLength(text) < 512 * 1024, 'Keep detail batches below 512 KiB')
 })
 
+test('pilot and comparison routes use the existing string table without dropping requirements, source scope or progress identifiers',()=>{
+ assert.equal(index.format,4)
+ assert.equal(Object.hasOwn(index,'pilot_pathway'),false)
+ assert.equal(Object.hasOwn(index,'pathway_exploration'),false)
+ assert.deepEqual(compact.pilot_pathway,source.pilot_pathway)
+ assert.deepEqual(compact.pathway_exploration,source.pathway_exploration)
+ const frequency=new Map()
+ for(const value of strings)frequency.set(value,(frequency.get(value)||0)+1)
+ for(const route of [source.pilot_pathway,...source.pathway_exploration.routes])for(const id of [...route.entry_ids,...route.end_ids,...route.steps.flatMap(step=>[step.id,...step.requires])])assert.equal(frequency.get(id),1,id)
+})
+
 test('invalid graph references and duplicate IDs fail the build', () => {
   assert.throws(() => compileDataset({ ...source, roles: [...source.roles, source.roles[0]] }), /duplicate/)
   assert.throws(() => compileDataset({ ...source, decompositions: [{ from: 'missing', to: records[0].id }] }), /Dangling/)
@@ -82,7 +95,7 @@ test('startup loads no details; simultaneous requests share one batch; failures 
   await loadDetail(id)
   assert.equal(calls.length, 2)
   const otherRow = index.nodes.find(row => row.at(-1) !== index.nodes[0].at(-1))
-  const otherId = index.strings[otherRow[0]], file = index.chunks[otherRow.at(-1)]
+  const otherId = strings[otherRow[0]], file = index.chunks[otherRow.at(-1)]
   failures.add(file)
   await assert.rejects(loadDetail(otherId), error => error.status === 503 && error.action === 'retry')
   failures.delete(file)
@@ -94,9 +107,9 @@ test('detail memory is bounded and incomplete batches cannot silently hide recor
   const { calls, fetcher } = mockFetch()
   const { loadDetail } = await loadAtlasData({ fetcher, maxCachedChunks: 1 })
   const first = index.nodes[0], second = index.nodes.find(row => row.at(-1) !== first.at(-1))
-  await loadDetail(index.strings[first[0]])
-  await loadDetail(index.strings[second[0]])
-  await loadDetail(index.strings[first[0]])
+  await loadDetail(strings[first[0]])
+  await loadDetail(strings[second[0]])
+  await loadDetail(strings[first[0]])
   assert.equal(calls.length, 4)
   const broken = await loadAtlasData({ fetcher: async url => ({ ok: true, json: async () => url.endsWith('index.json') ? index : [] }) })
   await assert.rejects(broken.loadDetail(records[0].id), /incomplete/)
@@ -286,5 +299,49 @@ test('late detail responses cannot replace a newer focus; errors offer a working
     await retry
     assert.equal(state.detailError.value, '')
     assert.equal(state.focusNode.value.id, first)
+  } finally { stop() }
+})
+
+test('practice loads details on demand, ignores late lesson responses and keeps checks separate from route completion', async () => {
+  const pending = new Map(), start = 'atlas:alu:development:communication:respond-to-early-signals'
+  const { state, stop } = setup(compact, { completed: [start] }, id => new Promise((resolve, reject) => pending.set(id, { resolve, reject })))
+  try {
+    const [first, second] = source.quantity_practice.lessons
+    assert.equal(pending.has(first.node_id), false)
+    state.openPractice(); await nextTick()
+    assert.ok(pending.has(first.node_id))
+    state.practiceLessonId.value = second.id; await nextTick()
+    pending.get(second.node_id).resolve(byId.get(second.node_id)); await nextTick(); await nextTick()
+    assert.equal(state.practiceExercise.value.id, second.id)
+    pending.get(first.node_id).resolve(byId.get(first.node_id)); await nextTick(); await nextTick()
+    assert.equal(state.practiceExercise.value.id, second.id)
+    const question = state.practiceExercise.value.questions[0], key = state.practiceRecordKey(question)
+    Object.assign(state.practiceAttempts.value[key], { answer: '12', unit: 'cm', method: 'unaided' })
+    state.checkPractice(question); await nextTick()
+    assert.equal(state.practiceState(question).kind, 'correct')
+    state.revealPractice(question); state.checkPractice(question); await nextTick()
+    assert.equal(state.practiceAttempts.value[key].method, 'reference')
+    assert.equal(JSON.parse(localStorage.getItem('atlas-learner:quantityPractice'))[key].solution_viewed, true)
+    assert.deepEqual(state.completed.value, [start])
+    state.practiceAttempts.value[key].answer = '6'
+    assert.equal(state.practiceState(question).kind, 'edited')
+  } finally { stop() }
+})
+
+test('failed or obsolete practice downloads preserve saved records and recover on retry', async () => {
+  const first = source.quantity_practice.lessons[0], saved = { answer: '12', unit: 'items', method: 'reference' }
+  let fail = true
+  const { state, stop } = setup(compact, { quantityPractice: { 'quantity:count:total': saved } }, async id => {
+    if (id === first.node_id && fail) throw Object.assign(new Error('Practice asset expired'), { action: 'reload' })
+    return byId.get(id)
+  })
+  try {
+    state.openPractice(); await nextTick(); await nextTick()
+    assert.equal(state.practiceError.value.action, 'reload')
+    assert.deepEqual(state.practiceAttempts.value['quantity:count:total'], saved)
+    fail = false; await state.fetchPractice()
+    assert.equal(state.practiceError.value, null)
+    assert.equal(state.practiceExercise.value.id, first.id)
+    assert.equal(state.practiceAttempts.value['quantity:count:total'].answer, '12')
   } finally { stop() }
 })

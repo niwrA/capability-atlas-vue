@@ -1,0 +1,3567 @@
+[
+  {
+    "from": "atlas:alu:profession-domain:leather-hand-stitcher:apparel-source",
+    "to": "atlas:alu:profession-domain:leather-hand-stitcher:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-hand-stitcher:repair-source",
+    "to": "atlas:alu:profession-domain:leather-hand-stitcher:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:a4cfad38-109a-4a61-8d01-98fd8cf001ce:2",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ec7fd241-e68f-4593-a42a-a12a9bd80cbc:2",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c6846331-2e11-45d6-ab8d-306c956332fc:2",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e54a3ed7-465f-432b-8940-2aeabeaa449e:2",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c2f06797-190e-4a74-b8c2-a988c3cc8186:2",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:38a6e9b0-e502-477c-9a9f-df1363984507:2",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:preparation-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f2ce1560-2a29-41e9-b81b-bbe1554202d8:2",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:preparation-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:source-machine-stitching",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c8d75bf4-ad0d-4f36-8cdc-265a7b044881:2",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:source-machine-stitching",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:preparation-work",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:hand-join",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:hand-sewing:secure-inspect",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:hand-join",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:decoration",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:hand-sewing:secure-inspect",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:decoration",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:hand-join",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:upper-sole",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-materials:bottom-assembly",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:upper-sole",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-technology:soling-stage",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:upper-sole",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:cab119c5-ff95-4499-b91a-54e9f6c5cde1:2",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:source-teamwork",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:preparation-work",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:source-teamwork",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:order-reference",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:preparation-work",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:source-machine-stitching",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:hand-join",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:decoration",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:upper-sole",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-hand-stitcher:source-teamwork",
+    "to": "atlas:alu:profession-domain:footwear-hand-stitcher:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-types:part-functions",
+    "to": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:1",
+    "to": "atlas:alu:profession-domain:last-types:last-classification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5529b063-ebdf-458a-8ac8-96474e72aebb:1",
+    "to": "atlas:alu:profession-domain:last-types:last-classification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:last-types:last-classification",
+    "to": "atlas:alu:profession-domain:last-types:last-placement",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:workshop:method-setup",
+    "to": "atlas:alu:profession-domain:last-types:last-placement",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:1",
+    "to": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:last-types:last-classification",
+    "to": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:last-types:last-placement",
+    "to": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f3880260-ef21-401c-a64f-a96f21dc968a",
+    "to": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:1",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f3880260-ef21-401c-a64f-a96f21dc968a",
+    "to": "atlas:alu:profession-domain:last-types:last-classification",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f3880260-ef21-401c-a64f-a96f21dc968a",
+    "to": "atlas:alu:profession-domain:last-types:last-placement",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f3880260-ef21-401c-a64f-a96f21dc968a",
+    "to": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:2",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:1",
+    "to": "atlas:alu:profession-foundation:geometry:point-displacement",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:scale",
+    "to": "atlas:alu:profession-foundation:geometry:point-displacement",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:construction-marks",
+    "to": "atlas:alu:profession-domain:pattern-grading:edge-allowance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:dimensions",
+    "to": "atlas:alu:profession-domain:pattern-grading:edge-allowance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:tolerance",
+    "to": "atlas:alu:profession-domain:pattern-grading:edge-allowance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:geometry:point-displacement",
+    "to": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-types:chart-correspondence",
+    "to": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:closed-outline",
+    "to": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:1",
+    "to": "atlas:alu:profession-domain:pattern-grading:graded-features",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-grading:edge-allowance",
+    "to": "atlas:alu:profession-domain:pattern-grading:graded-features",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:construction-marks",
+    "to": "atlas:alu:profession-domain:pattern-grading:graded-features",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-grading:graded-features",
+    "to": "atlas:alu:profession-domain:pattern-grading:accurate-cut",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:workshop:method-setup",
+    "to": "atlas:alu:profession-domain:pattern-grading:accurate-cut",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-grading:accurate-cut",
+    "to": "atlas:alu:profession-domain:pattern-grading:sampling-correction",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:recipient-brief",
+    "to": "atlas:alu:profession-domain:pattern-grading:sampling-correction",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:1",
+    "to": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-grading:graded-features",
+    "to": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-grading:accurate-cut",
+    "to": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-grading:sampling-correction",
+    "to": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5a9a6d45-f4e5-437a-8f2d-2671061917ea",
+    "to": "atlas:alu:profession-foundation:geometry:point-displacement",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5a9a6d45-f4e5-437a-8f2d-2671061917ea",
+    "to": "atlas:alu:profession-domain:pattern-grading:edge-allowance",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5a9a6d45-f4e5-437a-8f2d-2671061917ea",
+    "to": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:1",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5a9a6d45-f4e5-437a-8f2d-2671061917ea",
+    "to": "atlas:alu:profession-domain:pattern-grading:graded-features",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5a9a6d45-f4e5-437a-8f2d-2671061917ea",
+    "to": "atlas:alu:profession-domain:pattern-grading:accurate-cut",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5a9a6d45-f4e5-437a-8f2d-2671061917ea",
+    "to": "atlas:alu:profession-domain:pattern-grading:sampling-correction",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5a9a6d45-f4e5-437a-8f2d-2671061917ea",
+    "to": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:2",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:1",
+    "to": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:views",
+    "to": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ec7fd241-e68f-4593-a42a-a12a9bd80cbc:1",
+    "to": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:1",
+    "to": "atlas:alu:profession-domain:footwear-patterns:surface-correspondence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:dimensions",
+    "to": "atlas:alu:profession-domain:footwear-patterns:surface-correspondence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:surface-correspondence",
+    "to": "atlas:alu:profession-domain:footwear-patterns:shell-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:last-types:last-placement",
+    "to": "atlas:alu:profession-domain:footwear-patterns:shell-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:workshop:method-setup",
+    "to": "atlas:alu:profession-domain:footwear-patterns:shell-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:shell-capture",
+    "to": "atlas:alu:profession-domain:footwear-patterns:mean-form",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:surface-correspondence",
+    "to": "atlas:alu:profession-domain:footwear-patterns:mean-form",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:scale",
+    "to": "atlas:alu:profession-domain:footwear-patterns:mean-form",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:mean-form",
+    "to": "atlas:alu:profession-domain:footwear-patterns:upper-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-grading:edge-allowance",
+    "to": "atlas:alu:profession-domain:footwear-patterns:upper-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:closed-outline",
+    "to": "atlas:alu:profession-domain:footwear-patterns:upper-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:construction-marks",
+    "to": "atlas:alu:profession-domain:footwear-patterns:upper-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-materials:lining-layer",
+    "to": "atlas:alu:profession-domain:footwear-patterns:upper-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:mean-form",
+    "to": "atlas:alu:profession-domain:footwear-patterns:bottom-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-materials:bottom-assembly",
+    "to": "atlas:alu:profession-domain:footwear-patterns:bottom-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-grading:edge-allowance",
+    "to": "atlas:alu:profession-domain:footwear-patterns:bottom-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:closed-outline",
+    "to": "atlas:alu:profession-domain:footwear-patterns:bottom-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:1",
+    "to": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:mean-form",
+    "to": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:upper-patterns",
+    "to": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:bottom-patterns",
+    "to": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/10311d30-7788-4866-be1c-8235832b7cee",
+    "to": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:1",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/10311d30-7788-4866-be1c-8235832b7cee",
+    "to": "atlas:alu:profession-domain:footwear-patterns:surface-correspondence",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/10311d30-7788-4866-be1c-8235832b7cee",
+    "to": "atlas:alu:profession-domain:footwear-patterns:shell-capture",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/10311d30-7788-4866-be1c-8235832b7cee",
+    "to": "atlas:alu:profession-domain:footwear-patterns:mean-form",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/10311d30-7788-4866-be1c-8235832b7cee",
+    "to": "atlas:alu:profession-domain:footwear-patterns:upper-patterns",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/10311d30-7788-4866-be1c-8235832b7cee",
+    "to": "atlas:alu:profession-domain:footwear-patterns:bottom-patterns",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/10311d30-7788-4866-be1c-8235832b7cee",
+    "to": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:2",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:editor-reference",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:surface-correspondence",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:1",
+    "to": "atlas:alu:profession-domain:footwear-cad:virtual-flatten",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patterns:surface-correspondence",
+    "to": "atlas:alu:profession-domain:footwear-cad:virtual-flatten",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:alu:profession-domain:footwear-cad:virtual-flatten",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:1",
+    "to": "atlas:alu:profession-domain:footwear-cad:scanner-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:device-data",
+    "to": "atlas:alu:profession-domain:footwear-cad:scanner-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:editor-reference",
+    "to": "atlas:alu:profession-domain:footwear-cad:scanner-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:1",
+    "to": "atlas:alu:profession-domain:footwear-cad:tablet-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:device-data",
+    "to": "atlas:alu:profession-domain:footwear-cad:tablet-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:editor-reference",
+    "to": "atlas:alu:profession-domain:footwear-cad:tablet-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:closed-outline",
+    "to": "atlas:alu:profession-domain:footwear-cad:tablet-capture",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:virtual-flatten",
+    "to": "atlas:alu:profession-domain:footwear-cad:pattern-edit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:scanner-capture",
+    "to": "atlas:alu:profession-domain:footwear-cad:pattern-edit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:tablet-capture",
+    "to": "atlas:alu:profession-domain:footwear-cad:pattern-edit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:modify-feature",
+    "to": "atlas:alu:profession-domain:footwear-cad:pattern-edit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-grading:edge-allowance",
+    "to": "atlas:alu:profession-domain:footwear-cad:pattern-edit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:pattern-edit",
+    "to": "atlas:alu:profession-domain:footwear-cad:cad-grade",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:1",
+    "to": "atlas:alu:profession-domain:footwear-cad:cad-grade",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:geometry:point-displacement",
+    "to": "atlas:alu:profession-domain:footwear-cad:cad-grade",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:cad-grade",
+    "to": "atlas:alu:profession-domain:footwear-cad:cad-nesting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:nesting-variants",
+    "to": "atlas:alu:profession-domain:footwear-cad:cad-nesting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:pattern-edit",
+    "to": "atlas:alu:profession-domain:footwear-cad:technical-sheet",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:cad-grade",
+    "to": "atlas:alu:profession-domain:footwear-cad:technical-sheet",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:cad-nesting",
+    "to": "atlas:alu:profession-domain:footwear-cad:technical-sheet",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "to": "atlas:alu:profession-domain:footwear-cad:technical-sheet",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:send-copy",
+    "to": "atlas:alu:profession-domain:footwear-cad:technical-sheet",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:1",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:virtual-flatten",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:scanner-capture",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:tablet-capture",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:pattern-edit",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:cad-grade",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:cad-nesting",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:technical-sheet",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/73c7d0d9-092f-4f6e-800a-5759f45a6fc6",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:1",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/73c7d0d9-092f-4f6e-800a-5759f45a6fc6",
+    "to": "atlas:alu:profession-domain:footwear-cad:virtual-flatten",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/73c7d0d9-092f-4f6e-800a-5759f45a6fc6",
+    "to": "atlas:alu:profession-domain:footwear-cad:scanner-capture",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/73c7d0d9-092f-4f6e-800a-5759f45a6fc6",
+    "to": "atlas:alu:profession-domain:footwear-cad:tablet-capture",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/73c7d0d9-092f-4f6e-800a-5759f45a6fc6",
+    "to": "atlas:alu:profession-domain:footwear-cad:pattern-edit",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/73c7d0d9-092f-4f6e-800a-5759f45a6fc6",
+    "to": "atlas:alu:profession-domain:footwear-cad:cad-grade",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/73c7d0d9-092f-4f6e-800a-5759f45a6fc6",
+    "to": "atlas:alu:profession-domain:footwear-cad:cad-nesting",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/73c7d0d9-092f-4f6e-800a-5759f45a6fc6",
+    "to": "atlas:alu:profession-domain:footwear-cad:technical-sheet",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/73c7d0d9-092f-4f6e-800a-5759f45a6fc6",
+    "to": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5529b063-ebdf-458a-8ac8-96474e72aebb:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:a4cfad38-109a-4a61-8d01-98fd8cf001ce:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ec7fd241-e68f-4593-a42a-a12a9bd80cbc:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c6846331-2e11-45d6-ab8d-306c956332fc:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e54a3ed7-465f-432b-8940-2aeabeaa449e:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:design-brief",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:manual-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:manual-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:design-brief",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:cad-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:cad-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:manual-patterns",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:sample-approval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:cad-patterns",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:sample-approval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e54a3ed7-465f-432b-8940-2aeabeaa449e:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:sample-approval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:sample-approval",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:size-series",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:size-series",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:cad-grade",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:size-series",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:size-series",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:direction",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:nesting-variants",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:consumption",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:consumption",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:consumption",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:size-series",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:drawing-handoff",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:consumption",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:drawing-handoff",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:drawing-handoff",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:technical-sheet",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:drawing-handoff",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:cab119c5-ff95-4499-b91a-54e9f6c5cde1:2",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:teamwork",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:sample-approval",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:teamwork",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:drawing-handoff",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:teamwork",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:manual-patterns",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:machine-features",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:pattern-machinery:machinery-cycle",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:machine-features",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:design-brief",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:manual-patterns",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:cad-patterns",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:sample-approval",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:size-series",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:nesting-variants",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:consumption",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:drawing-handoff",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:teamwork",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-patternmaker:machine-features",
+    "to": "atlas:alu:profession-domain:footwear-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5529b063-ebdf-458a-8ac8-96474e72aebb:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:a4cfad38-109a-4a61-8d01-98fd8cf001ce:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ec7fd241-e68f-4593-a42a-a12a9bd80cbc:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c6846331-2e11-45d6-ab8d-306c956332fc:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e54a3ed7-465f-432b-8940-2aeabeaa449e:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f3880260-ef21-401c-a64f-a96f21dc968a:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:manual-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:10311d30-7788-4866-be1c-8235832b7cee:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:manual-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:cad-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:73c7d0d9-092f-4f6e-800a-5759f45a6fc6:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:cad-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:manual-patterns",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:sample-approval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:cad-patterns",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:sample-approval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e54a3ed7-465f-432b-8940-2aeabeaa449e:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:sample-approval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:sample-approval",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:size-series",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5a9a6d45-f4e5-437a-8f2d-2671061917ea:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:size-series",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:cad-grade",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:size-series",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:size-series",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:cad-nesting",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:nesting-variants",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:consumption",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:consumption",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:consumption",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:size-series",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:drawing-handoff",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:consumption",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:drawing-handoff",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:drawing-handoff",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad:technical-sheet",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:drawing-handoff",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:drawing-handoff",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:cab119c5-ff95-4499-b91a-54e9f6c5cde1:2",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:teamwork",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:sample-approval",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:teamwork",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:drawing-handoff",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:teamwork",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:design-brief",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:manual-patterns",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:cad-patterns",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:sample-approval",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:size-series",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:nesting-variants",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:consumption",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:drawing-handoff",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-cad-patternmaker:teamwork",
+    "to": "atlas:alu:profession-domain:footwear-cad-patternmaker:changed-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:acb43107-4354-40a5-8a82-9b9264fafacf:1",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:1",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:energy-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:17b3af3e-0bd5-4388-9fb4-db5d241aa9d8:1",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:energy-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:1",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:fault-evidence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:fault-evidence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:fault-evidence",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:diagnostic-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:energy-state",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:diagnostic-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:1",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:component-compatibility",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:component-compatibility",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:diagnostic-test",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:repair-process",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:component-compatibility",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:repair-process",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:energy-state",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:repair-process",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:1",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:lubrication-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:energy-state",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:lubrication-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:workshop:product-compatibility",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:lubrication-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:fault-evidence",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:preventive-corrective",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:repair-process",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:preventive-corrective",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:lubrication-reference",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:preventive-corrective",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:repair-process",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:verification-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:preventive-corrective",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:verification-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:workshop:parameter-change",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:verification-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:energy-state",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:fault-evidence",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:diagnostic-test",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:component-compatibility",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:repair-process",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:lubrication-reference",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:preventive-corrective",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:verification-reference",
+    "to": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/9379afee-37fd-419c-8c83-76e877b9f191",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:energy-state",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/9379afee-37fd-419c-8c83-76e877b9f191",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:fault-evidence",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/9379afee-37fd-419c-8c83-76e877b9f191",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:diagnostic-test",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/9379afee-37fd-419c-8c83-76e877b9f191",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:component-compatibility",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/9379afee-37fd-419c-8c83-76e877b9f191",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:repair-process",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/9379afee-37fd-419c-8c83-76e877b9f191",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:lubrication-reference",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/9379afee-37fd-419c-8c83-76e877b9f191",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:preventive-corrective",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/9379afee-37fd-419c-8c83-76e877b9f191",
+    "to": "atlas:alu:profession-domain:machine-maintenance-knowledge:verification-reference",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "to": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:workshop:work-reference",
+    "to": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:1",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:prepared-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:energy-state",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:prepared-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:workshop:method-setup",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:prepared-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:prepared-state",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:installation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:component-compatibility",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:installation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:prepared-state",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:programming",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:programming",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:edit-fields",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:programming",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:programming",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:prepared-state",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:tuning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:workshop:parameter-change",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:tuning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:verification-reference",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:tuning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:prepared-state",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:function-assessment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:verification-reference",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:function-assessment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:function-assessment",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:fault-diagnosis",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:diagnostic-test",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:fault-diagnosis",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:fault-diagnosis",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:repair",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:repair-process",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:repair",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:fault-diagnosis",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:replacement",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:component-compatibility",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:replacement",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:prepared-state",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:lubrication",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:lubrication-reference",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:lubrication",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:1",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:preventive-maintenance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:function-assessment",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:preventive-maintenance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:lubrication",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:preventive-maintenance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:fault-diagnosis",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:corrective-maintenance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:repair",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:corrective-maintenance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:replacement",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:corrective-maintenance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:tuning",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:corrective-maintenance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:installation",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:post-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:programming",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:post-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:tuning",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:post-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:preventive-maintenance",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:post-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:corrective-maintenance",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:post-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-maintenance-knowledge:verification-reference",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:post-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:1",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:technical-register",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:post-verification",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:technical-register",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:technical-register",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:post-verification",
+    "to": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:equipment-maintenance:technical-register",
+    "to": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:prepared-state",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:installation",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:programming",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:tuning",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:function-assessment",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:fault-diagnosis",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:repair",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:replacement",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:lubrication",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:preventive-maintenance",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:corrective-maintenance",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:post-verification",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+    "to": "atlas:alu:profession-domain:equipment-maintenance:technical-register",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:same-unit-sum",
+    "to": "atlas:alu:profession-foundation:measurement-data:cumulative-difference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-foundation:measurement-data:cumulative-difference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:cumulative-difference",
+    "to": "atlas:alu:profession-foundation:equipment-energy:quantity-scope",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-foundation:equipment-energy:quantity-scope",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:1",
+    "to": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:1",
+    "to": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:1",
+    "to": "atlas:alu:profession-domain:machine-monitoring:collection-trigger",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:alu:profession-domain:machine-monitoring:collection-trigger",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:1",
+    "to": "atlas:alu:profession-domain:machine-monitoring:collect-performance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-monitoring:collection-trigger",
+    "to": "atlas:alu:profession-domain:machine-monitoring:collect-performance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:cumulative-difference",
+    "to": "atlas:alu:profession-domain:machine-monitoring:collect-performance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:device-data",
+    "to": "atlas:alu:profession-domain:machine-monitoring:collect-performance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-monitoring:collect-performance",
+    "to": "atlas:alu:profession-domain:machine-monitoring:requirement-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-domain:machine-monitoring:requirement-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:1",
+    "to": "atlas:alu:profession-domain:machine-monitoring:requirement-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:1",
+    "to": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-monitoring:collection-trigger",
+    "to": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-monitoring:collect-performance",
+    "to": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:machine-monitoring:requirement-comparison",
+    "to": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/98fadee8-84f2-40fc-a199-292c01c9cbb0",
+    "to": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:1",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/98fadee8-84f2-40fc-a199-292c01c9cbb0",
+    "to": "atlas:alu:profession-domain:machine-monitoring:collection-trigger",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/98fadee8-84f2-40fc-a199-292c01c9cbb0",
+    "to": "atlas:alu:profession-domain:machine-monitoring:collect-performance",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/98fadee8-84f2-40fc-a199-292c01c9cbb0",
+    "to": "atlas:alu:profession-domain:machine-monitoring:requirement-comparison",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/98fadee8-84f2-40fc-a199-292c01c9cbb0",
+    "to": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:2",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:dispatch",
+    "to": "atlas:esco-breakdown:fa7be6bf-f906-4b8e-857d-48a9a7da901c:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:esco-breakdown:fa7be6bf-f906-4b8e-857d-48a9a7da901c:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:stock-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fa7be6bf-f906-4b8e-857d-48a9a7da901c:1",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:stock-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:identified-handling",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:risk-controls",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:risk-controls",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:risk-controls",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fa7be6bf-f906-4b8e-857d-48a9a7da901c:1",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:supply-chain-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:stock-control",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:supply-chain-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:risk-controls",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:supply-chain-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:capacity-plan",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:supply-chain-plan",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:stock-control",
+    "to": "atlas:esco-breakdown:fa7be6bf-f906-4b8e-857d-48a9a7da901c:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:risk-controls",
+    "to": "atlas:esco-breakdown:fa7be6bf-f906-4b8e-857d-48a9a7da901c:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:supply-chain-plan",
+    "to": "atlas:esco-breakdown:fa7be6bf-f906-4b8e-857d-48a9a7da901c:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ec7fd241-e68f-4593-a42a-a12a9bd80cbc:2",
+    "to": "atlas:esco-breakdown:d3533b90-0767-4875-a43a-247c4bdb279b:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:location-map",
+    "to": "atlas:esco-breakdown:d3533b90-0767-4875-a43a-247c4bdb279b:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:d3533b90-0767-4875-a43a-247c4bdb279b:1",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-selection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:layout-variants",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-selection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-selection",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-implementation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:wms-setup",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-implementation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:opening-balance",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-implementation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:layout-implementation",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-implementation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-selection",
+    "to": "atlas:esco-breakdown:d3533b90-0767-4875-a43a-247c4bdb279b:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-implementation",
+    "to": "atlas:esco-breakdown:d3533b90-0767-4875-a43a-247c4bdb279b:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:identified-handling",
+    "to": "atlas:esco-breakdown:078861f5-b901-48a5-951e-a3ad0a4fa0bd:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:078861f5-b901-48a5-951e-a3ad0a4fa0bd:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:078861f5-b901-48a5-951e-a3ad0a4fa0bd:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:078861f5-b901-48a5-951e-a3ad0a4fa0bd:1",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:pallet-jack-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:078861f5-b901-48a5-951e-a3ad0a4fa0bd:1",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:motorised-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:pallet-jack-method",
+    "to": "atlas:esco-breakdown:078861f5-b901-48a5-951e-a3ad0a4fa0bd:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse-skills:motorised-method",
+    "to": "atlas:esco-breakdown:078861f5-b901-48a5-951e-a3ad0a4fa0bd:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fa7be6bf-f906-4b8e-857d-48a9a7da901c",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:stock-control",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fa7be6bf-f906-4b8e-857d-48a9a7da901c",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:risk-controls",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fa7be6bf-f906-4b8e-857d-48a9a7da901c",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:supply-chain-plan",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/d3533b90-0767-4875-a43a-247c4bdb279b",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-selection",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/d3533b90-0767-4875-a43a-247c4bdb279b",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:layout-implementation",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/078861f5-b901-48a5-951e-a3ad0a4fa0bd",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:pallet-jack-method",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/078861f5-b901-48a5-951e-a3ad0a4fa0bd",
+    "to": "atlas:alu:profession-domain:footwear-warehouse-skills:motorised-method",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:component-impact",
+    "to": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:9379afee-37fd-419c-8c83-76e877b9f191:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "to": "atlas:alu:profession-domain:leather-maintenance:footwear-source-maintenance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:footwear-source-maintenance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "to": "atlas:alu:profession-domain:leather-maintenance:cutting-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:footwear-source-maintenance",
+    "to": "atlas:alu:profession-domain:leather-maintenance:cutting-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "to": "atlas:alu:profession-domain:leather-maintenance:stitching-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:footwear-source-maintenance",
+    "to": "atlas:alu:profession-domain:leather-maintenance:stitching-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "to": "atlas:alu:profession-domain:leather-maintenance:finishing-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:footwear-source-maintenance",
+    "to": "atlas:alu:profession-domain:leather-maintenance:finishing-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "to": "atlas:alu:profession-domain:leather-maintenance:supplementary-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:footwear-source-maintenance",
+    "to": "atlas:alu:profession-domain:leather-maintenance:supplementary-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:cutting-equipment",
+    "to": "atlas:alu:profession-domain:leather-maintenance:production-monitoring",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:stitching-equipment",
+    "to": "atlas:alu:profession-domain:leather-maintenance:production-monitoring",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:finishing-equipment",
+    "to": "atlas:alu:profession-domain:leather-maintenance:production-monitoring",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:supplementary-equipment",
+    "to": "atlas:alu:profession-domain:leather-maintenance:production-monitoring",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:98fadee8-84f2-40fc-a199-292c01c9cbb0:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:production-monitoring",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:production-monitoring",
+    "to": "atlas:alu:profession-domain:leather-maintenance:usage-energy-information",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:equipment-energy:quantity-scope",
+    "to": "atlas:alu:profession-domain:leather-maintenance:usage-energy-information",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:49298916-2090-4b08-ac57-5cfedaa5af36:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:environment-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:usage-energy-information",
+    "to": "atlas:alu:profession-domain:leather-maintenance:environment-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:7ff2c668-0e86-418a-a962-4958262ee337:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:communication-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:communication-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:usage-energy-information",
+    "to": "atlas:alu:profession-domain:leather-maintenance:communication-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:environment-work",
+    "to": "atlas:alu:profession-domain:leather-maintenance:communication-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:6bc57b80-37c8-4c9a-be7b-960d2e44fb77:2",
+    "to": "atlas:alu:profession-domain:leather-maintenance:foreign-exchanges",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "to": "atlas:alu:profession-domain:leather-maintenance:foreign-exchanges",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:equipment-brief",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:footwear-source-maintenance",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:cutting-equipment",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:stitching-equipment",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:finishing-equipment",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:supplementary-equipment",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:production-monitoring",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:usage-energy-information",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:environment-work",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:communication-data",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-maintenance:foreign-exchanges",
+    "to": "atlas:alu:profession-domain:leather-maintenance:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:available-stock",
+    "to": "atlas:alu:profession-foundation:supply:time-bounded-availability",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:alu:profession-foundation:supply:time-bounded-availability",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-foundation:supply:time-bounded-availability",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:a4cfad38-109a-4a61-8d01-98fd8cf001ce:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:warehouse-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ec7fd241-e68f-4593-a42a-a12a9bd80cbc:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:warehouse-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c6846331-2e11-45d6-ab8d-306c956332fc:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:warehouse-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e54a3ed7-465f-432b-8940-2aeabeaa449e:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:warehouse-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:warehouse-brief",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:classify-register",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:receiving",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:classify-register",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:classify-register",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:classify-register",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:storage-operations",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:7afb5a64-e574-421a-bb3a-7a7bc108d2a5:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:storage-operations",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:078861f5-b901-48a5-951e-a3ad0a4fa0bd:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:storage-operations",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:warehouse-brief",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:purchase-forecast",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:classify-register",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:purchase-forecast",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:supply:time-bounded-availability",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:purchase-forecast",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:count-reconciliation",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:purchase-forecast",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:storage-operations",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:departmental-kits",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:purchase-forecast",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:departmental-kits",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:picking",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:departmental-kits",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:dispatch",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:departmental-kits",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:warehouse-brief",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:layout-system",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:d3533b90-0767-4875-a43a-247c4bdb279b:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:layout-system",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:departmental-kits",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operations-management",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:layout-system",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operations-management",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:fa7be6bf-f906-4b8e-857d-48a9a7da901c:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operations-management",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:24530d21-e744-427d-98df-48164f2bfe1c:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:packing-expedition",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:classify-register",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:packing-expedition",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c5fdbd81-db10-4fc3-8cee-8b1a7169c472:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:equipment-maintenance-source",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:warehouse-brief",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:equipment-maintenance-source",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:business-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:operations-management",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:business-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:packing-expedition",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:business-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:equipment-maintenance-source",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:business-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:warehouse-brief",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:classify-register",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:storage-operations",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:purchase-forecast",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:departmental-kits",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:layout-system",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:operations-management",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:packing-expedition",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:equipment-maintenance-source",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:footwear-warehouse:business-data",
+    "to": "atlas:alu:profession-domain:footwear-warehouse:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "to": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:7e71fbcf-ebf8-4164-829b-e16b68aa9432:1",
+    "to": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:1",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:working-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:production:route-dependencies",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:working-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-methods:working-method",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:operation-sequence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:production:route-dependencies",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:operation-sequence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-methods:operation-sequence",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:work-distribution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:capacity-plan",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:work-distribution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:work-distribution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:1",
+    "to": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-methods:working-method",
+    "to": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-methods:operation-sequence",
+    "to": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-methods:work-distribution",
+    "to": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/45d9d702-504a-4b12-883a-e7155aadab99",
+    "to": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:1",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/45d9d702-504a-4b12-883a-e7155aadab99",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:working-method",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/45d9d702-504a-4b12-883a-e7155aadab99",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:operation-sequence",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/45d9d702-504a-4b12-883a-e7155aadab99",
+    "to": "atlas:alu:profession-domain:manufacturing-methods:work-distribution",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/45d9d702-504a-4b12-883a-e7155aadab99",
+    "to": "atlas:esco-breakdown:45d9d702-504a-4b12-883a-e7155aadab99:2",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-methods:working-method",
+    "to": "atlas:esco-breakdown:e8664a7b-aef5-4db7-89c6-fe50ba22ef07:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:cumulative-difference",
+    "to": "atlas:esco-breakdown:e8664a7b-aef5-4db7-89c6-fe50ba22ef07:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e8664a7b-aef5-4db7-89c6-fe50ba22ef07:1",
+    "to": "atlas:alu:profession-domain:work-measurement:element-boundaries",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manufacturing-methods:operation-sequence",
+    "to": "atlas:alu:profession-domain:work-measurement:element-boundaries",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-measurement:element-boundaries",
+    "to": "atlas:alu:profession-domain:work-measurement:direct-timing",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:cumulative-difference",
+    "to": "atlas:alu:profession-domain:work-measurement:direct-timing",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:arithmetic-mean",
+    "to": "atlas:alu:profession-domain:work-measurement:direct-timing",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-measurement:element-boundaries",
+    "to": "atlas:alu:profession-domain:work-measurement:standard-data-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:same-unit-sum",
+    "to": "atlas:alu:profession-domain:work-measurement:standard-data-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-measurement:direct-timing",
+    "to": "atlas:alu:profession-domain:work-measurement:operative-time",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-measurement:standard-data-method",
+    "to": "atlas:alu:profession-domain:work-measurement:operative-time",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:normalised-quantity",
+    "to": "atlas:alu:profession-domain:work-measurement:operative-time",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-measurement:operative-time",
+    "to": "atlas:alu:profession-domain:work-measurement:estimate-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:work-measurement:direct-timing",
+    "to": "atlas:alu:profession-domain:work-measurement:estimate-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:same-unit-sum",
+    "to": "atlas:alu:profession-domain:work-measurement:estimate-comparison",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e8664a7b-aef5-4db7-89c6-fe50ba22ef07:1",
+    "to": "atlas:esco-breakdown:e8664a7b-aef5-4db7-89c6-fe50ba22ef07:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  }
+]

@@ -5,11 +5,14 @@
   "type": "module",
   "scripts": {
     "data:build": "node scripts/build-data.mjs",
+    "data:audit": "node scripts/audit-pathways.mjs",
+    "data:professions": "node scripts/build-professions.mjs",
+    "data:audit-professions": "node scripts/audit-professions.mjs",
     "predev": "npm run data:build",
     "dev": "vite",
     "prebuild": "npm run data:build",
     "build": "vite build",
-    "test": "node --test && python -m unittest discover -s tests -p test_*.py",
+    "test": "node --test --test-concurrency=4 && python -m unittest discover -s tests -p test_*.py",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {

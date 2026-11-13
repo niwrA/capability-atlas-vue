@@ -1,0 +1,3555 @@
+[
+  {
+    "from": "atlas:esco-breakdown:e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:sheet-care-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:linen-services:hand-washing",
+    "to": "atlas:alu:profession-domain:domestic-methods:sheet-care-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:linen-services:protected-linen-handling",
+    "to": "atlas:alu:profession-domain:domestic-methods:sheet-care-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:sheet-care-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:mattress-turn",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:work-ergonomically-156f8c5b-2",
+    "to": "atlas:alu:profession-domain:domestic-methods:mattress-turn",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:mattress-turn",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:pillow-plump",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:linen-services:protected-linen-handling",
+    "to": "atlas:alu:profession-domain:domestic-methods:pillow-plump",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:pillow-plump",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:cushion-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:linen-services:protected-linen-handling",
+    "to": "atlas:alu:profession-domain:domestic-methods:cushion-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:cushion-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:sheet-care-change",
+    "to": "atlas:esco-breakdown:e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:mattress-turn",
+    "to": "atlas:esco-breakdown:e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:pillow-plump",
+    "to": "atlas:esco-breakdown:e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:cushion-change",
+    "to": "atlas:esco-breakdown:e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:288cca5e-5a5d-491a-b074-bcb31ee9fb7d:1",
+    "to": "atlas:esco-breakdown:04838ae5-a737-48a0-a782-3d1b6b6cb75b:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:04838ae5-a737-48a0-a782-3d1b6b6cb75b:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:esco-breakdown:04838ae5-a737-48a0-a782-3d1b6b6cb75b:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:04838ae5-a737-48a0-a782-3d1b6b6cb75b:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-hand-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:linen-services:hand-washing",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-hand-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:work-ergonomically-156f8c5b-2",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-hand-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-hand-method",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:clothes-hand-method",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-ready-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:04838ae5-a737-48a0-a782-3d1b6b6cb75b:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-ready-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:linen-services:protected-linen-handling",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-ready-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-ready-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:clothes-hand-method",
+    "to": "atlas:esco-breakdown:04838ae5-a737-48a0-a782-3d1b6b6cb75b:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:clothes-ready-state",
+    "to": "atlas:esco-breakdown:04838ae5-a737-48a0-a782-3d1b6b6cb75b:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f20aedf0-6543-498d-b88e-0a32e604acbb:1",
+    "to": "atlas:esco-breakdown:c662be22-f17a-4ba0-894f-d720b20c44cf:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:c662be22-f17a-4ba0-894f-d720b20c44cf:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:c662be22-f17a-4ba0-894f-d720b20c44cf:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c662be22-f17a-4ba0-894f-d720b20c44cf:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:cooking-gear-load",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:kitchen-support:dishwasher-loading",
+    "to": "atlas:alu:profession-domain:domestic-methods:cooking-gear-load",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:cooking-gear-load",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c662be22-f17a-4ba0-894f-d720b20c44cf:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:meal-dishwashing",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:cooking-gear-load",
+    "to": "atlas:alu:profession-domain:domestic-methods:meal-dishwashing",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:kitchen-support:dishwasher-operation",
+    "to": "atlas:alu:profession-domain:domestic-methods:meal-dishwashing",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:kitchen-support:dishwasher-unload-check",
+    "to": "atlas:alu:profession-domain:domestic-methods:meal-dishwashing",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:meal-dishwashing",
+    "to": "atlas:alu:profession-domain:domestic-methods:dish-return",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c662be22-f17a-4ba0-894f-d720b20c44cf:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:dish-return",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:dish-return",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:meal-dishwashing",
+    "to": "atlas:esco-breakdown:c662be22-f17a-4ba0-894f-d720b20c44cf:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:dish-return",
+    "to": "atlas:esco-breakdown:c662be22-f17a-4ba0-894f-d720b20c44cf:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:288cca5e-5a5d-491a-b074-bcb31ee9fb7d:1",
+    "to": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:iron-setup",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:work-ergonomically-156f8c5b-2",
+    "to": "atlas:alu:profession-domain:domestic-methods:iron-setup",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:iron-setup",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:iron-setup",
+    "to": "atlas:alu:profession-domain:domestic-methods:textile-flattening",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:textile-flattening",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:textile-flattening",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:iron-setup",
+    "to": "atlas:alu:profession-domain:domestic-methods:textile-shaping",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:1",
+    "to": "atlas:alu:profession-domain:domestic-methods:textile-shaping",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:textile-shaping",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:textile-flattening",
+    "to": "atlas:alu:profession-domain:domestic-methods:ironed-final-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:textile-shaping",
+    "to": "atlas:alu:profession-domain:domestic-methods:ironed-final-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:iron-setup",
+    "to": "atlas:alu:profession-domain:domestic-methods:ironed-final-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-methods:ironed-final-state",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:textile-flattening",
+    "to": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:textile-shaping",
+    "to": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-methods:ironed-final-state",
+    "to": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d",
+    "to": "atlas:alu:profession-domain:domestic-methods:sheet-care-change",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d",
+    "to": "atlas:alu:profession-domain:domestic-methods:mattress-turn",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d",
+    "to": "atlas:alu:profession-domain:domestic-methods:pillow-plump",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d",
+    "to": "atlas:alu:profession-domain:domestic-methods:cushion-change",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/04838ae5-a737-48a0-a782-3d1b6b6cb75b",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-hand-method",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/04838ae5-a737-48a0-a782-3d1b6b6cb75b",
+    "to": "atlas:alu:profession-domain:domestic-methods:clothes-ready-state",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c662be22-f17a-4ba0-894f-d720b20c44cf",
+    "to": "atlas:alu:profession-domain:domestic-methods:cooking-gear-load",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c662be22-f17a-4ba0-894f-d720b20c44cf",
+    "to": "atlas:alu:profession-domain:domestic-methods:meal-dishwashing",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/c662be22-f17a-4ba0-894f-d720b20c44cf",
+    "to": "atlas:alu:profession-domain:domestic-methods:dish-return",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/562b1180-83e7-4041-8468-2f28d03b7893",
+    "to": "atlas:alu:profession-domain:domestic-methods:iron-setup",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/562b1180-83e7-4041-8468-2f28d03b7893",
+    "to": "atlas:alu:profession-domain:domestic-methods:textile-flattening",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/562b1180-83e7-4041-8468-2f28d03b7893",
+    "to": "atlas:alu:profession-domain:domestic-methods:textile-shaping",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/562b1180-83e7-4041-8468-2f28d03b7893",
+    "to": "atlas:alu:profession-domain:domestic-methods:ironed-final-state",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:brief",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:51a26193-9abe-4bce-9108-f50835be1c35:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:0162b701-6bb4-400a-b557-7996053d7daf:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ce2dbe33-9e13-47bb-91bf-00cf799ac34c:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:work-ergonomically-156f8c5b-2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:house-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:7bb01a18-4637-4535-ba18-258f48f705b8:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:house-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:4f1b6304-f54a-42f0-9604-5427a28d240f:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:house-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:329d7233-7231-4082-8ca4-0b5e295785aa:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:house-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:644617c8-fbe6-4755-b7f2-c3a623641e5b:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:house-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:cleaning:sweeping",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:house-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:d05ae693-dc7d-4073-8806-2782f117c24a:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:house-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:equipment-material-disinfection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:6ff01827-907d-43d8-b6e4-7162c1cf0aca:1",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:equipment-material-disinfection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:specialist-cleaning:surface-disinfection-method",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:equipment-material-disinfection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:equipment-material-disinfection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:linen-bed-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:linen-bed-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:288cca5e-5a5d-491a-b074-bcb31ee9fb7d:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:linen-bed-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:04838ae5-a737-48a0-a782-3d1b6b6cb75b:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:linen-bed-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:562b1180-83e7-4041-8468-2f28d03b7893:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:linen-bed-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:kitchen-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c662be22-f17a-4ba0-894f-d720b20c44cf:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:kitchen-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c747ab82-9c35-4bf6-ab90-b50b9a53d292:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:kitchen-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:6ff01827-907d-43d8-b6e4-7162c1cf0aca:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:kitchen-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:toilet-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:58a15a33-2b41-4a7e-bb8a-777328b5d82a:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:toilet-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:bb62b926-73ff-437d-aac1-5f8af6cc8e52:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:toilet-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:stock-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:00ec5333-e570-477b-9017-2e95fea0150a:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:stock-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:7b4bc709-5888-4f78-bbaf-fb760d4e2e4b:2",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:stock-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:brief",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:work-readiness",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:house-work",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:equipment-material-disinfection",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:linen-bed-work",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:kitchen-work",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:toilet-work",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:domestic-cleaner:stock-equipment",
+    "to": "atlas:alu:profession-domain:domestic-cleaner:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:cash:value-unit",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:bookkeeping-regulations-2ff405ec-1",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:transaction-basis",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:transaction-basis",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:transaction-basis",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:transaction-basis",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:account-meaning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:account-meaning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:account-meaning",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:journal-pair",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:same-unit-sum",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:journal-pair",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:journal-pair",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:journal-pair",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:posting-balances",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:same-unit-sum",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:posting-balances",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:tables",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:posting-balances",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:posting-balances",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:reconciliation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:reconciliation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:reconciliation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:reconciliation",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:correction-trace",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:correction-trace",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:correction-trace",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:bookkeeping-regulations-2ff405ec-1",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:regulatory-meaning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:regulatory-meaning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:regulatory-meaning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:regulatory-meaning",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:record-control-protocols",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:correction-trace",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:record-control-protocols",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:handover",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:record-control-protocols",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:bookkeeping-regulations-2ff405ec-1",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:transaction-basis",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:account-meaning",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:journal-pair",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:posting-balances",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:reconciliation",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:correction-trace",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:regulatory-meaning",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:record-control-protocols",
+    "to": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:transaction-basis",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:account-meaning",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:journal-pair",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:posting-balances",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:reconciliation",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:correction-trace",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:regulatory-meaning",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/2ff405ec-f59c-4a7b-84b6-9776a49582c4",
+    "to": "atlas:alu:profession-domain:bookkeeping-knowledge:record-control-protocols",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:450de541-797a-4da0-9fe4-a81471c8047d:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:esco-breakdown:450de541-797a-4da0-9fe4-a81471c8047d:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:450de541-797a-4da0-9fe4-a81471c8047d:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:450de541-797a-4da0-9fe4-a81471c8047d:1",
+    "to": "atlas:alu:profession-domain:sales-office:goods-supply-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:sales-office:goods-supply-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:profession-domain:sales-office:goods-supply-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:goods-supply-knowledge",
+    "to": "atlas:alu:profession-domain:sales-office:sales-finance-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "to": "atlas:alu:profession-domain:sales-office:sales-finance-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:450de541-797a-4da0-9fe4-a81471c8047d:1",
+    "to": "atlas:alu:profession-domain:sales-office:shop-presentation-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:sales-office:shop-presentation-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:sales-office:shop-presentation-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:goods-supply-knowledge",
+    "to": "atlas:esco-breakdown:450de541-797a-4da0-9fe4-a81471c8047d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:sales-finance-knowledge",
+    "to": "atlas:esco-breakdown:450de541-797a-4da0-9fe4-a81471c8047d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:shop-presentation-knowledge",
+    "to": "atlas:esco-breakdown:450de541-797a-4da0-9fe4-a81471c8047d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:1",
+    "to": "atlas:alu:profession-domain:sales-office:call-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-cells",
+    "to": "atlas:alu:profession-domain:sales-office:call-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:sales-office:call-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:1",
+    "to": "atlas:alu:profession-domain:sales-office:sold-product-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-cells",
+    "to": "atlas:alu:profession-domain:sales-office:sold-product-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:understand-counted-total",
+    "to": "atlas:alu:profession-domain:sales-office:sold-product-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:sales-office:sold-product-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:call-records",
+    "to": "atlas:alu:profession-domain:sales-office:new-account-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:understand-counted-total",
+    "to": "atlas:alu:profession-domain:sales-office:new-account-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:sales-office:new-account-count",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:1",
+    "to": "atlas:alu:profession-domain:sales-office:sales-cost-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:transaction-basis",
+    "to": "atlas:alu:profession-domain:sales-office:sales-cost-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:same-unit-sum",
+    "to": "atlas:alu:profession-domain:sales-office:sales-cost-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-calculation",
+    "to": "atlas:alu:profession-domain:sales-office:sales-cost-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:call-records",
+    "to": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:sold-product-records",
+    "to": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:new-account-count",
+    "to": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:sales-cost-records",
+    "to": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:ab986bc4-df92-4351-9ac1-aa75af943cf7:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:esco-breakdown:ab986bc4-df92-4351-9ac1-aa75af943cf7:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:ab986bc4-df92-4351-9ac1-aa75af943cf7:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:control-target",
+    "to": "atlas:alu:profession-domain:sales-office:key-character",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:sales-office:key-character",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:sales-office:key-character",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:key-character",
+    "to": "atlas:alu:profession-domain:sales-office:typed-sequence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:alu:profession-domain:sales-office:typed-sequence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:sales-office:typed-sequence",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ab986bc4-df92-4351-9ac1-aa75af943cf7:1",
+    "to": "atlas:alu:profession-domain:sales-office:typed-report",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:typed-sequence",
+    "to": "atlas:alu:profession-domain:sales-office:typed-report",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:document-create",
+    "to": "atlas:alu:profession-domain:sales-office:typed-report",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:basic-format",
+    "to": "atlas:alu:profession-domain:sales-office:typed-report",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:3d427a49-4f85-42cd-8a92-62d4a34f41a1:2",
+    "to": "atlas:esco-breakdown:ab986bc4-df92-4351-9ac1-aa75af943cf7:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:typed-report",
+    "to": "atlas:esco-breakdown:ab986bc4-df92-4351-9ac1-aa75af943cf7:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:76f22707-8d30-453f-9eb7-3376e2960311:2",
+    "to": "atlas:esco-breakdown:ab986bc4-df92-4351-9ac1-aa75af943cf7:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/450de541-797a-4da0-9fe4-a81471c8047d",
+    "to": "atlas:alu:profession-domain:sales-office:goods-supply-knowledge",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/450de541-797a-4da0-9fe4-a81471c8047d",
+    "to": "atlas:alu:profession-domain:sales-office:sales-finance-knowledge",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/450de541-797a-4da0-9fe4-a81471c8047d",
+    "to": "atlas:alu:profession-domain:sales-office:shop-presentation-knowledge",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/b0565bd9-29c8-42f6-b174-702970fc2f4f",
+    "to": "atlas:alu:profession-domain:sales-office:call-records",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/b0565bd9-29c8-42f6-b174-702970fc2f4f",
+    "to": "atlas:alu:profession-domain:sales-office:sold-product-records",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/b0565bd9-29c8-42f6-b174-702970fc2f4f",
+    "to": "atlas:alu:profession-domain:sales-office:new-account-count",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/b0565bd9-29c8-42f6-b174-702970fc2f4f",
+    "to": "atlas:alu:profession-domain:sales-office:sales-cost-records",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ab986bc4-df92-4351-9ac1-aa75af943cf7",
+    "to": "atlas:alu:profession-domain:sales-office:key-character",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ab986bc4-df92-4351-9ac1-aa75af943cf7",
+    "to": "atlas:alu:profession-domain:sales-office:typed-sequence",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ab986bc4-df92-4351-9ac1-aa75af943cf7",
+    "to": "atlas:alu:profession-domain:sales-office:typed-report",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:450de541-797a-4da0-9fe4-a81471c8047d:2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:brief",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:plan-contribution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:0839eea4-c57b-4c14-b19b-923fbedb5d88:2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:plan-contribution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:plan-contribution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:feasible-options",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:plan-contribution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:typed-report",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:plan-contribution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:brief",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:clerical-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ab986bc4-df92-4351-9ac1-aa75af943cf7:2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:clerical-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:7c3865d1-e5a9-4043-a7a4-2e9e30468c0b:2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:clerical-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:clerical-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:brief",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:sales-finance-knowledge",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:invoice-reference",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-calculation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:understand-counted-total",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-calculation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:same-unit-sum",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-calculation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-calculation",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-calculation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:invoice-reference",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:invoice-calculation",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:correction-trace",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-record:task-record-classification",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:invoice-verification",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:invoice-verification",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:accounting-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:accounting-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c241f5a5-e23f-47bf-ad24-d83ea0010166:2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:accounting-records",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:brief",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:data-compilation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:accounting-records",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:data-compilation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:b0565bd9-29c8-42f6-b174-702970fc2f4f:2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:data-compilation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-analysis:research-collection",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:data-compilation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:3e04e39d-9eb6-4167-ad2d-e3413f647e4e:2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:data-compilation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-record:task-record-classification",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:data-compilation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:data-compilation",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:departmental-reports",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-office:typed-report",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:departmental-reports",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:audience",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:departmental-reports",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-document:document-share",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:departmental-reports",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:76f22707-8d30-453f-9eb7-3376e2960311:2",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:departmental-reports",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:brief",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:plan-contribution",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:clerical-work",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:invoice-reference",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:invoice-calculation",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:invoice-verification",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:accounting-records",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:data-compilation",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:sales-support-assistant:departmental-reports",
+    "to": "atlas:alu:profession-domain:sales-support-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:4bd6e2ad-bf69-4198-b3ac-3baabd9da46e:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:offer-response",
+    "to": "atlas:esco-breakdown:4bd6e2ad-bf69-4198-b3ac-3baabd9da46e:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:4bd6e2ad-bf69-4198-b3ac-3baabd9da46e:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:4bd6e2ad-bf69-4198-b3ac-3baabd9da46e:1",
+    "to": "atlas:alu:profession-domain:manager-support:support-options",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:feasible-options",
+    "to": "atlas:alu:profession-domain:manager-support:support-options",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:alu:profession-domain:manager-support:support-options",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manager-support:support-options",
+    "to": "atlas:alu:profession-domain:manager-support:support-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:retrieve",
+    "to": "atlas:alu:profession-domain:manager-support:support-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:document-create",
+    "to": "atlas:alu:profession-domain:manager-support:support-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-document:document-share",
+    "to": "atlas:alu:profession-domain:manager-support:support-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:handover",
+    "to": "atlas:alu:profession-domain:manager-support:support-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manager-support:support-options",
+    "to": "atlas:esco-breakdown:4bd6e2ad-bf69-4198-b3ac-3baabd9da46e:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:manager-support:support-action",
+    "to": "atlas:esco-breakdown:4bd6e2ad-bf69-4198-b3ac-3baabd9da46e:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/4bd6e2ad-bf69-4198-b3ac-3baabd9da46e",
+    "to": "atlas:alu:profession-domain:manager-support:support-options",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/4bd6e2ad-bf69-4198-b3ac-3baabd9da46e",
+    "to": "atlas:alu:profession-domain:manager-support:support-action",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:1",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:word-processing-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:word-processing-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:1",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:spreadsheet-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:tables",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:spreadsheet-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:spreadsheet-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:1",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:presentation-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:audience",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:presentation-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:presentation-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:1",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:email-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:audience",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:email-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:email-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:1",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:database-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:tables",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:database-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:database-knowledge",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-software-knowledge:word-processing-knowledge",
+    "to": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-software-knowledge:spreadsheet-knowledge",
+    "to": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-software-knowledge:presentation-knowledge",
+    "to": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-software-knowledge:email-knowledge",
+    "to": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-software-knowledge:database-knowledge",
+    "to": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf310cff-0d28-4dbc-9dbb-cc500a3196c2",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:word-processing-knowledge",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf310cff-0d28-4dbc-9dbb-cc500a3196c2",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:spreadsheet-knowledge",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf310cff-0d28-4dbc-9dbb-cc500a3196c2",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:presentation-knowledge",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf310cff-0d28-4dbc-9dbb-cc500a3196c2",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:email-knowledge",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf310cff-0d28-4dbc-9dbb-cc500a3196c2",
+    "to": "atlas:alu:profession-domain:office-software-knowledge:database-knowledge",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:chain-reference",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:operation-paths",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:operation-paths",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:operation-paths",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:operation-paths",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:operation-resources",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:operation-resources",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:operation-resources",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:operation-paths",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-dependencies",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:operation-resources",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-dependencies",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-dependencies",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:chain-reference",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:operation-paths",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:operation-resources",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:chain-dependencies",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf579543-272b-43c8-b942-555836ae4241",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-reference",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf579543-272b-43c8-b942-555836ae4241",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:operation-paths",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf579543-272b-43c8-b942-555836ae4241",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:operation-resources",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf579543-272b-43c8-b942-555836ae4241",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-dependencies",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/cf579543-272b-43c8-b942-555836ae4241",
+    "to": "atlas:alu:profession-domain:supply-chain-knowledge:chain-cycle",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:transaction-basis",
+    "to": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:schedule-time-reference",
+    "to": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:1",
+    "to": "atlas:alu:profession-domain:financial-needs:current-funds",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:reconciliation",
+    "to": "atlas:alu:profession-domain:financial-needs:current-funds",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:understand-counted-total",
+    "to": "atlas:alu:profession-domain:financial-needs:current-funds",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-cells",
+    "to": "atlas:alu:profession-domain:financial-needs:current-funds",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:1",
+    "to": "atlas:alu:profession-domain:financial-needs:future-resource-costs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:understand-counted-total",
+    "to": "atlas:alu:profession-domain:financial-needs:future-resource-costs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:measurement-data:same-unit-sum",
+    "to": "atlas:alu:profession-domain:financial-needs:future-resource-costs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-calculation",
+    "to": "atlas:alu:profession-domain:financial-needs:future-resource-costs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:financial-needs:current-funds",
+    "to": "atlas:alu:profession-domain:financial-needs:time-phased-needs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:financial-needs:future-resource-costs",
+    "to": "atlas:alu:profession-domain:financial-needs:time-phased-needs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:schedule-time-reference",
+    "to": "atlas:alu:profession-domain:financial-needs:time-phased-needs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:alu:profession-domain:financial-needs:time-phased-needs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-cells",
+    "to": "atlas:alu:profession-domain:financial-needs:time-phased-needs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:financial-needs:time-phased-needs",
+    "to": "atlas:alu:profession-domain:financial-needs:forecast-revision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:alu:profession-domain:financial-needs:forecast-revision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:profession-domain:financial-needs:forecast-revision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:financial-needs:current-funds",
+    "to": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:financial-needs:future-resource-costs",
+    "to": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:financial-needs:time-phased-needs",
+    "to": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:financial-needs:forecast-revision",
+    "to": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+    "to": "atlas:alu:profession-domain:financial-needs:current-funds",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+    "to": "atlas:alu:profession-domain:financial-needs:future-resource-costs",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+    "to": "atlas:alu:profession-domain:financial-needs:time-phased-needs",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+    "to": "atlas:alu:profession-domain:financial-needs:forecast-revision",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:cf310cff-0d28-4dbc-9dbb-cc500a3196c2:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-knowledge:chain-cycle",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:manager-office-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:4bd6e2ad-bf69-4198-b3ac-3baabd9da46e:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:manager-office-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:71dde84c-0058-4c52-a556-523369333db8:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:manager-office-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:7c3865d1-e5a9-4043-a7a4-2e9e30468c0b:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:manager-office-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:0839eea4-c57b-4c14-b19b-923fbedb5d88:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:1973c966-f236-40c9-b2d4-5d71a89019be:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:3e04e39d-9eb6-4167-ad2d-e3413f647e4e:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:financial-planning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:financial-planning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:financial-planning",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:contract-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:contract-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:contract-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:regulatory-meaning",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:contract-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:contract-reference",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:contract-drafting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:document-create",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:contract-drafting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c241f5a5-e23f-47bf-ad24-d83ea0010166:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:contract-drafting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-document:document-share",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:contract-drafting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:purchase-order-preparation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-system:vendor-administration",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:purchase-order-preparation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-operation:order-reference",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:purchase-order-preparation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:purchase-order-preparation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:purchase-order-preparation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:invoice-draft",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:invoice-draft",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:invoice-draft",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-system:client-record-administration",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:invoice-draft",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:edit-fields",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:invoice-draft",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:invoice-draft",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:invoice-issue",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:correction-trace",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:invoice-issue",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-mail:mail-data-protection",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:invoice-issue",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:invoice-issue",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:inventory-reconciliation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:inventory-reconciliation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:count-reconciliation",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:inventory-reconciliation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:warehouse:available-stock",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:inventory-reconciliation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:distribution-communication",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:inventory-reconciliation",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:distribution-communication",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:76f22707-8d30-453f-9eb7-3376e2960311:2",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:distribution-communication",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-document:document-share",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:distribution-communication",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:distribution-communication",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:manager-office-work",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:three-process-follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:three-process-follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:financial-planning",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:three-process-follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:contract-drafting",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:three-process-follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:purchase-order-preparation",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:three-process-follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:invoice-issue",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:three-process-follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:inventory-reconciliation",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:three-process-follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:distribution-communication",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:three-process-follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:brief",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:manager-office-work",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:research-data-work",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:financial-planning",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:contract-reference",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:contract-drafting",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:purchase-order-preparation",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:invoice-draft",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:invoice-issue",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:inventory-reconciliation",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:distribution-communication",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:supply-chain-assistant:three-process-follow-up",
+    "to": "atlas:alu:profession-domain:supply-chain-assistant:operating-interval",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:bookkeeping-regulations-2ff405ec-2",
+    "to": "atlas:alu:manage-accounts-e2e15494-1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:manage-accounts-e2e15494-1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:manage-accounts-e2e15494-1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:manage-accounts-e2e15494-1",
+    "to": "atlas:alu:profession-domain:account-management:financial-work-programme",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+    "to": "atlas:alu:profession-domain:account-management:financial-work-programme",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:coordination:result-evidence",
+    "to": "atlas:alu:profession-domain:account-management:financial-work-programme",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:manage-accounts-e2e15494-1",
+    "to": "atlas:alu:profession-domain:account-management:financial-document-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:c241f5a5-e23f-47bf-ad24-d83ea0010166:2",
+    "to": "atlas:alu:profession-domain:account-management:financial-document-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:record-control-protocols",
+    "to": "atlas:alu:profession-domain:account-management:financial-document-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-document-control",
+    "to": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:posting-balances",
+    "to": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:reconciliation",
+    "to": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-cells",
+    "to": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "to": "atlas:alu:profession-domain:account-management:financial-calculation-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:office-suite:sheet-calculation",
+    "to": "atlas:alu:profession-domain:account-management:financial-calculation-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:financial-needs:future-resource-costs",
+    "to": "atlas:alu:profession-domain:account-management:financial-calculation-check",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "to": "atlas:alu:profession-domain:account-management:financial-decision-supervision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-calculation-check",
+    "to": "atlas:alu:profession-domain:account-management:financial-decision-supervision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:dccbdbb8-7266-4fb4-a4cf-29056f102f12:2",
+    "to": "atlas:alu:profession-domain:account-management:financial-decision-supervision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:regulatory-meaning",
+    "to": "atlas:alu:profession-domain:account-management:financial-decision-supervision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:account-management:financial-decision-supervision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-work-programme",
+    "to": "atlas:alu:profession-domain:account-management:financial-correction-review",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-document-control",
+    "to": "atlas:alu:profession-domain:account-management:financial-correction-review",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "to": "atlas:alu:profession-domain:account-management:financial-correction-review",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-calculation-check",
+    "to": "atlas:alu:profession-domain:account-management:financial-correction-review",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-decision-supervision",
+    "to": "atlas:alu:profession-domain:account-management:financial-correction-review",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:bookkeeping-knowledge:correction-trace",
+    "to": "atlas:alu:profession-domain:account-management:financial-correction-review",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:manage-accounts-e2e15494-1",
+    "to": "atlas:alu:manage-accounts-e2e15494-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-work-programme",
+    "to": "atlas:alu:manage-accounts-e2e15494-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-document-control",
+    "to": "atlas:alu:manage-accounts-e2e15494-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "to": "atlas:alu:manage-accounts-e2e15494-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-calculation-check",
+    "to": "atlas:alu:manage-accounts-e2e15494-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-decision-supervision",
+    "to": "atlas:alu:manage-accounts-e2e15494-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-correction-review",
+    "to": "atlas:alu:manage-accounts-e2e15494-2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+    "to": "atlas:alu:profession-domain:account-management:financial-work-programme",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+    "to": "atlas:alu:profession-domain:account-management:financial-document-control",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+    "to": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+    "to": "atlas:alu:profession-domain:account-management:financial-calculation-check",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+    "to": "atlas:alu:profession-domain:account-management:financial-decision-supervision",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+    "to": "atlas:alu:profession-domain:account-management:financial-correction-review",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:fundraising:fund-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:profession-domain:fundraising:fund-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:fundraising:fund-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:73e7e2f4-7e5f-4e6c-86c2-3b5fbd191172:2",
+    "to": "atlas:alu:profession-domain:fundraising:fund-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:fund-reference",
+    "to": "atlas:alu:profession-domain:fundraising:public-appeal",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:audience",
+    "to": "atlas:alu:profession-domain:fundraising:public-appeal",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:offer-response",
+    "to": "atlas:alu:profession-domain:fundraising:public-appeal",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:fund-reference",
+    "to": "atlas:alu:profession-domain:fundraising:event-collection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:public-appeal",
+    "to": "atlas:alu:profession-domain:fundraising:event-collection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:cash:value-unit",
+    "to": "atlas:alu:profession-domain:fundraising:event-collection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:fundraising:event-collection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:event-collection",
+    "to": "atlas:alu:profession-domain:fundraising:event-custody-result",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "to": "atlas:alu:profession-domain:fundraising:event-custody-result",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:fundraising:event-custody-result",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:fund-reference",
+    "to": "atlas:alu:profession-domain:fundraising:online-fundraising-tool",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:control-target",
+    "to": "atlas:alu:profession-domain:fundraising:online-fundraising-tool",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:alu:profession-domain:fundraising:online-fundraising-tool",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:fundraising:online-fundraising-tool",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:online-fundraising-tool",
+    "to": "atlas:alu:profession-domain:fundraising:online-gift-result",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:public-appeal",
+    "to": "atlas:alu:profession-domain:fundraising:online-gift-result",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-information-check",
+    "to": "atlas:alu:profession-domain:fundraising:online-gift-result",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:account-management:financial-calculation-check",
+    "to": "atlas:alu:profession-domain:fundraising:online-gift-result",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:fund-reference",
+    "to": "atlas:alu:profession-domain:fundraising:fundraising-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:public-appeal",
+    "to": "atlas:alu:profession-domain:fundraising:fundraising-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:event-collection",
+    "to": "atlas:alu:profession-domain:fundraising:fundraising-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:event-custody-result",
+    "to": "atlas:alu:profession-domain:fundraising:fundraising-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:online-fundraising-tool",
+    "to": "atlas:alu:profession-domain:fundraising:fundraising-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:fundraising:online-gift-result",
+    "to": "atlas:alu:profession-domain:fundraising:fundraising-cycle",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:profession-domain:fundraising:contact-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:profession-domain:fundraising:contact-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:73e7e2f4-7e5f-4e6c-86c2-3b5fbd191172:2",
+    "to": "atlas:alu:profession-domain:fundraising:contact-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  }
+]

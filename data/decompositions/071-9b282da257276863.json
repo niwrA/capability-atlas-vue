@@ -1,0 +1,3782 @@
+[
+  {
+    "from": "http://data.europa.eu/esco/skill/fea269a3-85e5-4953-a5b8-e9b7b275b7df",
+    "to": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fea269a3-85e5-4953-a5b8-e9b7b275b7df",
+    "to": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:1",
+    "to": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fea269a3-85e5-4953-a5b8-e9b7b275b7df:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feaefe50-fcbe-4c5f-acbd-580724bf6ba2",
+    "to": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas guided-skill-application activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feaefe50-fcbe-4c5f-acbd-580724bf6ba2",
+    "to": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas guided-skill-application activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:1",
+    "to": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:feaefe50-fcbe-4c5f-acbd-580724bf6ba2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feb717ff-fba6-4a91-aa10-ee11cf2da6b4",
+    "to": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas design-and-documentation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feb717ff-fba6-4a91-aa10-ee11cf2da6b4",
+    "to": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas design-and-documentation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:1",
+    "to": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:feb717ff-fba6-4a91-aa10-ee11cf2da6b4:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fecc4fba-8f4b-4fde-846e-045d9889aa76",
+    "to": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas planning-and-coordination activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fecc4fba-8f4b-4fde-846e-045d9889aa76",
+    "to": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas planning-and-coordination activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:1",
+    "to": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fecc4fba-8f4b-4fde-846e-045d9889aa76:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feceacee-d425-4e73-821a-02dfb85084db",
+    "to": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas design-and-documentation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/feceacee-d425-4e73-821a-02dfb85084db",
+    "to": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas design-and-documentation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:1",
+    "to": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:feceacee-d425-4e73-821a-02dfb85084db:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+    "to": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas digital-and-information activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+    "to": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas digital-and-information activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:1",
+    "to": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef5a450-6230-4a34-b3e3-764252dbdcec",
+    "to": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef5a450-6230-4a34-b3e3-764252dbdcec",
+    "to": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:1",
+    "to": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fef5a450-6230-4a34-b3e3-764252dbdcec:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef6422f-0186-4513-8dd8-a277aa6f556d",
+    "to": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas transport-and-logistics activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef6422f-0186-4513-8dd8-a277aa6f556d",
+    "to": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas transport-and-logistics activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:1",
+    "to": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fef6422f-0186-4513-8dd8-a277aa6f556d:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef8bb26-de6e-4784-b6a8-1cdfeaa667c9",
+    "to": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas rules-and-quality activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fef8bb26-de6e-4784-b6a8-1cdfeaa667c9",
+    "to": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas rules-and-quality activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:1",
+    "to": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fef8bb26-de6e-4784-b6a8-1cdfeaa667c9:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff207c62-ccd0-4788-b99a-996a14320fad",
+    "to": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas food-and-hospitality activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff207c62-ccd0-4788-b99a-996a14320fad",
+    "to": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas food-and-hospitality activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:1",
+    "to": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff207c62-ccd0-4788-b99a-996a14320fad:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff24c97f-dbb9-4b02-bf03-4cbe8aecb371",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas quantitative activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff24c97f-dbb9-4b02-bf03-4cbe8aecb371",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas quantitative activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:1",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:numeracy:solve-routine-number-problems",
+    "to": "atlas:esco-breakdown:ff24c97f-dbb9-4b02-bf03-4cbe8aecb371:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078",
+    "to": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078",
+    "to": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:1",
+    "to": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff27618d-43d0-4480-83ee-8b1a672da078:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff584c6e-520c-4187-ba90-1c9634bcc0ba",
+    "to": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas manufacturing-and-technical-work activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff584c6e-520c-4187-ba90-1c9634bcc0ba",
+    "to": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas manufacturing-and-technical-work activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:1",
+    "to": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff584c6e-520c-4187-ba90-1c9634bcc0ba:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff599c4c-f7bc-44fc-b75f-eea4b7178692",
+    "to": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff599c4c-f7bc-44fc-b75f-eea4b7178692",
+    "to": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:1",
+    "to": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff599c4c-f7bc-44fc-b75f-eea4b7178692:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff5e9b54-d141-4f5a-ad04-ddefd7d8843f",
+    "to": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas guided-skill-application activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff5e9b54-d141-4f5a-ad04-ddefd7d8843f",
+    "to": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas guided-skill-application activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:1",
+    "to": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff5e9b54-d141-4f5a-ad04-ddefd7d8843f:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff64e9fc-36dd-4035-872a-83aa41dc1ad9",
+    "to": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff64e9fc-36dd-4035-872a-83aa41dc1ad9",
+    "to": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:1",
+    "to": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff64e9fc-36dd-4035-872a-83aa41dc1ad9:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a",
+    "to": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a",
+    "to": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas communication-and-service activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:1",
+    "to": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff862044-d49e-4417-bf65-1ae2c0a47e5a:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34",
+    "to": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas public-safety-and-rights activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34",
+    "to": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas public-safety-and-rights activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:1",
+    "to": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ff8bd17c-77e9-4d4e-929a-a0cf86f3ed34:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffa1d58b-ba09-49bd-a982-e743b2237006",
+    "to": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffa1d58b-ba09-49bd-a982-e743b2237006",
+    "to": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:1",
+    "to": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffa1d58b-ba09-49bd-a982-e743b2237006:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffaf5635-45b2-4192-8bd8-6987cfde04de",
+    "to": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffaf5635-45b2-4192-8bd8-6987cfde04de",
+    "to": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:1",
+    "to": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffaf5635-45b2-4192-8bd8-6987cfde04de:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc1e455-ced2-4e67-bdb3-1c50f9683859",
+    "to": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc1e455-ced2-4e67-bdb3-1c50f9683859",
+    "to": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:1",
+    "to": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffc1e455-ced2-4e67-bdb3-1c50f9683859:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1",
+    "to": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1",
+    "to": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:1",
+    "to": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffc2465f-d2b5-4b2d-bf6e-56eefbe02da1:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc8481d-1855-4c49-a711-f8dd3b0332c7",
+    "to": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas manufacturing-and-technical-work activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffc8481d-1855-4c49-a711-f8dd3b0332c7",
+    "to": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas manufacturing-and-technical-work activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:1",
+    "to": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffc8481d-1855-4c49-a711-f8dd3b0332c7:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffddfc7c-a9dd-449f-9e96-882dc447c8b6",
+    "to": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas digital-and-information activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffddfc7c-a9dd-449f-9e96-882dc447c8b6",
+    "to": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas digital-and-information activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:1",
+    "to": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffddfc7c-a9dd-449f-9e96-882dc447c8b6:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffe198e3-3f51-40c1-8d43-6e559bb98c8d",
+    "to": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas animal-land-and-environment activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffe198e3-3f51-40c1-8d43-6e559bb98c8d",
+    "to": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas animal-land-and-environment activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:1",
+    "to": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffe198e3-3f51-40c1-8d43-6e559bb98c8d:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffe9b8ef-f32a-42a9-a256-38e7967fbe23",
+    "to": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ffe9b8ef-f32a-42a9-a256-38e7967fbe23",
+    "to": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas technical-or-practical-operation activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:1",
+    "to": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:ffe9b8ef-f32a-42a9-a256-38e7967fbe23:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a",
+    "to": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a",
+    "to": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas knowledge activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:1",
+    "to": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fff0e2cd-d0bd-4b02-9daf-158b79d9688a:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fff5bc45-b506-4466-8977-4869079c1cb2",
+    "to": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:1",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas planning-and-coordination activity pattern; requires practitioner review."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/fff5bc45-b506-4466-8977-4869079c1cb2",
+    "to": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:2",
+    "type": "decomposes_into",
+    "validation": "proposed",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "completion_requirement": "required",
+    "rationale": "Two-stage draft breakdown using the ESCO label/type and the Atlas planning-and-coordination activity pattern; requires practitioner review."
+  },
+  {
+    "from": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:1",
+    "to": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested sequence: establish the task context before the guided application; order needs review in the relevant occupation."
+  },
+  {
+    "from": "atlas:alu:profession-foundation:communication:read-and-produce-practical-texts",
+    "to": "atlas:esco-breakdown:fff5bc45-b506-4466-8977-4869079c1cb2:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "strength": "recommended",
+    "source": "Capability Atlas ESCO skill-breakdown draft v0.26.0",
+    "rationale": "Suggested route from early communication and, when the ESCO label signals quantitative work, routine numeracy. This is a navigation suggestion, not a universal prerequisite."
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e37a6dcf-68c8-4afd-a2ca-503bbaa4a140",
+    "to": "atlas:alu:source-breakdown:offers:identify",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:source-breakdown:offers:identify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:source-breakdown:offers:identify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:audience",
+    "to": "atlas:alu:source-breakdown:offers:identify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e37a6dcf-68c8-4afd-a2ca-503bbaa4a140",
+    "to": "atlas:alu:source-breakdown:offers:conditions",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:offers:identify",
+    "to": "atlas:alu:source-breakdown:offers:conditions",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:money-and-dates",
+    "to": "atlas:alu:source-breakdown:offers:conditions",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:source-breakdown:offers:conditions",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e37a6dcf-68c8-4afd-a2ca-503bbaa4a140",
+    "to": "atlas:alu:source-breakdown:offers:notify",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:offers:conditions",
+    "to": "atlas:alu:source-breakdown:offers:notify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:short-record",
+    "to": "atlas:alu:source-breakdown:offers:notify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:audience",
+    "to": "atlas:alu:source-breakdown:offers:notify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/e37a6dcf-68c8-4afd-a2ca-503bbaa4a140",
+    "to": "atlas:alu:source-breakdown:offers:follow-up",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:offers:notify",
+    "to": "atlas:alu:source-breakdown:offers:follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:ask-and-listen",
+    "to": "atlas:alu:source-breakdown:offers:follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:source-breakdown:offers:follow-up",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/047fcf0a-2936-49fb-b4eb-97cdd8d09d0b",
+    "to": "atlas:alu:source-breakdown:statutory-books:register-map",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:alu:source-breakdown:statutory-books:register-map",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:source-breakdown:statutory-books:register-map",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:source-breakdown:statutory-books:register-map",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/047fcf0a-2936-49fb-b4eb-97cdd8d09d0b",
+    "to": "atlas:alu:source-breakdown:statutory-books:authorised-change",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:statutory-books:register-map",
+    "to": "atlas:alu:source-breakdown:statutory-books:authorised-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:source-breakdown:statutory-books:authorised-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:audience",
+    "to": "atlas:alu:source-breakdown:statutory-books:authorised-change",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/047fcf0a-2936-49fb-b4eb-97cdd8d09d0b",
+    "to": "atlas:alu:source-breakdown:statutory-books:reconcile",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:statutory-books:authorised-change",
+    "to": "atlas:alu:source-breakdown:statutory-books:reconcile",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:tables",
+    "to": "atlas:alu:source-breakdown:statutory-books:reconcile",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/047fcf0a-2936-49fb-b4eb-97cdd8d09d0b",
+    "to": "atlas:alu:source-breakdown:statutory-books:update-trace",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:statutory-books:reconcile",
+    "to": "atlas:alu:source-breakdown:statutory-books:update-trace",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:alu:source-breakdown:statutory-books:update-trace",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:source-breakdown:statutory-books:update-trace",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/047fcf0a-2936-49fb-b4eb-97cdd8d09d0b",
+    "to": "atlas:alu:source-breakdown:statutory-books:review-correct",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:statutory-books:update-trace",
+    "to": "atlas:alu:source-breakdown:statutory-books:review-correct",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:source-breakdown:statutory-books:review-correct",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:handover",
+    "to": "atlas:alu:source-breakdown:statutory-books:review-correct",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5436f06d-4cc0-42a6-8e5b-63b842cce03b",
+    "to": "atlas:alu:source-breakdown:corporate-information:clarify",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:source-breakdown:corporate-information:clarify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:audience",
+    "to": "atlas:alu:source-breakdown:corporate-information:clarify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:source-breakdown:corporate-information:clarify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5436f06d-4cc0-42a6-8e5b-63b842cce03b",
+    "to": "atlas:alu:source-breakdown:corporate-information:locate",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:corporate-information:clarify",
+    "to": "atlas:alu:source-breakdown:corporate-information:locate",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:source-breakdown:corporate-information:locate",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:procedure",
+    "to": "atlas:alu:source-breakdown:corporate-information:locate",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5436f06d-4cc0-42a6-8e5b-63b842cce03b",
+    "to": "atlas:alu:source-breakdown:corporate-information:explain",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:corporate-information:locate",
+    "to": "atlas:alu:source-breakdown:corporate-information:explain",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:short-record",
+    "to": "atlas:alu:source-breakdown:corporate-information:explain",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:ask-and-listen",
+    "to": "atlas:alu:source-breakdown:corporate-information:explain",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5436f06d-4cc0-42a6-8e5b-63b842cce03b",
+    "to": "atlas:alu:source-breakdown:corporate-information:resolve-doubt",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:corporate-information:explain",
+    "to": "atlas:alu:source-breakdown:corporate-information:resolve-doubt",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:source-breakdown:corporate-information:resolve-doubt",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:handover",
+    "to": "atlas:alu:source-breakdown:corporate-information:resolve-doubt",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/5436f06d-4cc0-42a6-8e5b-63b842cce03b",
+    "to": "atlas:alu:source-breakdown:corporate-information:distribute-review",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:corporate-information:resolve-doubt",
+    "to": "atlas:alu:source-breakdown:corporate-information:distribute-review",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:audience",
+    "to": "atlas:alu:source-breakdown:corporate-information:distribute-review",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:alu:source-breakdown:corporate-information:distribute-review",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f84a433f-34f1-4083-b0a3-24802623509c",
+    "to": "atlas:alu:source-breakdown:web-services:interaction",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:interface",
+    "to": "atlas:alu:source-breakdown:web-services:interaction",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:parts",
+    "to": "atlas:alu:source-breakdown:web-services:interaction",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:source-breakdown:web-services:interaction",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f84a433f-34f1-4083-b0a3-24802623509c",
+    "to": "atlas:alu:source-breakdown:web-services:xml-message",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:web-services:interaction",
+    "to": "atlas:alu:source-breakdown:web-services:xml-message",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:records",
+    "to": "atlas:alu:source-breakdown:web-services:xml-message",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:alu:source-breakdown:web-services:xml-message",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f84a433f-34f1-4083-b0a3-24802623509c",
+    "to": "atlas:alu:source-breakdown:web-services:service-contract",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:web-services:xml-message",
+    "to": "atlas:alu:source-breakdown:web-services:service-contract",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:interface",
+    "to": "atlas:alu:source-breakdown:web-services:service-contract",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:needs",
+    "to": "atlas:alu:source-breakdown:web-services:service-contract",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f84a433f-34f1-4083-b0a3-24802623509c",
+    "to": "atlas:alu:source-breakdown:web-services:soap-exchange",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:web-services:service-contract",
+    "to": "atlas:alu:source-breakdown:web-services:soap-exchange",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:sequence",
+    "to": "atlas:alu:source-breakdown:web-services:soap-exchange",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:tests",
+    "to": "atlas:alu:source-breakdown:web-services:soap-exchange",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f84a433f-34f1-4083-b0a3-24802623509c",
+    "to": "atlas:alu:source-breakdown:web-services:faults",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:web-services:soap-exchange",
+    "to": "atlas:alu:source-breakdown:web-services:faults",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:boundary-examples",
+    "to": "atlas:alu:source-breakdown:web-services:faults",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:replay-failure",
+    "to": "atlas:alu:source-breakdown:web-services:faults",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f84a433f-34f1-4083-b0a3-24802623509c",
+    "to": "atlas:alu:source-breakdown:web-services:compatibility",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:source-breakdown:web-services:faults",
+    "to": "atlas:alu:source-breakdown:web-services:compatibility",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:evidence",
+    "to": "atlas:alu:source-breakdown:web-services:compatibility",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:versions",
+    "to": "atlas:alu:source-breakdown:web-services:compatibility",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas source-capability breakdown draft v3"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:foundation-exploration:unit-conversion",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:unit-conversion",
+    "to": "atlas:alu:foundation-exploration:compare-converted",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:count-and-compare",
+    "to": "atlas:alu:foundation-exploration:compare-converted",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:foundation-exploration:scale-selection",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:foundation-exploration:reporting-resolution",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:scale-selection",
+    "to": "atlas:alu:foundation-exploration:measurement-precision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:reporting-resolution",
+    "to": "atlas:alu:foundation-exploration:measurement-precision",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:measurement-precision",
+    "to": "atlas:alu:foundation-exploration:scale-selection",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:measurement-precision",
+    "to": "atlas:alu:foundation-exploration:reporting-resolution",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/4b15a965-9bb4-42f1-8e44-1024aeb0b08c",
+    "to": "atlas:alu:quantity-practice:cooking-transfer",
+    "type": "contains_candidate",
+    "completion_requirement": "optional",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:unit-conversion",
+    "to": "atlas:alu:quantity-practice:cooking-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:compare-converted",
+    "to": "atlas:alu:quantity-practice:cooking-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/00ec5333-e570-477b-9017-2e95fea0150a",
+    "to": "atlas:alu:quantity-practice:cleaning-transfer",
+    "type": "contains_candidate",
+    "completion_requirement": "optional",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:unit-conversion",
+    "to": "atlas:alu:quantity-practice:cleaning-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:measurement-precision",
+    "to": "atlas:alu:quantity-practice:cleaning-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/7e9daad3-8604-4839-af9b-dc6f8db3ef68",
+    "to": "atlas:alu:quantity-practice:retail-transfer",
+    "type": "contains_candidate",
+    "completion_requirement": "optional",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:count-and-compare",
+    "to": "atlas:alu:quantity-practice:retail-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:unit-conversion",
+    "to": "atlas:alu:quantity-practice:retail-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:compare-converted",
+    "to": "atlas:alu:quantity-practice:retail-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas quantity practice pack v1"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:explore-and-place",
+    "to": "atlas:alu:foundation-exploration:classify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas measurement foundation authoring v1"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:choice-and-pause",
+    "to": "atlas:alu:foundation-exploration:classify",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas measurement foundation authoring v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:alu:foundation-exploration:observe",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas measurement foundation authoring v1"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:explore-and-place",
+    "to": "atlas:alu:foundation-exploration:observe",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas measurement foundation authoring v1"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:understand-counted-total",
+    "to": "atlas:alu:foundation-exploration:repeat-unit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas measurement foundation authoring v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:observe",
+    "to": "atlas:alu:foundation-exploration:repeat-unit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas measurement foundation authoring v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:repeat-unit",
+    "to": "atlas:alu:foundation-exploration:read-scale",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas measurement foundation authoring v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:alu:foundation-exploration:read-scale",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas measurement foundation authoring v1"
+  },
+  {
+    "from": "atlas:alu:development:communication:respond-to-early-signals",
+    "to": "atlas:alu:profession-foundation:offer-response",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:choice-and-pause",
+    "to": "atlas:alu:profession-foundation:offer-response",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:alu:profession-foundation:match-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:offer-response",
+    "to": "atlas:alu:profession-foundation:match-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-foundation:instruction-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:pilot:shelf-filler:choice-and-pause",
+    "to": "atlas:alu:profession-foundation:instruction-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-foundation:ordered-actions",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:observe",
+    "to": "atlas:alu:profession-foundation:ordered-actions",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-foundation:record-observation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:observe",
+    "to": "atlas:alu:profession-foundation:record-observation",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:alu:profession-foundation:authorisation-boundary",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:offer-response",
+    "to": "atlas:alu:profession-foundation:authorisation-boundary",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-foundation:locate-rule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-foundation:locate-rule",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:1",
+    "to": "atlas:alu:profession-domain:leather:material-properties",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:alu:profession-domain:leather:material-properties",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:material-properties",
+    "to": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:material-properties",
+    "to": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:2",
+    "to": "atlas:alu:profession-domain:leather:component-impact",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:2",
+    "to": "atlas:alu:profession-domain:leather:component-impact",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:leather:fold",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:observe",
+    "to": "atlas:alu:profession-domain:leather:fold",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:1",
+    "to": "atlas:alu:profession-domain:leather:sew-model",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:alu:profession-domain:leather:sew-model",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:observe",
+    "to": "atlas:alu:profession-domain:leather:finish-model",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:alu:profession-domain:leather:finish-model",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:1",
+    "to": "atlas:alu:profession-domain:leather:process-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:fold",
+    "to": "atlas:alu:profession-domain:leather:process-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:sew-model",
+    "to": "atlas:alu:profession-domain:leather:process-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:finish-model",
+    "to": "atlas:alu:profession-domain:leather:process-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:leather:process-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:fold",
+    "to": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:sew-model",
+    "to": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:finish-model",
+    "to": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:process-equipment",
+    "to": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:1",
+    "to": "atlas:alu:profession-domain:leather:quality-defects",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:observe",
+    "to": "atlas:alu:profession-domain:leather:quality-defects",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:1",
+    "to": "atlas:alu:profession-domain:leather:quality-quick-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:leather:quality-quick-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:quality-quick-test",
+    "to": "atlas:alu:profession-domain:leather:quality-lab-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:leather:quality-lab-test",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:quality-lab-test",
+    "to": "atlas:alu:profession-domain:leather:quality-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:profession-domain:leather:quality-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:leather:quality-equipment",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:quality-defects",
+    "to": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:quality-quick-test",
+    "to": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:quality-lab-test",
+    "to": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:quality-equipment",
+    "to": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "to": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218",
+    "to": "atlas:alu:profession-domain:leather:material-properties",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/26f17354-aa39-464a-8c02-266a50f9d789",
+    "to": "atlas:alu:profession-domain:leather:component-impact",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/1f857013-3fbc-4205-b904-fe6506744687",
+    "to": "atlas:alu:profession-domain:leather:fold",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/1f857013-3fbc-4205-b904-fe6506744687",
+    "to": "atlas:alu:profession-domain:leather:sew-model",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/1f857013-3fbc-4205-b904-fe6506744687",
+    "to": "atlas:alu:profession-domain:leather:finish-model",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/1f857013-3fbc-4205-b904-fe6506744687",
+    "to": "atlas:alu:profession-domain:leather:process-equipment",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/737abc6e-60a9-4c49-b11e-1e0e584771bb",
+    "to": "atlas:alu:profession-domain:leather:quality-defects",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/737abc6e-60a9-4c49-b11e-1e0e584771bb",
+    "to": "atlas:alu:profession-domain:leather:quality-quick-test",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/737abc6e-60a9-4c49-b11e-1e0e584771bb",
+    "to": "atlas:alu:profession-domain:leather:quality-lab-test",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/737abc6e-60a9-4c49-b11e-1e0e584771bb",
+    "to": "atlas:alu:profession-domain:leather:quality-equipment",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:1",
+    "to": "atlas:alu:profession-domain:leather-manual:registration",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:sew-model",
+    "to": "atlas:alu:profession-domain:leather-manual:registration",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:leather-manual:registration",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:leather-manual:controlled-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:leather-manual:controlled-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:observe",
+    "to": "atlas:alu:profession-domain:leather-manual:controlled-action",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-manual:registration",
+    "to": "atlas:alu:profession-domain:leather-manual:prepare-joint",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-manual:controlled-action",
+    "to": "atlas:alu:profession-domain:leather-manual:prepare-joint",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "to": "atlas:alu:profession-domain:leather-manual:prepare-joint",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:2",
+    "to": "atlas:alu:profession-domain:leather-manual:prepare-joint",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:1",
+    "to": "atlas:alu:profession-domain:leather-manual:prepare-joint",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-manual:registration",
+    "to": "atlas:alu:profession-domain:leather-manual:close-shape",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-manual:controlled-action",
+    "to": "atlas:alu:profession-domain:leather-manual:close-shape",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:1",
+    "to": "atlas:alu:profession-domain:leather-manual:close-shape",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:finish-model",
+    "to": "atlas:alu:profession-domain:leather-manual:close-shape",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-manual:prepare-joint",
+    "to": "atlas:alu:profession-domain:leather-manual:batch-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-manual:close-shape",
+    "to": "atlas:alu:profession-domain:leather-manual:batch-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "to": "atlas:alu:profession-domain:leather-manual:batch-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:component-impact",
+    "to": "atlas:alu:profession-domain:leather-manual:batch-transfer",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:2",
+    "to": "atlas:alu:profession-domain:leather-manual:context:materials",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:1",
+    "to": "atlas:alu:profession-domain:leather-manual:context:components",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:2",
+    "to": "atlas:alu:profession-domain:leather-manual:context:components",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:component-impact",
+    "to": "atlas:alu:profession-domain:leather-manual:context:components",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "to": "atlas:alu:profession-domain:leather-manual:context:processes",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "to": "atlas:alu:profession-domain:leather-manual:context:quality",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:sew-model",
+    "to": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:material-properties",
+    "to": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:quality-defects",
+    "to": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "to": "atlas:alu:profession-domain:leather-cutting:direction",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:leather-cutting:direction",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:1",
+    "to": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "to": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:direction",
+    "to": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "to": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:direction",
+    "to": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "to": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "to": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:check-inputs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:check-inputs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:leather-cutting:check-inputs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:check-inputs",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:check-inputs",
+    "to": "atlas:alu:profession-domain:leather-cutting:position-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:position-patterns",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:check-inputs",
+    "to": "atlas:alu:profession-domain:leather-cutting:controlled-cut",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:1",
+    "to": "atlas:alu:profession-domain:leather-cutting:controlled-cut",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:leather-cutting:controlled-cut",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:leather-cutting:controlled-cut",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:position-patterns",
+    "to": "atlas:alu:profession-domain:leather-cutting:cut-parts",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:controlled-cut",
+    "to": "atlas:alu:profession-domain:leather-cutting:cut-parts",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:1",
+    "to": "atlas:alu:profession-domain:leather-cutting:cut-parts",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:cut-parts",
+    "to": "atlas:alu:profession-domain:leather-cutting:match-inspect",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:1",
+    "to": "atlas:alu:profession-domain:leather-cutting:match-inspect",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:match-inspect",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:leather-cutting:match-inspect",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ad21611d-1380-4daa-898e-d8b87fc083a1",
+    "to": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ad21611d-1380-4daa-898e-d8b87fc083a1",
+    "to": "atlas:alu:profession-domain:leather-cutting:direction",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/ad21611d-1380-4daa-898e-d8b87fc083a1",
+    "to": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:materials",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:materials",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:1",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:components",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:components",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:component-impact",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:components",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:processes",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:processes",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:quality",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:quality",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:1",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:cutting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:cutting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:direction",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:cutting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:cutting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:ad21611d-1380-4daa-898e-d8b87fc083a1:2",
+    "to": "atlas:alu:profession-domain:leather-cutting:context:cutting",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:instruction-action",
+    "to": "atlas:alu:profession-domain:digital:control-target",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:digital:control-target",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:control-target",
+    "to": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:control-target",
+    "to": "atlas:alu:profession-domain:digital:persistent-save",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+    "to": "atlas:alu:profession-domain:digital:persistent-save",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+    "to": "atlas:alu:profession-domain:digital:retrieve",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:alu:profession-domain:digital:retrieve",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:retrieve",
+    "to": "atlas:alu:profession-domain:digital:edit-fields",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:alu:profession-domain:digital:edit-fields",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:digital:edit-fields",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:control-target",
+    "to": "atlas:alu:profession-domain:digital:device-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:digital:device-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:digital:device-data",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+    "to": "atlas:alu:profession-domain:digital:send-copy",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:retrieve",
+    "to": "atlas:alu:profession-domain:digital:send-copy",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:digital:send-copy",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:alu:profession-domain:digital:local-network",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:send-copy",
+    "to": "atlas:alu:profession-domain:digital:local-network",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:retrieve",
+    "to": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:edit-fields",
+    "to": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:device-data",
+    "to": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:send-copy",
+    "to": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:local-network",
+    "to": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f632251a-4078-4546-b19f-7ef528d08325",
+    "to": "atlas:alu:profession-domain:digital:control-target",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f632251a-4078-4546-b19f-7ef528d08325",
+    "to": "atlas:alu:profession-domain:digital:persistent-save",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f632251a-4078-4546-b19f-7ef528d08325",
+    "to": "atlas:alu:profession-domain:digital:retrieve",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f632251a-4078-4546-b19f-7ef528d08325",
+    "to": "atlas:alu:profession-domain:digital:edit-fields",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f632251a-4078-4546-b19f-7ef528d08325",
+    "to": "atlas:alu:profession-domain:digital:device-data",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f632251a-4078-4546-b19f-7ef528d08325",
+    "to": "atlas:alu:profession-domain:digital:send-copy",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/f632251a-4078-4546-b19f-7ef528d08325",
+    "to": "atlas:alu:profession-domain:digital:local-network",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:1",
+    "to": "atlas:alu:profession-domain:drawing:closed-outline",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:ordered-actions",
+    "to": "atlas:alu:profession-domain:drawing:closed-outline",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:1",
+    "to": "atlas:alu:profession-domain:drawing:scale",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:read-scale",
+    "to": "atlas:alu:profession-domain:drawing:scale",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:closed-outline",
+    "to": "atlas:alu:profession-domain:drawing:dimensions",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:scale",
+    "to": "atlas:alu:profession-domain:drawing:dimensions",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:drawing:dimensions",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:dimensions",
+    "to": "atlas:alu:profession-domain:drawing:views",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:alu:profession-domain:drawing:views",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:closed-outline",
+    "to": "atlas:alu:profession-domain:drawing:construction-marks",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:dimensions",
+    "to": "atlas:alu:profession-domain:drawing:construction-marks",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:alu:profession-domain:drawing:construction-marks",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:dimensions",
+    "to": "atlas:alu:profession-domain:drawing:tolerance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:alu:profession-domain:drawing:tolerance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:foundation-exploration:classify",
+    "to": "atlas:alu:profession-domain:drawing:tolerance",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:construction-marks",
+    "to": "atlas:alu:profession-domain:drawing:recipient-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:views",
+    "to": "atlas:alu:profession-domain:drawing:recipient-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:offer-response",
+    "to": "atlas:alu:profession-domain:drawing:recipient-brief",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:closed-outline",
+    "to": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:scale",
+    "to": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:dimensions",
+    "to": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:views",
+    "to": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:construction-marks",
+    "to": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:tolerance",
+    "to": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:recipient-brief",
+    "to": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/881cd4ec-5b52-46c6-abc4-60551d58b355",
+    "to": "atlas:alu:profession-domain:drawing:closed-outline",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/881cd4ec-5b52-46c6-abc4-60551d58b355",
+    "to": "atlas:alu:profession-domain:drawing:scale",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/881cd4ec-5b52-46c6-abc4-60551d58b355",
+    "to": "atlas:alu:profession-domain:drawing:dimensions",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/881cd4ec-5b52-46c6-abc4-60551d58b355",
+    "to": "atlas:alu:profession-domain:drawing:views",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/881cd4ec-5b52-46c6-abc4-60551d58b355",
+    "to": "atlas:alu:profession-domain:drawing:construction-marks",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/881cd4ec-5b52-46c6-abc4-60551d58b355",
+    "to": "atlas:alu:profession-domain:drawing:tolerance",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/881cd4ec-5b52-46c6-abc4-60551d58b355",
+    "to": "atlas:alu:profession-domain:drawing:recipient-brief",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:control-target",
+    "to": "atlas:alu:profession-domain:leather-cad:editor-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+    "to": "atlas:alu:profession-domain:leather-cad:editor-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:1",
+    "to": "atlas:alu:profession-domain:leather-cad:editor-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:scale",
+    "to": "atlas:alu:profession-domain:leather-cad:editor-reference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:editor-reference",
+    "to": "atlas:alu:profession-domain:leather-cad:create-pattern",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:closed-outline",
+    "to": "atlas:alu:profession-domain:leather-cad:create-pattern",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:dimensions",
+    "to": "atlas:alu:profession-domain:leather-cad:create-pattern",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:construction-marks",
+    "to": "atlas:alu:profession-domain:leather-cad:create-pattern",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:persistent-save",
+    "to": "atlas:alu:profession-domain:leather-cad:create-pattern",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:create-pattern",
+    "to": "atlas:alu:profession-domain:leather-cad:curve-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:1",
+    "to": "atlas:alu:profession-domain:leather-cad:curve-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:dimensions",
+    "to": "atlas:alu:profession-domain:leather-cad:curve-control",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:create-pattern",
+    "to": "atlas:alu:profession-domain:leather-cad:adjust-dimension",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:curve-control",
+    "to": "atlas:alu:profession-domain:leather-cad:adjust-dimension",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:dimensions",
+    "to": "atlas:alu:profession-domain:leather-cad:adjust-dimension",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:edit-fields",
+    "to": "atlas:alu:profession-domain:leather-cad:adjust-dimension",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:adjust-dimension",
+    "to": "atlas:alu:profession-domain:leather-cad:modify-feature",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:curve-control",
+    "to": "atlas:alu:profession-domain:leather-cad:modify-feature",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:construction-marks",
+    "to": "atlas:alu:profession-domain:leather-cad:modify-feature",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+    "to": "atlas:alu:profession-domain:leather-cad:modify-feature",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:modify-feature",
+    "to": "atlas:alu:profession-domain:leather-cad:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "to": "atlas:alu:profession-domain:leather-cad:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:direction",
+    "to": "atlas:alu:profession-domain:leather-cad:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "to": "atlas:alu:profession-domain:leather-cad:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:digital:retrieve",
+    "to": "atlas:alu:profession-domain:leather-cad:nesting-variants",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:closed-outline",
+    "to": "atlas:alu:profession-domain:leather-cad:area-unit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:scale",
+    "to": "atlas:alu:profession-domain:leather-cad:area-unit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:development:numeracy:understand-counted-total",
+    "to": "atlas:alu:profession-domain:leather-cad:area-unit",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:area-unit",
+    "to": "atlas:alu:profession-domain:leather-cad:consumption",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:nesting",
+    "to": "atlas:alu:profession-domain:leather-cad:consumption",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:leather-cad:consumption",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:modify-feature",
+    "to": "atlas:alu:profession-domain:leather-cad:changed-cad-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:nesting-variants",
+    "to": "atlas:alu:profession-domain:leather-cad:changed-cad-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cad:consumption",
+    "to": "atlas:alu:profession-domain:leather-cad:changed-cad-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "to": "atlas:alu:profession-domain:leather-cad:changed-cad-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "to": "atlas:alu:profession-domain:leather-cad:changed-cad-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "to": "atlas:alu:profession-domain:leather-cad:changed-cad-job",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f7a1ccf0-fb40-49ef-ae9b-8a1f8646c218:2",
+    "to": "atlas:alu:profession-domain:leather-cad:context:materials",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather-cutting:surface-map",
+    "to": "atlas:alu:profession-domain:leather-cad:context:materials",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:1",
+    "to": "atlas:alu:profession-domain:leather-cad:context:components",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:26f17354-aa39-464a-8c02-266a50f9d789:2",
+    "to": "atlas:alu:profession-domain:leather-cad:context:components",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:leather:component-impact",
+    "to": "atlas:alu:profession-domain:leather-cad:context:components",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:1f857013-3fbc-4205-b904-fe6506744687:2",
+    "to": "atlas:alu:profession-domain:leather-cad:context:processes",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:construction-marks",
+    "to": "atlas:alu:profession-domain:leather-cad:context:processes",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:737abc6e-60a9-4c49-b11e-1e0e584771bb:2",
+    "to": "atlas:alu:profession-domain:leather-cad:context:quality",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:drawing:tolerance",
+    "to": "atlas:alu:profession-domain:leather-cad:context:quality",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:2",
+    "to": "atlas:alu:profession-domain:leather-cad:context:digital",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:881cd4ec-5b52-46c6-abc4-60551d58b355:2",
+    "to": "atlas:alu:profession-domain:leather-cad:context:drawing",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:offer-response",
+    "to": "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:match-reference",
+    "to": "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:1",
+    "to": "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:1",
+    "to": "atlas:alu:profession-domain:service:access-preference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:offer-response",
+    "to": "atlas:alu:profession-domain:service:access-preference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:alu:profession-domain:service:access-preference",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:1",
+    "to": "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:service:access-preference",
+    "to": "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:1",
+    "to": "atlas:alu:profession-domain:service:status-message",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:alu:profession-domain:service:status-message",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:alu:profession-domain:service:status-message",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:service:access-preference",
+    "to": "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:2",
+    "to": "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:service:status-message",
+    "to": "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:offer-response",
+    "to": "atlas:esco-breakdown:26a6e6d2-1c9a-4d7e-8c04-5ba16d1f53da:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:authorisation-boundary",
+    "to": "atlas:esco-breakdown:26a6e6d2-1c9a-4d7e-8c04-5ba16d1f53da:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-domain:service:access-preference",
+    "to": "atlas:esco-breakdown:26a6e6d2-1c9a-4d7e-8c04-5ba16d1f53da:2",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/75dfe1ee-5935-42ce-b820-697f827825c3",
+    "to": "atlas:alu:profession-domain:service:access-preference",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "http://data.europa.eu/esco/skill/75dfe1ee-5935-42ce-b820-697f827825c3",
+    "to": "atlas:alu:profession-domain:service:status-message",
+    "type": "decomposes_into",
+    "completion_requirement": "required",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:record-observation",
+    "to": "atlas:esco-breakdown:16d3b69a-ea61-4d27-a91d-9a4930105b54:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:1",
+    "to": "atlas:esco-breakdown:16d3b69a-ea61-4d27-a91d-9a4930105b54:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  },
+  {
+    "from": "atlas:alu:profession-foundation:locate-rule",
+    "to": "atlas:esco-breakdown:16d3b69a-ea61-4d27-a91d-9a4930105b54:1",
+    "type": "prerequisite_for",
+    "validation": "proposed",
+    "source": "Capability Atlas individually authored profession pathways v1"
+  }
+]

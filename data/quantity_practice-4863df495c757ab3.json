@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "id": "atlas:practice:quantities-v1",
+  "version": 3,
+  "label": "Quantities → measurement → unit conversion",
+  "lessons": [
+    {
+      "id": "quantity:count",
+      "node_id": "atlas:alu:pilot:shelf-filler:count-and-compare",
+      "label": "1. Count and find a shortfall",
+      "prior": [],
+      "context": null
+    },
+    {
+      "id": "quantity:units",
+      "node_id": "atlas:alu:foundation-exploration:repeat-unit",
+      "label": "2. Repeat an equal measuring unit",
+      "prior": [],
+      "context": null
+    },
+    {
+      "id": "quantity:scale",
+      "node_id": "atlas:alu:foundation-exploration:read-scale",
+      "label": "3. Read a marked volume scale",
+      "prior": [
+        "quantity:units"
+      ],
+      "context": null
+    },
+    {
+      "id": "quantity:conversion",
+      "node_id": "atlas:alu:foundation-exploration:unit-conversion",
+      "label": "4. Change units without changing the quantity",
+      "prior": [
+        "quantity:scale"
+      ],
+      "context": null
+    },
+    {
+      "id": "quantity:compare",
+      "node_id": "atlas:alu:foundation-exploration:compare-converted",
+      "label": "5. Compare quantities expressed in different units",
+      "prior": [
+        "quantity:conversion"
+      ],
+      "context": null
+    },
+    {
+      "id": "quantity:scale-selection",
+      "node_id": "atlas:alu:foundation-exploration:scale-selection",
+      "label": "6a. Choose a scale that meets the supplied requirement",
+      "prior": [
+        "quantity:scale"
+      ],
+      "context": null
+    },
+    {
+      "id": "quantity:reporting-resolution",
+      "node_id": "atlas:alu:foundation-exploration:reporting-resolution",
+      "label": "6b. Report only the precision supplied by a reading",
+      "prior": [
+        "quantity:scale"
+      ],
+      "context": null
+    },
+    {
+      "id": "quantity:precision",
+      "node_id": "atlas:alu:foundation-exploration:measurement-precision",
+      "label": "6. Review scale selection and reporting precision",
+      "prior": [
+        "quantity:scale-selection",
+        "quantity:reporting-resolution"
+      ],
+      "context": null
+    },
+    {
+      "id": "quantity:cooking",
+      "node_id": "atlas:alu:quantity-practice:cooking-transfer",
+      "label": "7. Cooking context: a paper ingredient plan",
+      "prior": [
+        "quantity:conversion",
+        "quantity:compare"
+      ],
+      "context": "cook"
+    },
+    {
+      "id": "quantity:cleaning",
+      "node_id": "atlas:alu:quantity-practice:cleaning-transfer",
+      "label": "8. Cleaning context: a plain-water quantity card",
+      "prior": [
+        "quantity:conversion",
+        "quantity:precision"
+      ],
+      "context": "domestic cleaner"
+    },
+    {
+      "id": "quantity:retail",
+      "node_id": "atlas:alu:quantity-practice:retail-transfer",
+      "label": "9. Retail context: reconcile a shelf quantity",
+      "prior": [
+        "quantity:count",
+        "quantity:conversion",
+        "quantity:compare"
+      ],
+      "context": "shop assistant"
+    }
+  ],
+  "purpose": "Use supplied materials and checked examples to test a shared learning branch in cooking, cleaning and retail.",
+  "progress_note": "Checked answers describe these supplied examples and recorded support. They do not mark Atlas activities, roles or qualifications complete. You can practise any lesson; earlier lessons are suggestions, not enforced barriers.",
+  "methods": [
+    {
+      "id": "reference",
+      "label": "Supplied chart or worked reference"
+    },
+    {
+      "id": "calculator",
+      "label": "Calculator"
+    },
+    {
+      "id": "objects",
+      "label": "Objects or drawing"
+    },
+    {
+      "id": "partner",
+      "label": "Partner or assistive support"
+    },
+    {
+      "id": "unaided",
+      "label": "Without these aids"
+    }
+  ],
+  "prerequisite_audit": [
+    {
+      "need": "A value and its unit must refer to the same kind of quantity.",
+      "status": "Necessary task information",
+      "alternative": "Use the supplied quantity cards or have a partner describe them; mass cannot be converted to volume from these cards."
+    },
+    {
+      "need": "A common unit is needed for a numerical comparison or difference.",
+      "status": "Necessary relation",
+      "alternative": "Obtain the equivalent quantities from a paired-value chart, calculator or partner instead of requiring unaided decimal arithmetic."
+    },
+    {
+      "need": "Read or obtain the scale marks and reporting rule.",
+      "status": "Necessary task information",
+      "alternative": "The text tick list and stated reading provide equivalent information to the diagram."
+    },
+    {
+      "need": "Count, multiply, subtract or scale without assistance.",
+      "status": "Practice option, not an entry barrier",
+      "alternative": "Objects, grouped references, calculators and partner support are offered. Independent fluency requires separate evidence."
+    },
+    {
+      "need": "Complete all earlier lessons or all adult-life requirements first.",
+      "status": "Suggested preparation only",
+      "alternative": "Open any lesson and inspect its cards and support. This pack does not change the route engine’s AND semantics."
+    }
+  ]
+}

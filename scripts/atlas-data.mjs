@@ -3,11 +3,19 @@ import { readFile, writeFile, mkdir, rename, unlink } from 'node:fs/promises'
 import { resolve, dirname, relative, isAbsolute } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { compileReviews } from './review-model.mjs'
+import { auditPilot } from '../src/pilot-model.js'
+import { auditExploration } from '../src/foundation-model.js'
+import { auditProfessions, compactProfessionCoverage } from '../src/profession-audit.js'
+import { auditQuantityPractice } from '../src/quantity-practice.js'
+import { assessLearningDesign } from '../src/learning-design.js'
+import { auditAllSkills, encodePathwayAudit } from '../src/pathway-audit.js'
+import { encodeMetadata } from '../src/catalogue-metadata.js'
+import { encodeStringTable, poolMetadata } from '../src/catalogue-encoding.js'
 
 export const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 export const nodeSections = ['roles', 'capabilities', 'learning_units', 'framework_outcomes', 'qualifications']
 export const edgeSections = ['role_capability_assertions', 'decompositions', 'outcome_capability_links', 'qualification_requirements']
-export const summaryFields = ['id', 'label', 'kind', 'sector', 'source', 'role_family', 'source_status', 'label_nl', 'notation', 'source_version', 'decomposition_family']
+export const summaryFields = ['id', 'label', 'kind', 'sector', 'source', 'role_family', 'source_status', 'label_nl', 'notation', 'source_version', 'decomposition_family', 'authoring_origin']
 export const edgeFields = ['from', 'to', 'type', 'validation', 'completion_requirement', 'completionRequirement', 'relationType', 'escoType']
 const hash = value => createHash('sha256').update(value).digest('hex')
 
@@ -52,6 +60,14 @@ export async function writeDataset(dataset, directory = resolve(root, 'data')) {
       const text = JSON.stringify(parts[i], null, 2) + '\n'
       const digest = hash(text).slice(0, 16)
       const file = Array.isArray(value) ? `${section}/${String(i).padStart(3, '0')}-${digest}.json` : `${section}-${digest}.json`
+      // Published content-addressed files are immutable. Reuse identical files
+      // rather than replacing them while Windows readers may have them open.
+      try {
+        const existing = await readFile(resolve(directory, file), 'utf8')
+        if (existing !== text) throw new Error(`Content-addressed source file differs: ${file}`)
+        manifest.sections[section].push(file)
+        continue
+      } catch (error) { if (error.code !== 'ENOENT') throw error }
       await mkdir(dirname(resolve(directory, file)), { recursive: true })
       const temporary = resolve(directory, file + '.tmp')
       await writeFile(temporary, text)
@@ -103,12 +119,48 @@ export function compileDataset(dataset) {
     return row
   })]))
   const files = new Map(), chunks = {}
+  if (dataset.pilot_pathway) {
+    const audit = auditPilot(dataset)
+    if (!audit.valid) throw new Error('Invalid pilot pathway: ' + audit.errors.join('; '))
+  }
+  const explorationAudit = auditExploration(dataset)
+  const professionCoverage = auditProfessions(dataset)
+  if(professionCoverage.errors.length)throw new Error('Invalid profession campaign: '+professionCoverage.errors.join('; '))
+  if (!explorationAudit.valid) throw new Error('Invalid foundation exploration: ' + explorationAudit.errors.join('; '))
+  const practiceErrors = auditQuantityPractice(dataset)
+  const learningDesignSummary = { not_specified: 0, incomplete: 0, needs_split: 0, draft_ready: 0 }
+  for (const record of dataset.learning_units || []) {
+    const assessment = assessLearningDesign(record)
+    learningDesignSummary[assessment.status]++
+    if (assessment.errors.length) throw new Error(`Invalid learning design: ${record.id}: ${assessment.errors.join('; ')}`)
+  }
+  for (const record of records) if (record.practice_exercise) {
+    const { revision, ...content } = record.practice_exercise
+    if (hash(JSON.stringify(content)) !== revision) practiceErrors.push(`Stale practice revision: ${record.id}`)
+  }
+  if (practiceErrors.length) throw new Error('Invalid quantity practice: ' + practiceErrors.join('; '))
   for (const [bucket, records] of buckets) {
     const text = JSON.stringify(records)
     const file = `details-${bucket}-${hash(text).slice(0, 20)}.json`
     chunks[bucket] = file
     files.set(file, text)
   }
-  const index = { format: 1, summaryFields, edgeFields, strings, nodes, sections, edges, chunks, catalogue: catalogueInfo(dataset), reviews: compileReviews(dataset) }
-  return { index, files }
+  const auditFiles = new Map()
+  let pathwayAudit
+  if (dataset.starting_foundations) {
+    const report = auditAllSkills(dataset)
+    report.baseline_matches_scope = report.baseline?.target_ids_sha256 === hash(report.rows.map(row=>row.id).sort().join('\n'))
+    const content = JSON.stringify(encodePathwayAudit(report,records.map(node=>node.id))), file = `pathway-audit-${hash(content).slice(0,20)}.json`
+    auditFiles.set(file,content)
+    pathwayAudit = {file,policy_version:report.policy_version,summary:report.summary,baseline:report.baseline,baseline_matches_scope:report.baseline_matches_scope}
+  }
+  const index = { format: 4, summaryFields, edgeFields, strings, nodes, sections, edges, chunks, catalogue: catalogueInfo(dataset), reviews: compileReviews(dataset), quantity_practice: dataset.quantity_practice, learning_design_summary: learningDesignSummary, pathway_audit:pathwayAudit }
+  index.metadata=encodeMetadata({
+    ...(dataset.pilot_pathway!==undefined?{pilot_pathway:dataset.pilot_pathway}:{}),
+    ...(dataset.pathway_exploration!==undefined?{pathway_exploration:dataset.pathway_exploration}:{}),
+    ...(dataset.profession_pathways?{profession_pathways:dataset.profession_pathways,profession_coverage:compactProfessionCoverage(professionCoverage)}:{}),
+  },intern)
+  index.metadata = poolMetadata(index.metadata)
+  index.strings = encodeStringTable(strings)
+  return { index, files, auditFiles }
 }

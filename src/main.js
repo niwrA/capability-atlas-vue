@@ -13,8 +13,8 @@ async function start() {
   status.textContent = 'Loading your learning catalogue…'
   container.append(status)
   try {
-    const { dataset, loadDetail } = await loadAtlasData({ baseUrl: `${import.meta.env.BASE_URL}atlas-data/` })
-    createApp(App, { dataset, loadDetail }).mount(container)
+    const { dataset, loadDetail, loadPathwayAudit } = await loadAtlasData({ baseUrl: `${import.meta.env.BASE_URL}atlas-data/` })
+    createApp(App, { dataset, loadDetail, loadPathwayAudit }).mount(container)
   } catch (error) {
     status.setAttribute('role', 'alert')
     status.textContent = error instanceof CatalogueLoadError ? error.message : 'Your learning catalogue could not be loaded. Check your connection and try again.'

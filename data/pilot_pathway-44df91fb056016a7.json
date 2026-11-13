@@ -1,0 +1,1943 @@
+{
+  "format": 1,
+  "id": "atlas:pilot:shelf-filler-v1",
+  "label": "Early foundations → adult life + shelf filler",
+  "status": "Unreviewed Atlas draft",
+  "version": 2,
+  "occupation_id": "http://data.europa.eu/esco/occupation/d35f9e79-5778-43b4-8667-0e3ba1fcb19a",
+  "adult_role_id": "atlas:role:independent-adult",
+  "scope": "Complete draft coverage of the recorded core adult and essential occupational requirements; not proof of developmental sufficiency, adult independence, employment eligibility or a qualification.",
+  "semantics": "Every listed input is required (AND). Gates aggregate evidence and cannot be ticked complete. Existing completion records count only when their pilot inputs are also complete. The two endpoints are parallel goals; independent living is not an employment prerequisite.",
+  "access": "Use speech, sign, AAC, accessible text, assistive tools and agreed human support. Adapt the activity and record the assistance used. There is no fixed age or duration; early tasks are supporter-mediated, and adult/work scenarios are for an appropriate later context.",
+  "review_needed": [
+    "Development and accessibility review of early and intermediate steps",
+    "Adult-life practitioner review of scenario coverage",
+    "Retail practitioner review, local procedures and supervised workplace assessment"
+  ],
+  "stages": [
+    {
+      "id": "early",
+      "label": "1. Supported early foundations",
+      "description": "No prior learning records required. A familiar supporter offers play, communication access, choices and co-regulation. These are possible entry points, not an age test."
+    },
+    {
+      "id": "shared",
+      "label": "2. Shared practical foundations",
+      "description": "Develop communication, reading, quantities, safe action and planning through repeated supported practice. Different access methods and help remain valid."
+    },
+    {
+      "id": "adult",
+      "label": "3. Everyday adult life",
+      "description": "All 14 core requirements of the Atlas Independent adult role. Each branch retains its existing draft activities and adds a concrete demonstration."
+    },
+    {
+      "id": "work",
+      "label": "4. Shelf-filling practice",
+      "description": "All eight essential skills in ESCO 1.2.1 for shelf filler, with contextual demonstrations. Optional ESCO skills and employer-specific induction remain outside this pilot."
+    }
+  ],
+  "steps": [
+    {
+      "id": "atlas:alu:development:communication:respond-to-early-signals",
+      "stage": "early",
+      "requires": [],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:communication:share-attention-and-turns",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:communication:respond-to-early-signals"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:communication:connect-symbols-with-meaning",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:communication:share-attention-and-turns"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:communication:use-first-meaningful-message",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:communication:connect-symbols-with-meaning"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:communication:expand-and-combine-messages",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:communication:use-first-meaningful-message"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:numeracy:notice-small-quantities",
+      "stage": "early",
+      "requires": [],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:numeracy:experience-number-words",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:numeracy:notice-small-quantities"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:numeracy:match-count-word-to-object",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:numeracy:experience-number-words"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:numeracy:understand-counted-total",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:numeracy:match-count-word-to-object"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:numeracy:connect-quantity-word-symbol",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:numeracy:understand-counted-total"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:numeracy:combine-two-small-sets",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:numeracy:connect-quantity-word-symbol"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:development:numeracy:represent-first-addition",
+      "stage": "early",
+      "requires": [
+        "atlas:alu:development:numeracy:combine-two-small-sets"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:explore-and-place",
+      "stage": "early",
+      "requires": [],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:choice-and-pause",
+      "stage": "early",
+      "requires": [],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:ask-and-listen",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:development:communication:expand-and-combine-messages",
+        "atlas:alu:pilot:shelf-filler:choice-and-pause"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:two-step-routine",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:ask-and-listen",
+        "atlas:alu:pilot:shelf-filler:explore-and-place"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:read-symbols",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:foundation-exploration:supported-word-reading",
+        "atlas:alu:pilot:shelf-filler:two-step-routine"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:practical-texts",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:foundation-exploration:document-locate",
+        "atlas:alu:foundation-exploration:short-record"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:count-and-compare",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:foundation-exploration:group-tens",
+        "atlas:alu:foundation-exploration:add-remove"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:money-and-dates",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:foundation-exploration:decimal-place",
+        "atlas:alu:pilot:shelf-filler:practical-texts",
+        "atlas:alu:pilot:shelf-filler:count-and-compare",
+        "atlas:alu:foundation-exploration:time-duration"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:compare-and-plan",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:money-and-dates",
+        "atlas:alu:pilot:shelf-filler:ask-and-listen"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:safe-routines",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:two-step-routine",
+        "atlas:alu:pilot:shelf-filler:practical-texts"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:work-with-others",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:ask-and-listen",
+        "atlas:alu:pilot:shelf-filler:two-step-routine"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:digital-practice",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:practical-texts",
+        "atlas:alu:pilot:shelf-filler:safe-routines",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-foundation:offer-response",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:development:communication:respond-to-early-signals",
+        "atlas:alu:pilot:shelf-filler:choice-and-pause"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-foundation:match-reference",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:foundation-exploration:classify",
+        "atlas:alu:profession-foundation:offer-response"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-foundation:record-observation",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:profession-foundation:match-reference",
+        "atlas:alu:foundation-exploration:observe"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-foundation:instruction-action",
+      "stage": "shared",
+      "requires": [
+        "atlas:alu:profession-foundation:match-reference",
+        "atlas:alu:pilot:shelf-filler:choice-and-pause"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-foundation:locate-rule",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-foundation:match-reference",
+        "atlas:alu:profession-foundation:record-observation"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-foundation:authorisation-boundary",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:classify",
+        "atlas:alu:profession-foundation:offer-response"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-foundation:ordered-actions",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-foundation:instruction-action",
+        "atlas:alu:foundation-exploration:observe"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-foundation:coordination:feasible-options",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-foundation:locate-rule",
+        "atlas:alu:profession-foundation:record-observation"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-foundation:coordination:result-evidence",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+        "atlas:alu:profession-foundation:locate-rule",
+        "atlas:alu:profession-foundation:record-observation"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-foundation:coordination:confirmed-assignment",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-foundation:offer-response",
+        "atlas:alu:profession-foundation:record-observation",
+        "atlas:alu:profession-foundation:authorisation-boundary"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-foundation:measurement-data:same-unit-sum",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:development:numeracy:understand-counted-total",
+        "atlas:alu:foundation-exploration:repeat-unit",
+        "atlas:alu:profession-foundation:record-observation"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:classify",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:explore-and-place",
+        "atlas:alu:pilot:shelf-filler:choice-and-pause"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:observe",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:classify",
+        "atlas:alu:pilot:shelf-filler:explore-and-place"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:records",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-domain:digital:edit-fields",
+        "atlas:alu:profession-domain:digital:retrieve",
+        "atlas:alu:profession-foundation:record-observation"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:schedule-time-reference",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:records",
+        "atlas:alu:foundation-exploration:procedure"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:evidence",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-foundation:coordination:result-evidence",
+        "atlas:alu:profession-foundation:match-reference",
+        "atlas:alu:profession-foundation:record-observation"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:procedure",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-foundation:locate-rule",
+        "atlas:alu:profession-foundation:instruction-action",
+        "atlas:alu:profession-foundation:record-observation"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:needs",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:1",
+        "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:1",
+        "atlas:alu:profession-foundation:coordination:feasible-options"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:versions",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+        "atlas:alu:profession-domain:digital:retrieve",
+        "atlas:alu:profession-domain:digital:edit-fields"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:distinct-marks",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:development:communication:connect-symbols-with-meaning",
+        "atlas:alu:pilot:shelf-filler:explore-and-place"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:word-referent",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:distinct-marks",
+        "atlas:alu:development:communication:expand-and-combine-messages"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:check-word-meaning",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:word-referent",
+        "atlas:alu:pilot:shelf-filler:ask-and-listen"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:supported-word-reading",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:word-referent",
+        "atlas:alu:foundation-exploration:check-word-meaning"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:sentence-meaning",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:read-symbols",
+        "atlas:alu:foundation-exploration:check-word-meaning",
+        "atlas:alu:pilot:shelf-filler:ask-and-listen"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:action-from-instruction",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:sentence-meaning",
+        "atlas:alu:pilot:shelf-filler:two-step-routine"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:document-locate",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:action-from-instruction",
+        "atlas:alu:foundation-exploration:classify"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:short-record",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-foundation:record-observation",
+        "atlas:alu:profession-domain:digital:edit-fields",
+        "atlas:alu:profession-domain:digital:persistent-save"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:order-amounts",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:development:numeracy:represent-first-addition",
+        "atlas:alu:pilot:shelf-filler:two-step-routine"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:group-tens",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:order-amounts"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:add-remove",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:group-tens",
+        "atlas:alu:foundation-exploration:order-amounts"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:repeat-unit",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:development:numeracy:understand-counted-total",
+        "atlas:alu:foundation-exploration:observe"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:read-scale",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:repeat-unit",
+        "atlas:alu:foundation-exploration:classify"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:equal-parts",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:count-and-compare",
+        "atlas:alu:foundation-exploration:classify"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:fraction-quantity",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:equal-parts",
+        "atlas:alu:foundation-exploration:repeat-unit"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:decimal-place",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:group-tens",
+        "atlas:alu:foundation-exploration:fraction-quantity"
+      ]
+    },
+    {
+      "id": "atlas:alu:foundation-exploration:time-duration",
+      "stage": "shared",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:schedule-time-reference",
+        "atlas:alu:foundation-exploration:repeat-unit",
+        "atlas:alu:profession-foundation:measurement-data:same-unit-sum"
+      ]
+    },
+    {
+      "id": "atlas:alu:life-communicate-respectfully-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-with-others"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-communicate-respectfully-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-communicate-respectfully-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-communicate-respectfully",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-communicate-respectfully-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:communicate-respectfully",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-communicate-respectfully"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-include-different-needs-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-with-others",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-include-different-needs-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-include-different-needs-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-include-different-needs",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-include-different-needs-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:include-different-needs",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-include-different-needs"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-parent-self-regulation-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:choice-and-pause",
+        "atlas:alu:pilot:shelf-filler:ask-and-listen",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-parent-self-regulation-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-parent-self-regulation-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-parent-self-regulation",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-parent-self-regulation-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:parent-self-regulation",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-parent-self-regulation"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-manage-personal-finances-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:money-and-dates",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-manage-personal-finances-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-manage-personal-finances-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-manage-personal-finances",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-manage-personal-finances-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:manage-personal-finances",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-manage-personal-finances"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-pay-bills-and-keep-records-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:money-and-dates",
+        "atlas:alu:pilot:shelf-filler:digital-practice"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-pay-bills-and-keep-records-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-pay-bills-and-keep-records-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-pay-bills-and-keep-records",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-pay-bills-and-keep-records-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:pay-bills-and-keep-records",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-pay-bills-and-keep-records"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-organize-household-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:safe-routines",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan",
+        "atlas:alu:pilot:shelf-filler:work-with-others"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-organize-household-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-organize-household-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-organize-household",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-organize-household-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:organize-household",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-organize-household"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-plan-food-safely-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:money-and-dates",
+        "atlas:alu:pilot:shelf-filler:safe-routines"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-plan-food-safely-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-plan-food-safely-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-plan-food-safely",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-plan-food-safely-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:plan-food-safely",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-plan-food-safely"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-use-digital-services-safely-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:digital-practice"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-use-digital-services-safely-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-use-digital-services-safely-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-use-digital-services-safely",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-use-digital-services-safely-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:use-digital-services-safely",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-use-digital-services-safely"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-evaluate-information-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:practical-texts",
+        "atlas:alu:pilot:shelf-filler:digital-practice",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-evaluate-information-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-evaluate-information-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-evaluate-information",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-evaluate-information-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:evaluate-information",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-evaluate-information"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-navigate-health-services-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:practical-texts",
+        "atlas:alu:pilot:shelf-filler:digital-practice",
+        "atlas:alu:pilot:shelf-filler:ask-and-listen"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-navigate-health-services-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-navigate-health-services-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-navigate-health-services",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-navigate-health-services-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:navigate-health-services",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-navigate-health-services"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-manage-time-and-mobility-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:money-and-dates",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan",
+        "atlas:alu:pilot:shelf-filler:safe-routines"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-manage-time-and-mobility-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-manage-time-and-mobility-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-manage-time-and-mobility",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-manage-time-and-mobility-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:manage-time-and-mobility",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-manage-time-and-mobility"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-navigate-public-services-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:practical-texts",
+        "atlas:alu:pilot:shelf-filler:digital-practice",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-navigate-public-services-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-navigate-public-services-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-navigate-public-services",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-navigate-public-services-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:navigate-public-services",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-navigate-public-services"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-everyday-problem-solving-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:compare-and-plan",
+        "atlas:alu:pilot:shelf-filler:safe-routines",
+        "atlas:alu:pilot:shelf-filler:work-with-others"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-everyday-problem-solving-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-everyday-problem-solving-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-everyday-problem-solving",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-everyday-problem-solving-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:everyday-problem-solving",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-everyday-problem-solving"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:life-prepare-for-emergencies-1",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:safe-routines",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan",
+        "atlas:alu:pilot:shelf-filler:ask-and-listen"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:life-prepare-for-emergencies-2",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-prepare-for-emergencies-1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:adult-prepare-for-emergencies",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:life-prepare-for-emergencies-2"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:skill:prepare-for-emergencies",
+      "stage": "adult",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:adult-prepare-for-emergencies"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-foundation:locate-rule",
+        "atlas:alu:profession-foundation:authorisation-boundary"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:2",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-domain:food-hygiene:preparation",
+        "atlas:alu:profession-domain:food-hygiene:manufacturing",
+        "atlas:alu:profession-domain:food-hygiene:processing",
+        "atlas:alu:profession-domain:food-hygiene:storage",
+        "atlas:alu:profession-domain:food-hygiene:distribution",
+        "atlas:alu:profession-domain:food-hygiene:delivery"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:contact-route",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:foundation-exploration:observe",
+        "atlas:alu:profession-foundation:ordered-actions"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:personal-hygiene",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-domain:food-hygiene:contact-route",
+        "atlas:alu:profession-foundation:instruction-action"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:separation",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:food-hygiene:contact-route",
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-foundation:match-reference"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:input-status",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-foundation:record-observation",
+        "atlas:alu:profession-foundation:authorisation-boundary"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:process-conditions",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:foundation-exploration:read-scale",
+        "atlas:alu:profession-foundation:record-observation"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:food-contact-care",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:food-hygiene:contact-route",
+        "atlas:alu:profession-domain:food-hygiene:separation",
+        "atlas:alu:profession-domain:food-hygiene:personal-hygiene",
+        "atlas:alu:profession-foundation:instruction-action"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:batch-handoff",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:food-hygiene:input-status",
+        "atlas:alu:profession-domain:food-hygiene:process-conditions",
+        "atlas:alu:profession-foundation:record-observation"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:preparation",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-domain:food-hygiene:personal-hygiene",
+        "atlas:alu:profession-domain:food-hygiene:separation",
+        "atlas:alu:profession-domain:food-hygiene:input-status",
+        "atlas:alu:profession-domain:food-hygiene:food-contact-care"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:manufacturing",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-domain:food-hygiene:personal-hygiene",
+        "atlas:alu:profession-domain:food-hygiene:separation",
+        "atlas:alu:profession-domain:food-hygiene:process-conditions",
+        "atlas:alu:profession-domain:food-hygiene:batch-handoff"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:processing",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-domain:food-hygiene:process-conditions",
+        "atlas:alu:profession-domain:food-hygiene:food-contact-care",
+        "atlas:alu:profession-domain:food-hygiene:batch-handoff"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:storage",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-domain:food-hygiene:separation",
+        "atlas:alu:profession-domain:food-hygiene:process-conditions",
+        "atlas:alu:profession-domain:food-hygiene:batch-handoff"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:distribution",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-domain:food-hygiene:separation",
+        "atlas:alu:profession-domain:food-hygiene:process-conditions",
+        "atlas:alu:profession-domain:food-hygiene:batch-handoff"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-hygiene:delivery",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:profession-domain:food-hygiene:input-status",
+        "atlas:alu:profession-domain:food-hygiene:process-conditions",
+        "atlas:alu:profession-domain:food-hygiene:batch-handoff"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:work-0ff99f51-40d9-42f1-a1ec-377b2bb5e15f",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:food-hygiene:delivery",
+        "atlas:alu:pilot:shelf-filler:safe-routines",
+        "atlas:alu:pilot:shelf-filler:practical-texts",
+        "atlas:alu:foundation-exploration:sentence-meaning",
+        "atlas:alu:pilot:shelf-filler:two-step-routine"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/0ff99f51-40d9-42f1-a1ec-377b2bb5e15f",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-0ff99f51-40d9-42f1-a1ec-377b2bb5e15f",
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:2",
+        "atlas:alu:profession-domain:food-hygiene:contact-route",
+        "atlas:alu:profession-domain:food-hygiene:personal-hygiene",
+        "atlas:alu:profession-domain:food-hygiene:separation",
+        "atlas:alu:profession-domain:food-hygiene:input-status",
+        "atlas:alu:profession-domain:food-hygiene:process-conditions",
+        "atlas:alu:profession-domain:food-hygiene:food-contact-care",
+        "atlas:alu:profession-domain:food-hygiene:batch-handoff",
+        "atlas:alu:profession-domain:food-hygiene:preparation",
+        "atlas:alu:profession-domain:food-hygiene:manufacturing",
+        "atlas:alu:profession-domain:food-hygiene:processing",
+        "atlas:alu:profession-domain:food-hygiene:storage",
+        "atlas:alu:profession-domain:food-hygiene:distribution",
+        "atlas:alu:profession-domain:food-hygiene:delivery"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-foundation:match-reference",
+        "atlas:alu:profession-foundation:record-observation"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:digital:control-target",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-foundation:instruction-action",
+        "atlas:alu:profession-foundation:match-reference"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:digital:control-target",
+        "atlas:alu:profession-foundation:record-observation"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:digital:persistent-save",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:digital:control-target",
+        "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:digital:retrieve",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:f632251a-4078-4546-b19f-7ef528d08325:1",
+        "atlas:alu:profession-domain:digital:persistent-save"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:digital:edit-fields",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:digital:retrieve",
+        "atlas:alu:profession-domain:digital:persistent-save",
+        "atlas:alu:profession-foundation:record-observation"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:work-119fe928-401d-4254-9273-dd1c171fe84e",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-foundation:match-reference",
+        "atlas:alu:foundation-exploration:versions"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-merchandise:label-change-action",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-119fe928-401d-4254-9273-dd1c171fe84e",
+        "atlas:alu:profession-foundation:instruction-action"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-merchandise:label-cycle",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-119fe928-401d-4254-9273-dd1c171fe84e",
+        "atlas:alu:profession-domain:retail-merchandise:label-change-action"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/119fe928-401d-4254-9273-dd1c171fe84e",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-119fe928-401d-4254-9273-dd1c171fe84e",
+        "atlas:alu:profession-domain:retail-merchandise:label-change-action",
+        "atlas:alu:profession-domain:retail-merchandise:label-cycle"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:esco-breakdown:25fce4fb-35b6-49b6-a4fa-c7aa168fd770:1",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:foundation-exploration:needs",
+        "atlas:alu:foundation-exploration:evidence"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:esco-breakdown:25fce4fb-35b6-49b6-a4fa-c7aa168fd770:2",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:25fce4fb-35b6-49b6-a4fa-c7aa168fd770:1",
+        "atlas:alu:profession-domain:retail-merchandise:price-cycle",
+        "atlas:alu:profession-domain:retail-merchandise:display-inspection",
+        "atlas:alu:profession-domain:retail-merchandise:advertised-function-inspection"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-merchandise:display-inspection",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:25fce4fb-35b6-49b6-a4fa-c7aa168fd770:1",
+        "atlas:alu:profession-foundation:instruction-action",
+        "atlas:alu:profession-foundation:record-observation"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-merchandise:advertised-function-inspection",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:25fce4fb-35b6-49b6-a4fa-c7aa168fd770:1",
+        "atlas:alu:profession-domain:office-equipment:appliance-user-method",
+        "atlas:alu:foundation-exploration:observe"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:work-25fce4fb-35b6-49b6-a4fa-c7aa168fd770",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:retail-merchandise:advertised-function-inspection",
+        "atlas:alu:pilot:shelf-filler:safe-routines",
+        "atlas:alu:pilot:shelf-filler:two-step-routine",
+        "atlas:alu:pilot:shelf-filler:practical-texts"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/25fce4fb-35b6-49b6-a4fa-c7aa168fd770",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-25fce4fb-35b6-49b6-a4fa-c7aa168fd770",
+        "atlas:esco-breakdown:25fce4fb-35b6-49b6-a4fa-c7aa168fd770:1",
+        "atlas:esco-breakdown:25fce4fb-35b6-49b6-a4fa-c7aa168fd770:2",
+        "atlas:alu:profession-domain:retail-merchandise:display-inspection",
+        "atlas:alu:profession-domain:retail-merchandise:advertised-function-inspection"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:esco-breakdown:44f6a65f-6be7-4818-9a66-73908797283f:1",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-domain:warehouse:available-stock",
+        "atlas:alu:foundation-exploration:needs",
+        "atlas:alu:foundation-exploration:procedure"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:esco-breakdown:44f6a65f-6be7-4818-9a66-73908797283f:2",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:44f6a65f-6be7-4818-9a66-73908797283f:1",
+        "atlas:alu:profession-domain:retail-stock:usage-reconciliation",
+        "atlas:alu:profession-domain:retail-stock:replenishment-gap"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-stock:usage-reconciliation",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:44f6a65f-6be7-4818-9a66-73908797283f:1",
+        "atlas:alu:profession-domain:warehouse:stock-movement",
+        "atlas:alu:profession-domain:warehouse:count-reconciliation",
+        "atlas:alu:profession-foundation:measurement-data:same-unit-sum"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-stock:replenishment-gap",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:44f6a65f-6be7-4818-9a66-73908797283f:1",
+        "atlas:alu:profession-domain:retail-stock:usage-reconciliation",
+        "atlas:alu:profession-domain:warehouse:available-stock",
+        "atlas:alu:development:numeracy:understand-counted-total",
+        "atlas:alu:profession-foundation:coordination:feasible-options"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:work-44f6a65f-6be7-4818-9a66-73908797283f",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:retail-stock:replenishment-gap",
+        "atlas:alu:pilot:shelf-filler:count-and-compare",
+        "atlas:alu:pilot:shelf-filler:practical-texts",
+        "atlas:alu:pilot:shelf-filler:compare-and-plan",
+        "atlas:alu:pilot:shelf-filler:read-symbols",
+        "atlas:alu:pilot:shelf-filler:two-step-routine"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/44f6a65f-6be7-4818-9a66-73908797283f",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-44f6a65f-6be7-4818-9a66-73908797283f",
+        "atlas:esco-breakdown:44f6a65f-6be7-4818-9a66-73908797283f:1",
+        "atlas:esco-breakdown:44f6a65f-6be7-4818-9a66-73908797283f:2",
+        "atlas:alu:profession-domain:retail-stock:usage-reconciliation",
+        "atlas:alu:profession-domain:retail-stock:replenishment-gap"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:esco-breakdown:7e9daad3-8604-4839-af9b-dc6f8db3ef68:1",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-domain:warehouse:available-stock",
+        "atlas:esco-breakdown:c7e8948c-e7e4-406a-957d-55daaa4cdb44:2",
+        "atlas:alu:foundation-exploration:needs"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:esco-breakdown:7e9daad3-8604-4839-af9b-dc6f8db3ef68:2",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:7e9daad3-8604-4839-af9b-dc6f8db3ef68:1",
+        "atlas:alu:profession-domain:retail-stock:shelf-refill-action"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-stock:shelf-refill-action",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:7e9daad3-8604-4839-af9b-dc6f8db3ef68:1",
+        "atlas:alu:profession-domain:warehouse:identified-handling",
+        "atlas:alu:profession-domain:warehouse:stock-movement",
+        "atlas:alu:profession-foundation:instruction-action"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:work-7e9daad3-8604-4839-af9b-dc6f8db3ef68",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:retail-stock:shelf-refill-action",
+        "atlas:alu:pilot:shelf-filler:safe-routines",
+        "atlas:alu:pilot:shelf-filler:explore-and-place",
+        "atlas:alu:pilot:shelf-filler:count-and-compare",
+        "atlas:alu:pilot:shelf-filler:two-step-routine",
+        "atlas:alu:pilot:shelf-filler:practical-texts"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/7e9daad3-8604-4839-af9b-dc6f8db3ef68",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-7e9daad3-8604-4839-af9b-dc6f8db3ef68",
+        "atlas:esco-breakdown:7e9daad3-8604-4839-af9b-dc6f8db3ef68:1",
+        "atlas:esco-breakdown:7e9daad3-8604-4839-af9b-dc6f8db3ef68:2",
+        "atlas:alu:profession-domain:retail-stock:shelf-refill-action"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:work-a5e51fb1-b3b6-49fd-8deb-f96c4d46da81",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-foundation:match-reference",
+        "atlas:alu:foundation-exploration:versions"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:cash:value-unit",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:development:numeracy:understand-counted-total",
+        "atlas:alu:profession-foundation:match-reference"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-merchandise:price-notation",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:cash:value-unit",
+        "atlas:alu:pilot:shelf-filler:work-a5e51fb1-b3b6-49fd-8deb-f96c4d46da81",
+        "atlas:alu:profession-foundation:match-reference"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-merchandise:price-check-action",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-a5e51fb1-b3b6-49fd-8deb-f96c4d46da81",
+        "atlas:alu:profession-domain:retail-merchandise:price-notation",
+        "atlas:alu:profession-foundation:instruction-action"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-merchandise:price-cycle",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:retail-merchandise:price-check-action",
+        "atlas:alu:pilot:shelf-filler:work-a5e51fb1-b3b6-49fd-8deb-f96c4d46da81"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/a5e51fb1-b3b6-49fd-8deb-f96c4d46da81",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-a5e51fb1-b3b6-49fd-8deb-f96c4d46da81",
+        "atlas:alu:profession-domain:retail-merchandise:price-notation",
+        "atlas:alu:profession-domain:retail-merchandise:price-check-action",
+        "atlas:alu:profession-domain:retail-merchandise:price-cycle"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:esco-breakdown:c7e8948c-e7e4-406a-957d-55daaa4cdb44:1",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-domain:warehouse:available-stock",
+        "atlas:alu:foundation-exploration:procedure",
+        "atlas:alu:profession-foundation:authorisation-boundary"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:esco-breakdown:c7e8948c-e7e4-406a-957d-55daaa4cdb44:2",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:c7e8948c-e7e4-406a-957d-55daaa4cdb44:1",
+        "atlas:alu:profession-domain:retail-stock:safe-storage-action"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:retail-stock:safe-storage-action",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:c7e8948c-e7e4-406a-957d-55daaa4cdb44:1",
+        "atlas:alu:profession-domain:warehouse:putaway",
+        "atlas:alu:profession-domain:warehouse:identified-handling",
+        "atlas:alu:profession-domain:food-hygiene:storage",
+        "atlas:alu:profession-foundation:coordination:result-evidence"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:work-c7e8948c-e7e4-406a-957d-55daaa4cdb44",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:retail-stock:safe-storage-action"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/c7e8948c-e7e4-406a-957d-55daaa4cdb44",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-c7e8948c-e7e4-406a-957d-55daaa4cdb44",
+        "atlas:esco-breakdown:c7e8948c-e7e4-406a-957d-55daaa4cdb44:1",
+        "atlas:esco-breakdown:c7e8948c-e7e4-406a-957d-55daaa4cdb44:2",
+        "atlas:alu:profession-domain:retail-stock:safe-storage-action"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:esco-breakdown:cf441bdc-450b-4f44-8b21-3ca946c5d96b:1",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:0ff99f51-40d9-42f1-a1ec-377b2bb5e15f:1",
+        "atlas:alu:foundation-exploration:records",
+        "atlas:alu:foundation-exploration:needs",
+        "atlas:alu:profession-foundation:authorisation-boundary"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:esco-breakdown:cf441bdc-450b-4f44-8b21-3ca946c5d96b:2",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:cf441bdc-450b-4f44-8b21-3ca946c5d96b:1",
+        "atlas:alu:profession-domain:food-shelf-life:ingredient-formulation",
+        "atlas:alu:profession-domain:food-shelf-life:production-process",
+        "atlas:alu:profession-domain:food-shelf-life:packaging-scope",
+        "atlas:alu:profession-domain:food-shelf-life:study-protocol",
+        "atlas:alu:profession-domain:food-shelf-life:study-evidence",
+        "atlas:alu:profession-domain:food-shelf-life:production-date-basis",
+        "atlas:alu:profession-domain:food-shelf-life:candidate-life-determination",
+        "atlas:alu:profession-domain:food-shelf-life:life-review-revalidation"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-shelf-life:ingredient-formulation",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:cf441bdc-450b-4f44-8b21-3ca946c5d96b:1",
+        "atlas:alu:profession-domain:food-hygiene:input-status",
+        "atlas:alu:foundation-exploration:evidence"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-shelf-life:production-process",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:cf441bdc-450b-4f44-8b21-3ca946c5d96b:1",
+        "atlas:alu:profession-domain:food-hygiene:process-conditions",
+        "atlas:alu:profession-domain:food-hygiene:batch-handoff"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-shelf-life:packaging-scope",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:cf441bdc-450b-4f44-8b21-3ca946c5d96b:1",
+        "atlas:alu:profession-domain:food-hygiene:separation",
+        "atlas:alu:foundation-exploration:records"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-shelf-life:study-protocol",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:food-shelf-life:ingredient-formulation",
+        "atlas:alu:profession-domain:food-shelf-life:production-process",
+        "atlas:alu:profession-domain:food-shelf-life:packaging-scope",
+        "atlas:alu:foundation-exploration:procedure"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-shelf-life:study-evidence",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:food-shelf-life:study-protocol",
+        "atlas:alu:foundation-exploration:records",
+        "atlas:alu:foundation-exploration:evidence",
+        "atlas:alu:profession-foundation:coordination:result-evidence"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-shelf-life:production-date-basis",
+      "stage": "work",
+      "requires": [
+        "atlas:esco-breakdown:cf441bdc-450b-4f44-8b21-3ca946c5d96b:1",
+        "atlas:alu:foundation-exploration:schedule-time-reference",
+        "atlas:alu:foundation-exploration:repeat-unit",
+        "atlas:alu:development:numeracy:understand-counted-total"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-shelf-life:candidate-life-determination",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:food-shelf-life:study-protocol",
+        "atlas:alu:profession-domain:food-shelf-life:study-evidence",
+        "atlas:alu:profession-domain:food-shelf-life:production-date-basis",
+        "atlas:alu:profession-foundation:coordination:feasible-options"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:profession-domain:food-shelf-life:life-review-revalidation",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:food-shelf-life:candidate-life-determination",
+        "atlas:alu:profession-domain:food-shelf-life:ingredient-formulation",
+        "atlas:alu:profession-domain:food-shelf-life:production-process",
+        "atlas:alu:profession-domain:food-shelf-life:packaging-scope",
+        "atlas:alu:foundation-exploration:versions"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "atlas:alu:pilot:shelf-filler:work-cf441bdc-450b-4f44-8b21-3ca946c5d96b",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:profession-domain:food-shelf-life:life-review-revalidation",
+        "atlas:alu:pilot:shelf-filler:money-and-dates",
+        "atlas:alu:pilot:shelf-filler:practical-texts",
+        "atlas:alu:pilot:shelf-filler:safe-routines"
+      ],
+      "mode": "activity"
+    },
+    {
+      "id": "http://data.europa.eu/esco/skill/cf441bdc-450b-4f44-8b21-3ca946c5d96b",
+      "stage": "work",
+      "requires": [
+        "atlas:alu:pilot:shelf-filler:work-cf441bdc-450b-4f44-8b21-3ca946c5d96b",
+        "atlas:esco-breakdown:cf441bdc-450b-4f44-8b21-3ca946c5d96b:1",
+        "atlas:esco-breakdown:cf441bdc-450b-4f44-8b21-3ca946c5d96b:2",
+        "atlas:alu:profession-domain:food-shelf-life:ingredient-formulation",
+        "atlas:alu:profession-domain:food-shelf-life:production-process",
+        "atlas:alu:profession-domain:food-shelf-life:packaging-scope",
+        "atlas:alu:profession-domain:food-shelf-life:study-protocol",
+        "atlas:alu:profession-domain:food-shelf-life:study-evidence",
+        "atlas:alu:profession-domain:food-shelf-life:production-date-basis",
+        "atlas:alu:profession-domain:food-shelf-life:candidate-life-determination",
+        "atlas:alu:profession-domain:food-shelf-life:life-review-revalidation"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:role:independent-adult",
+      "stage": "adult",
+      "requires": [
+        "atlas:skill:communicate-respectfully",
+        "atlas:skill:include-different-needs",
+        "atlas:skill:parent-self-regulation",
+        "atlas:skill:manage-personal-finances",
+        "atlas:skill:pay-bills-and-keep-records",
+        "atlas:skill:organize-household",
+        "atlas:skill:plan-food-safely",
+        "atlas:skill:use-digital-services-safely",
+        "atlas:skill:evaluate-information",
+        "atlas:skill:navigate-health-services",
+        "atlas:skill:manage-time-and-mobility",
+        "atlas:skill:navigate-public-services",
+        "atlas:skill:everyday-problem-solving",
+        "atlas:skill:prepare-for-emergencies"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "http://data.europa.eu/esco/occupation/d35f9e79-5778-43b4-8667-0e3ba1fcb19a",
+      "stage": "work",
+      "requires": [
+        "http://data.europa.eu/esco/skill/0ff99f51-40d9-42f1-a1ec-377b2bb5e15f",
+        "http://data.europa.eu/esco/skill/119fe928-401d-4254-9273-dd1c171fe84e",
+        "http://data.europa.eu/esco/skill/25fce4fb-35b6-49b6-a4fa-c7aa168fd770",
+        "http://data.europa.eu/esco/skill/44f6a65f-6be7-4818-9a66-73908797283f",
+        "http://data.europa.eu/esco/skill/7e9daad3-8604-4839-af9b-dc6f8db3ef68",
+        "http://data.europa.eu/esco/skill/a5e51fb1-b3b6-49fd-8deb-f96c4d46da81",
+        "http://data.europa.eu/esco/skill/c7e8948c-e7e4-406a-957d-55daaa4cdb44",
+        "http://data.europa.eu/esco/skill/cf441bdc-450b-4f44-8b21-3ca946c5d96b"
+      ],
+      "mode": "gate"
+    },
+    {
+      "id": "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:1",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-foundation:offer-response",
+        "atlas:alu:profession-foundation:match-reference"
+      ]
+    },
+    {
+      "id": "atlas:esco-breakdown:75dfe1ee-5935-42ce-b820-697f827825c3:1",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:esco-breakdown:0da516ee-e70e-4384-be13-f5ff80be8127:1",
+        "atlas:alu:profession-foundation:locate-rule",
+        "atlas:alu:profession-foundation:authorisation-boundary"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-domain:office-equipment:appliance-user-method",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-domain:office-equipment:equipment-reference",
+        "atlas:alu:profession-foundation:instruction-action",
+        "atlas:alu:foundation-exploration:observe"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-domain:office-equipment:equipment-reference",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:foundation-exploration:needs",
+        "atlas:alu:foundation-exploration:procedure",
+        "atlas:alu:profession-foundation:authorisation-boundary",
+        "atlas:alu:foundation-exploration:records"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-domain:warehouse:available-stock",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-foundation:locate-rule",
+        "atlas:alu:profession-foundation:authorisation-boundary"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-domain:warehouse:stock-movement",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-foundation:record-observation"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-domain:warehouse:count-reconciliation",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-domain:warehouse:stock-movement",
+        "atlas:alu:profession-foundation:record-observation",
+        "atlas:alu:profession-foundation:authorisation-boundary"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-domain:warehouse:putaway",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:alu:profession-domain:warehouse:receiving",
+        "atlas:alu:profession-domain:warehouse:stock-movement",
+        "atlas:alu:profession-domain:warehouse:identified-handling",
+        "atlas:alu:profession-foundation:locate-rule"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-domain:warehouse:receiving",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-domain:warehouse:available-stock",
+        "atlas:alu:profession-domain:warehouse:identified-handling",
+        "atlas:alu:profession-foundation:locate-rule"
+      ]
+    },
+    {
+      "id": "atlas:alu:profession-domain:warehouse:identified-handling",
+      "stage": "work",
+      "mode": "activity",
+      "requires": [
+        "atlas:esco-breakdown:5d2e82cc-5943-4218-a459-a1956fad2b63:1",
+        "atlas:alu:profession-foundation:instruction-action",
+        "atlas:alu:profession-foundation:authorisation-boundary"
+      ]
+    }
+  ],
+  "entry_ids": [
+    "atlas:alu:development:communication:respond-to-early-signals",
+    "atlas:alu:development:numeracy:notice-small-quantities",
+    "atlas:alu:pilot:shelf-filler:explore-and-place",
+    "atlas:alu:pilot:shelf-filler:choice-and-pause"
+  ],
+  "end_ids": [
+    "atlas:role:independent-adult",
+    "http://data.europa.eu/esco/occupation/d35f9e79-5778-43b4-8667-0e3ba1fcb19a"
+  ],
+  "demonstrations": {
+    "atlas:skill:communicate-respectfully": "atlas:alu:pilot:shelf-filler:adult-communicate-respectfully",
+    "atlas:skill:include-different-needs": "atlas:alu:pilot:shelf-filler:adult-include-different-needs",
+    "atlas:skill:parent-self-regulation": "atlas:alu:pilot:shelf-filler:adult-parent-self-regulation",
+    "atlas:skill:manage-personal-finances": "atlas:alu:pilot:shelf-filler:adult-manage-personal-finances",
+    "atlas:skill:pay-bills-and-keep-records": "atlas:alu:pilot:shelf-filler:adult-pay-bills-and-keep-records",
+    "atlas:skill:organize-household": "atlas:alu:pilot:shelf-filler:adult-organize-household",
+    "atlas:skill:plan-food-safely": "atlas:alu:pilot:shelf-filler:adult-plan-food-safely",
+    "atlas:skill:use-digital-services-safely": "atlas:alu:pilot:shelf-filler:adult-use-digital-services-safely",
+    "atlas:skill:evaluate-information": "atlas:alu:pilot:shelf-filler:adult-evaluate-information",
+    "atlas:skill:navigate-health-services": "atlas:alu:pilot:shelf-filler:adult-navigate-health-services",
+    "atlas:skill:manage-time-and-mobility": "atlas:alu:pilot:shelf-filler:adult-manage-time-and-mobility",
+    "atlas:skill:navigate-public-services": "atlas:alu:pilot:shelf-filler:adult-navigate-public-services",
+    "atlas:skill:everyday-problem-solving": "atlas:alu:pilot:shelf-filler:adult-everyday-problem-solving",
+    "atlas:skill:prepare-for-emergencies": "atlas:alu:pilot:shelf-filler:adult-prepare-for-emergencies",
+    "http://data.europa.eu/esco/skill/0ff99f51-40d9-42f1-a1ec-377b2bb5e15f": "atlas:alu:pilot:shelf-filler:work-0ff99f51-40d9-42f1-a1ec-377b2bb5e15f",
+    "http://data.europa.eu/esco/skill/119fe928-401d-4254-9273-dd1c171fe84e": "atlas:alu:pilot:shelf-filler:work-119fe928-401d-4254-9273-dd1c171fe84e",
+    "http://data.europa.eu/esco/skill/25fce4fb-35b6-49b6-a4fa-c7aa168fd770": "atlas:alu:pilot:shelf-filler:work-25fce4fb-35b6-49b6-a4fa-c7aa168fd770",
+    "http://data.europa.eu/esco/skill/44f6a65f-6be7-4818-9a66-73908797283f": "atlas:alu:pilot:shelf-filler:work-44f6a65f-6be7-4818-9a66-73908797283f",
+    "http://data.europa.eu/esco/skill/7e9daad3-8604-4839-af9b-dc6f8db3ef68": "atlas:alu:pilot:shelf-filler:work-7e9daad3-8604-4839-af9b-dc6f8db3ef68",
+    "http://data.europa.eu/esco/skill/a5e51fb1-b3b6-49fd-8deb-f96c4d46da81": "atlas:alu:pilot:shelf-filler:work-a5e51fb1-b3b6-49fd-8deb-f96c4d46da81",
+    "http://data.europa.eu/esco/skill/c7e8948c-e7e4-406a-957d-55daaa4cdb44": "atlas:alu:pilot:shelf-filler:work-c7e8948c-e7e4-406a-957d-55daaa4cdb44",
+    "http://data.europa.eu/esco/skill/cf441bdc-450b-4f44-8b21-3ca946c5d96b": "atlas:alu:pilot:shelf-filler:work-cf441bdc-450b-4f44-8b21-3ca946c5d96b"
+  },
+  "canonical_authoring_revision": 1
+}
